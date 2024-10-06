@@ -3,7 +3,9 @@ from django.contrib.auth.models import UserManager, AbstractUser, PermissionsMix
 
 class Project(models.Model):
     name = models.CharField(max_length=100, unique=True)
+    alt = models.CharField(max_length=25, default='')
     is_public = models.BooleanField(default=False)
+    icon_url = models.URLField(max_length=500,blank=True, null=True)
     description = models.TextField(max_length=500, default='')
 
     def __str__(self):

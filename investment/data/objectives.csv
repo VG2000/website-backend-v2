@@ -1,0 +1,3052 @@
+ticker,region,sub_region,country,objective,asset_class,hedge_ccy,leverage_typ,emerging_mkt,single_stock
+100D,Europe,Northern Europe,United Kingdom,Large Cap,Equity,nan,nan,False,False
+100H,Europe,Northern Europe,United Kingdom,Large Cap,Equity,nan,nan,False,False
+1OIS,,,,Energy,Commodity,nan,Short,False,False
+2BRT,,,,Energy,Commodity,nan,Long,False,False
+2BUL,,,,Precious Metals,Commodity,nan,Long,False,False
+2NGA,,,,Energy,Commodity,nan,Long,False,False
+3CFL,,,,Agriculture & Livestock,Commodity,nan,Long,False,False
+3IN,,,,Infrastructure,Equity,nan,nan,False,False
+3SUL,,,,Agriculture & Livestock,Commodity,nan,Long,False,False
+3WHL,,,,Agriculture & Livestock,Commodity,nan,Long,False,False
+500D,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+500G,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+500P,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+500U,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+5ESG,Americas,Northern America,United States,Large Cap,Equity,GBP,nan,False,False
+5HED,,,,Value,Equity,nan,nan,False,False
+5HEP,,,,Value,Equity,nan,nan,False,False
+5HGG,,,,Value,Equity,nan,nan,False,False
+5HGU,,,,Value,Equity,nan,nan,False,False
+5OGU,Americas,Northern America,United States,Value,Equity,nan,nan,False,False
+AADV,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+AAEV,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+AAIF,Asia,,,Income,Equity,nan,nan,False,False
+AAS,Asia,,,Small/Mid Cap,Equity,nan,nan,False,False
+AASG,Asia,,,Large/Mid Cap,Equity,nan,nan,True,False
+AASU,Asia,,,Large/Mid Cap,Equity,nan,nan,True,False
+AATG,Europe,Northern Europe,United Kingdom,Technology,VCT,nan,nan,False,False
+AAVC,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+ABD,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+ACIC,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+ACWD,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+ACWI,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+ACWL,,,,Large/Mid Cap,Equity,nan,nan,False,False
+ACWU,,,,Large/Mid Cap,Equity,nan,nan,False,False
+ADIG,,,,Multi Asset,Multi Asset,nan,nan,False,False
+AEGG,,,,Aggregate,Fixed Income,GBP,nan,False,False
+AEI,Europe,Northern Europe,United Kingdom,Income,Equity,nan,nan,False,False
+AEJ,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+AEJL,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+AEMD,,,,Large/Mid Cap,Equity,nan,nan,True,False
+AEME,,,,Large/Mid Cap,Equity,nan,nan,True,False
+AEMU,,,,Large/Mid Cap,Equity,nan,nan,True,False
+AERI,,,,Clean Energy,Equity,nan,nan,False,False
+AERS,,,,Clean Energy,Equity,nan,nan,False,False
+AGAP,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+AGBP,,,,Aggregate,Fixed Income,GBP,nan,False,False
+AGCP,,,,Broad Based,Commodity,nan,nan,False,False
+AGED,,,,Ageing Population,Equity,nan,nan,False,False
+AGES,,,,Ageing Population,Equity,nan,nan,False,False
+AGGB,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+AGGG,,,,Aggregate,Fixed Income,nan,nan,False,False
+AGGP,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+AGGU,,,,Aggregate,Fixed Income,USD,nan,False,False
+AGHG,,,,Aggregate,Fixed Income,nan,nan,False,False
+AGRU,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+AGT,,,,All Cap,Equity,nan,nan,False,False
+AH50,Asia,Eastern Asia,China,Large Cap,Equity,nan,nan,False,False
+AIAG,,,,Artificial Intelligence,Equity,nan,nan,False,False
+AIAI,,,,Artificial Intelligence,Equity,nan,nan,False,False
+AIE,Asia,Southern Asia,India,All Cap,Equity,nan,nan,False,False
+AIGA,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+AIGC,,,,Broad Based,Commodity,nan,nan,False,False
+AIGE,,,,Energy,Commodity,nan,nan,False,False
+AIGG,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+AIGI,,,,Industrial Metals,Commodity,nan,nan,False,False
+AIGL,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+AIGO,,,,Energy,Commodity,nan,nan,False,False
+AIGP,,,,Precious Metals,Commodity,nan,nan,False,False
+AIGS,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+AJG,Asia,Eastern Asia,Japan,Growth,Equity,nan,nan,False,False
+AJIT,Asia,Eastern Asia,Japan,All Cap,Equity,nan,nan,False,False
+AJOT,Asia,Eastern Asia,Japan,All Cap,Equity,nan,nan,False,False
+ALAG,Americas,Latin America and the Caribbean,,Large/Mid Cap,Equity,nan,nan,False,False
+ALAU,Americas,Latin America and the Caribbean,,Large/Mid Cap,Equity,nan,nan,False,False
+ALF,,,,Other,Multi Asset,nan,nan,False,False
+ALUM,,,,Industrial Metals,Commodity,nan,nan,False,False
+ALYU,,,,Industrial Metals,Commodity,nan,nan,False,False
+AMAL,,,,Islamic,Equity,nan,nan,False,False
+AMAP,,,,Islamic,Equity,nan,nan,False,False
+AMAT,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+AMEG,,,,Large/Mid Cap,Equity,nan,nan,True,False
+ANII,Asia,Southern Asia,India,All Cap,Equity,nan,nan,False,False
+ANRJ,Europe,,,Energy,Equity,nan,nan,False,False
+ANXG,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+ANXU,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+AOF,Africa,,,All Cap,Equity,nan,nan,False,False
+APAX,,,,Large/Mid Cap,Equity,nan,nan,False,False
+APEO,,,,Private Equity,Equity,nan,nan,False,False
+EWSX,Americas,Northern America,United States,Large Cap,Equity,,,False,False
+APEX,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+AQWA,,,,Utilities - Water,Equity,nan,nan,False,False
+SPXL,Americas,Northern America,United States,Large Cap,Equity,,,False,False
+AQWG,,,,Utilities - Water,Equity,nan,nan,False,False
+SPYL,Americas,Northern America,United States,Large Cap,Equity,,,False,False
+ARR,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+ARTL,,,,Aggregate,Fixed Income,nan,nan,False,False
+ASCI,Europe,Northern Europe,United Kingdom,Small Cap,Equity,nan,nan,False,False
+ASDV,Asia,,,Income,Equity,nan,nan,False,False
+ASHR,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+ASIL,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+ASIT,Europe,Northern Europe,United Kingdom,Small Cap,Equity,nan,nan,False,False
+ASIU,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+ASL,Europe,Northern Europe,United Kingdom,Small Cap,Equity,nan,nan,False,False
+ASPY,,,,Cybersecurity,Equity,nan,nan,True,False
+AT1,Europe,,,AT1,Fixed Income,nan,nan,False,False
+AT1D,Europe,,,AT1,Fixed Income,nan,nan,False,False
+AT1P,Europe,,,AT1,Fixed Income,nan,nan,False,False
+AT1S,Europe,,,AT1,Fixed Income,GBP,nan,False,False
+ATR,Asia,,,All Cap,Equity,nan,nan,False,False
+ATS,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+ATST,,,,All Cap,Equity,nan,nan,False,False
+ATT,,,,Technology,Equity,nan,nan,False,False
+ATY,Europe,Northern Europe,United Kingdom,Small Cap,Equity,nan,nan,False,False
+AUAD,Oceania,Australia and New Zealand,Australia,Large/Mid Cap,Equity,nan,nan,False,False
+AUCO,,,,Mining - Gold,Equity,nan,nan,False,False
+AUCP,,,,Mining - Gold,Equity,nan,nan,False,False
+AUEG,,,,Large/Mid Cap,Equity,nan,nan,True,False
+AUEM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+AUGA,Oceania,Australia and New Zealand,Australia,Large/Mid Cap,Equity,GBP,nan,False,False
+AUGM,,,,Fintech,Equity,nan,nan,False,False
+AUSC,Europe,Northern Europe,United Kingdom,Small Cap,Equity,nan,nan,False,False
+AWEM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+AWSG,,,,Large/Mid Cap,Equity,GBP,nan,False,False
+AWSR,,,,Large/Mid Cap,Equity,USD,nan,False,False
+AXI,Europe,,,Financial Services,Equity,nan,nan,False,False
+BAF,,,,All Cap,Equity,nan,nan,False,False
+BASC,Americas,Northern America,United States,Small Cap,Equity,nan,nan,False,False
+BATG,,,,Batteries,Equity,nan,nan,False,False
+BATT,,,,Batteries,Equity,nan,nan,False,False
+BB3M,Americas,Northern America,United States,Cash,Fixed Income,nan,nan,False,False
+BBCS,Americas,Northern America,United States,Small Cap,Equity,nan,nan,False,False
+BBDD,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+BBDS,Americas,Northern America,United States,Small Cap,Equity,nan,nan,False,False
+BBGE,Europe,,,Government,Fixed Income,nan,nan,False,False
+BBGI,,,,Infrastructure,Equity,nan,nan,False,False
+BBH,,,,Healthcare,Equity,nan,nan,False,False
+BBIL,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+BBLL,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+BBM3,Americas,Northern America,United States,Cash,Fixed Income,nan,nan,False,False
+BBRT,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+BBSC,Americas,Northern America,United States,Small Cap,Equity,nan,nan,False,False
+BBSD,Americas,Northern America,United States,Small Cap,Equity,nan,nan,False,False
+BBSU,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+BBTP,Americas,Northern America,United States,Government,Fixed Income,GBP,nan,False,False
+BBTR,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+BBUD,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+BBUS,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+BCCU,,,,Broad Based,Commodity,nan,nan,False,False
+BCHN,,,,Blockchain,Equity,nan,nan,False,False
+BCHS,,,,Blockchain,Equity,nan,nan,False,False
+BCOG,,,,Broad Based,Commodity,nan,nan,False,False
+BCOM,,,,Broad Based,Commodity,nan,nan,False,False
+BEMO,,,,Large/Mid Cap,Equity,nan,nan,True,False
+BERI,,,,Energy,Equity,nan,nan,False,False
+BGCG,Asia,Eastern Asia,China,All Cap,Equity,nan,nan,False,False
+BGEU,Europe,,,Growth,Equity,nan,nan,False,False
+BGFD,Asia,Eastern Asia,Japan,All Cap,Equity,nan,nan,False,False
+BGHL,,,,Multi Asset,Multi Asset,nan,nan,False,False
+BGHS,,,,Multi Asset,Multi Asset,nan,nan,False,False
+BGLF,,,,Loans,Fixed Income,nan,nan,False,False
+BGLP,,,,Loans,Fixed Income,nan,nan,False,False
+BGS,Asia,Eastern Asia,Japan,Small Cap,Equity,nan,nan,False,False
+BGUK,Europe,Northern Europe,United Kingdom,Growth,Equity,nan,nan,False,False
+BGX,Europe,Eastern Europe,Bulgaria,Large/Mid Cap,Equity,nan,nan,False,False
+BHMG,,,,Multi Asset,Multi Asset,nan,nan,False,False
+BHMU,,,,Multi Asset,Multi Asset,nan,nan,False,False
+BIGT,,,,Healthcare Innovations,Equity,nan,nan,False,False
+BIOG,,,,Healthcare Innovations,Equity,nan,nan,False,False
+BIOT,,,,Healthcare Innovations,Equity,nan,nan,False,False
+BIPS,,,,Aggregate,Fixed Income,nan,nan,False,False
+BKCG,,,,Blockchain,Equity,nan,nan,False,False
+BKCH,,,,Blockchain,Equity,nan,nan,False,False
+BKCN,,,,Blockchain,Equity,nan,nan,False,False
+BLOK,,,,Blockchain,Equity,nan,nan,False,False
+BMD,,,,Aggregate,Fixed Income,nan,nan,False,False
+BNKE,Europe,,,Financial Services,Equity,nan,nan,False,False
+BNKR,,,,All Cap,Equity,nan,nan,False,False
+BNKS,Americas,Northern America,United States,Financial Services,Equity,nan,nan,False,False
+BOTG,,,,Automation & Robotics,Equity,nan,nan,False,False
+BOTZ,,,,Automation & Robotics,Equity,nan,nan,False,False
+BPCP,,,,Healthcare,Equity,nan,nan,False,False
+BPCR,,,,Healthcare,Equity,nan,nan,False,False
+BRFI,,,,Frontier Markets,Equity,nan,nan,False,False
+BRGE,Europe,,,All Cap,Equity,nan,nan,False,False
+BRIC,,,,BRIC,Equity,nan,nan,True,False
+BRIG,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+BRLA,Americas,Latin America and the Caribbean,,Large/Mid Cap,Equity,nan,nan,False,False
+BRNG,,,,Energy,Commodity,nan,nan,False,False
+BRNT,,,,Energy,Commodity,nan,nan,False,False
+BRSA,Americas,Northern America,United States,Clean Energy,Equity,nan,nan,False,False
+BRSC,Europe,Northern Europe,United Kingdom,Small Cap,Equity,nan,nan,False,False
+BRT3,,,,Energy,Commodity,nan,nan,False,False
+BRTG,,,,Energy,Commodity,nan,nan,False,False
+BRTU,,,,Energy,Commodity,nan,nan,False,False
+BRWM,,,,Mining,Equity,nan,nan,False,False
+BRZ,Americas,Latin America and the Caribbean,Brazil,Large/Mid Cap,Equity,nan,nan,False,False
+BSC,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+BSIF,,,,Clean Energy,Equity,nan,nan,False,False
+BSRT,,,,Mining,Equity,nan,nan,False,False
+BSUS,Americas,Northern America,United States,Corporate,Fixed Income,GBP,nan,False,False
+BSV,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+BTEC,Americas,Northern America,United States,Healthcare Innovations,Equity,nan,nan,False,False
+BTEE,Americas,Northern America,United States,Healthcare Innovations,Equity,nan,nan,False,False
+BTEK,Americas,Northern America,United States,Healthcare Innovations,Equity,nan,nan,False,False
+BUG,,,,Cybersecurity,Equity,nan,nan,False,False
+BUGG,,,,Cybersecurity,Equity,nan,nan,False,False
+BULL,,,,Precious Metals,Commodity,nan,nan,False,False
+BULP,,,,Precious Metals,Commodity,nan,nan,False,False
+BUT,,,,All Cap,Equity,nan,nan,False,False
+BUYB,,,,Buyback,Equity,nan,nan,False,False
+BVT,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+BYBG,Americas,Northern America,United States,Buyback,Equity,nan,nan,False,False
+BYBU,Americas,Northern America,United States,Buyback,Equity,nan,nan,False,False
+C300,Asia,Eastern Asia,China,Large Cap,Equity,nan,nan,False,False
+C500,Asia,Eastern Asia,China,Mid Cap,Equity,nan,nan,False,False
+C50U,Europe,,,Large Cap,Equity,nan,nan,False,False
+C5KE,,,,Social and Economic Empowerment,Equity,nan,nan,False,False
+C5KF,,,,Sustainable Food,Equity,nan,nan,False,False
+C5KG,,,,Clean Energy,Equity,nan,nan,False,False
+C5KH,,,,Health and Wellbeing,Equity,nan,nan,False,False
+C5KW,,,,Utilities - Water,Equity,nan,nan,False,False
+CA3S,Asia,Eastern Asia,China,Large Cap,Equity,nan,nan,False,False
+CACX,Europe,Western Europe,France,Large Cap,Equity,nan,nan,False,False
+CAPE,Europe,,,Value,Equity,nan,nan,False,False
+CAPS,,,,Large/Mid Cap,Equity,nan,nan,False,False
+CAPU,Americas,Northern America,United States,Value,Equity,nan,nan,False,False
+CARB,,,,Carbon Emission,Commodity,nan,nan,False,False
+CARP,,,,Carbon Emission,Commodity,nan,nan,False,False
+CARS,,,,Electric Cars,Equity,nan,nan,False,False
+CASE,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+CASH,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+CAT,,,,Other,Multi Asset,nan,nan,False,False
+CATC,,,,Other,Multi Asset,nan,nan,False,False
+CATH,,,,Large/Mid Cap,Equity,nan,nan,False,False
+CATL,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+CAUG,Asia,Eastern Asia,China,Electric Cars,Equity,nan,nan,False,False
+CAUT,Asia,Eastern Asia,China,Electric Cars,Equity,nan,nan,False,False
+CAVE,,,,Smart Home,Equity,nan,nan,False,False
+CB5,,,,Financial Services,Equity,nan,nan,False,False
+CBA,,,,Other,Multi Asset,nan,nan,False,False
+CBDP,Americas,,,Cannabis,Equity,nan,nan,False,False
+CBDX,Americas,,,Cannabis,Equity,nan,nan,False,False
+CBE3,Europe,,,Government,Fixed Income,nan,nan,False,False
+CBGB,Asia,Eastern Asia,China,Government,Fixed Income,nan,nan,False,False
+CBIG,Asia,Eastern Asia,China,Healthcare Innovations,Equity,nan,nan,False,False
+CBIO,Asia,Eastern Asia,China,Healthcare Innovations,Equity,nan,nan,False,False
+CBND,Asia,Eastern Asia,China,Government,Fixed Income,nan,nan,False,False
+CBS5,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+CBSE,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+CBU0,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+CBU3,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+CBU7,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+CBUG,Americas,Northern America,United States,Government,Fixed Income,GBP,nan,False,False
+CC1U,Asia,Eastern Asia,China,Technology,Equity,nan,nan,False,False
+CCAU,Americas,Northern America,Canada,Large/Mid Cap,Equity,nan,nan,False,False
+CCBO,Europe,,,AT1,Fixed Income,nan,nan,False,False
+CCDG,Asia,Eastern Asia,China,Cloud Computing and Internet,Equity,nan,nan,False,False
+CCJI,Asia,Eastern Asia,Japan,All Cap,Equity,nan,nan,False,False
+CCLD,Asia,Eastern Asia,China,Cloud Computing and Internet,Equity,nan,nan,False,False
+CCLG,Asia,Eastern Asia,China,Clean Energy,Equity,nan,nan,False,False
+CCLN,Asia,Eastern Asia,China,Clean Energy,Equity,nan,nan,False,False
+CCUA,,,,Broad Based,Commodity,nan,Long,False,False
+CDCE,Europe,,,Consumer Discretionary,Equity,nan,nan,False,False
+CDIS,Europe,,,Consumer Discretionary,Equity,nan,nan,False,False
+CDTR,,,,Broad Based,Commodity,nan,nan,False,False
+CE01,Europe,,,Government,Fixed Income,nan,nan,False,False
+CE2D,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+CE31,Europe,,,Government,Fixed Income,nan,nan,False,False
+CE71,Europe,,,Government,Fixed Income,nan,nan,False,False
+CEA1,Asia,,,Large/Mid Cap,Equity,nan,nan,True,False
+CEBG,Asia,Eastern Asia,China,All Cap,Equity,nan,nan,False,False
+CEG2,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+CEMA,Asia,,,Large/Mid Cap,Equity,nan,nan,True,False
+CEMG,,,,Consumer Growth,Equity,nan,nan,True,False
+CES1,Europe,,,Small Cap,Equity,nan,nan,False,False
+CESG,,,,Large Cap,Equity,nan,nan,False,False
+CEU1,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+CEU2,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+CEUG,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+CEUR,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+CG1,Europe,Western Europe,Germany,Large Cap,Equity,nan,nan,False,False
+CGB,Asia,Eastern Asia,China,Government,Fixed Income,nan,nan,False,False
+CGI,Americas,Northern America,Canada,Large/Mid Cap,Equity,nan,nan,False,False
+CGL,,,,Multi Asset,Multi Asset,nan,nan,False,False
+CGT,,,,Multi Asset,Multi Asset,nan,nan,False,False
+CGW,,,,Micro Cap,Equity,nan,nan,False,False
+CH5,,,,Healthcare Innovations,Equity,nan,nan,False,False
+CHGB,,,,Currency,Currency,nan,nan,False,False
+CHGT,Asia,Eastern Asia,China,Government,Fixed Income,nan,nan,False,False
+CHI,Europe,Northern Europe,United Kingdom,Income,Equity,nan,nan,False,False
+CHIB,Europe,Northern Europe,United Kingdom,Income,Equity,nan,nan,False,False
+CHIC,Asia,Eastern Asia,China,Large Cap,Equity,nan,nan,False,False
+CHIN,Asia,Eastern Asia,China,Large Cap,Equity,nan,nan,False,False
+CHIP,Asia,Eastern Asia,China,Large Cap,Equity,nan,nan,False,False
+CHNT,Asia,Eastern Asia,China,Government,Fixed Income,nan,nan,False,False
+CHPA,Asia,Eastern Asia,China,All Cap,Equity,nan,nan,False,False
+CHRG,,,,Batteries,Equity,nan,nan,False,False
+CHTE,Asia,Eastern Asia,China,Technology,Equity,nan,nan,False,False
+CI2G,Asia,Southern Asia,India,Large/Mid Cap,Equity,nan,nan,False,False
+CI2U,Asia,Southern Asia,India,Large/Mid Cap,Equity,nan,nan,False,False
+CIBR,,,,Cybersecurity,Equity,nan,nan,False,False
+CIND,Americas,Northern America,United States,Industrials,Equity,nan,nan,False,False
+CIRC,,,,Circular Economy,Equity,nan,nan,False,False
+CJ1U,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+CJPU,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+CKEG,,,,Social and Economic Empowerment,Equity,nan,nan,False,False
+CKFG,,,,Sustainable Food,Equity,nan,nan,False,False
+CKGG,,,,Clean Energy,Equity,nan,nan,False,False
+CKHG,,,,Health and Wellbeing,Equity,nan,nan,False,False
+CKWG,,,,Utilities - Water,Equity,nan,nan,False,False
+CLC,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+CLDN,,,,Multi Asset,Multi Asset,nan,nan,False,False
+CLEU,,,,Climate Transition,Equity,nan,nan,False,False
+CLIM,,,,Corporate,Fixed Income,nan,nan,False,False
+CLMA,,,,Climate Transition,Equity,nan,nan,False,False
+CLMP,,,,Climate Transition,Equity,nan,nan,False,False
+CLMU,,,,Corporate,Fixed Income,nan,nan,False,False
+CLO,,,,Cloud Computing and Internet,Equity,nan,nan,False,False
+CLO6,,,,Cloud Computing and Internet,Equity,nan,nan,False,False
+CLUS,,,,Climate Transition,Equity,nan,nan,False,False
+CLWD,,,,Climate Transition,Equity,nan,nan,False,False
+CM5S,Asia,Eastern Asia,China,Mid Cap,Equity,nan,nan,False,False
+CMB1,Europe,Southern Europe,Italy,Large Cap,Equity,nan,nan,False,False
+CMBG,,,,Broad Based,Commodity,nan,nan,False,False
+CMBU,,,,Broad Based,Commodity,nan,nan,False,False
+CMCG,,,,Carbon Emission,Commodity,nan,nan,False,False
+CMCI,,,,Broad Based,Commodity,nan,nan,False,False
+CMCU,,,,Broad Based,Commodity,nan,nan,False,False
+CMFP,,,,Broad Based,Commodity,nan,nan,False,False
+CMGB,,,,Broad Based,Commodity,GBP,nan,False,False
+CMGG,,,,Broad Based,Commodity,nan,nan,False,False
+CMGU,,,,Broad Based,Commodity,nan,nan,False,False
+CMOC,,,,Carbon Emission,Commodity,nan,nan,False,False
+CMOD,,,,Broad Based,Commodity,nan,nan,False,False
+CMOP,,,,Broad Based,Commodity,nan,nan,False,False
+CMPG,,,,Growth,Equity,nan,nan,False,False
+CMPI,,,,Income,Equity,nan,nan,False,False
+CMU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+CMX1,Americas,Latin America and the Caribbean,Mexico,Large/Mid Cap,Equity,nan,nan,False,False
+CMXC,Americas,Latin America and the Caribbean,Mexico,Large/Mid Cap,Equity,nan,nan,False,False
+CNAA,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+CNAL,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+CNDX,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+CNEG,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+CNEU,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+CNEW,Asia,Eastern Asia,China,All Cap,Equity,nan,nan,False,False
+CNKY,Asia,Eastern Asia,Japan,Large Cap,Equity,nan,nan,False,False
+CNSG,Asia,Eastern Asia,China,Climate Transition,Equity,nan,nan,False,False
+CNUA,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+CNX1,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+CNYA,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+CNYB,Asia,Eastern Asia,China,Government,Fixed Income,nan,nan,False,False
+COCB,Europe,,,AT1,Fixed Income,nan,nan,False,False
+COCO,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+CODO,Europe,,,AT1,Fixed Income,USD,nan,False,False
+COFF,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+COFU,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+COGO,Europe,,,AT1,Fixed Income,GBP,nan,False,False
+COMF,,,,Broad Based,Commodity,nan,nan,False,False
+COMM,,,,Broad Based,Commodity,nan,nan,False,False
+COMX,,,,Broad Based,Commodity,nan,nan,False,False
+COPA,,,,Industrial Metals,Commodity,nan,nan,False,False
+COPB,,,,Industrial Metals,Commodity,nan,nan,False,False
+COPG,,,,Mining - Copper,Equity,nan,nan,False,False
+COPX,,,,Mining - Copper,Equity,nan,nan,False,False
+CORD,,,,Infrastructure - Digital,Equity,nan,nan,False,False
+CORN,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+CORP,,,,Corporate,Fixed Income,nan,nan,False,False
+CORU,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+COTN,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+COUK,Europe,Northern Europe,United Kingdom,Corporate,Fixed Income,nan,nan,False,False
+CP9G,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+CP9U,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+CPJ1,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+CPRI,,,,Aggregate,Fixed Income,nan,nan,True,False
+CPXJ,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+CRBL,,,,Ex Agriculture,Commodity,nan,nan,False,False
+CRBU,,,,Ex Agriculture,Commodity,nan,nan,False,False
+CRHG,,,,Corporate,Fixed Income,GBP,nan,False,False
+CRPA,,,,Corporate,Fixed Income,nan,nan,False,False
+CRPS,,,,Corporate,Fixed Income,nan,nan,False,False
+CRPU,,,,Corporate,Fixed Income,USD,nan,False,False
+CRPX,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+CRS,,,,Micro Cap,Equity,nan,nan,False,False
+CRUD,,,,Energy,Commodity,nan,nan,False,False
+CRUP,,,,Energy,Commodity,nan,nan,False,False
+CRWN,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+CS1,Europe,Southern Europe,Spain,Large/Mid Cap,Equity,nan,nan,False,False
+CS51,Europe,,,Large Cap,Equity,nan,nan,False,False
+CSCA,Americas,Northern America,Canada,Large/Mid Cap,Equity,nan,nan,False,False
+CSH2,Europe,,,Cash,Fixed Income,nan,nan,False,False
+CSHD,,,,Cash,Fixed Income,nan,nan,False,False
+CSJP,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+CSKR,Asia,Eastern Asia,South Korea,Large/Mid Cap,Equity,nan,nan,False,False
+CSP1,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+CSPE,Europe,,,Consumer Staples,Equity,nan,nan,False,False
+CSPX,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+CSRD,,,,Infrastructure - Digital,Equity,nan,nan,False,False
+CSTP,Europe,,,Consumer Staples,Equity,nan,nan,False,False
+CSUK,Europe,Northern Europe,United Kingdom,Large/Mid Cap,Equity,nan,nan,False,False
+CSUS,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+CSWG,Europe,Western Europe,Switzerland,Large/Mid Cap,Equity,nan,nan,False,False
+CSWU,Europe,Western Europe,Switzerland,Large/Mid Cap,Equity,nan,nan,False,False
+CSX5,Europe,,,Large Cap,Equity,nan,nan,False,False
+CT2B,,,,Smart Cities,Equity,nan,nan,False,False
+CTEG,,,,Clean Technology,Equity,nan,nan,False,False
+CTEK,,,,Clean Technology,Equity,nan,nan,False,False
+CTPE,,,,Private Equity,Equity,nan,nan,False,False
+CTUK,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+CTY,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+CU1,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+CU2G,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+CU2U,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+CU31,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+CU71,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+CUK,Europe,Northern Europe,United Kingdom,Large/Mid Cap,Equity,nan,nan,False,False
+CUKS,Europe,Northern Europe,United Kingdom,Small Cap,Equity,nan,nan,False,False
+CUKX,Europe,Northern Europe,United Kingdom,Large Cap,Equity,nan,nan,False,False
+CURE,,,,Healthcare Innovations,Equity,nan,nan,False,False
+CURG,,,,Healthcare Innovations,Equity,nan,nan,False,False
+CUS1,Americas,Northern America,United States,Small Cap,Equity,nan,nan,False,False
+CUSS,Americas,Northern America,United States,Small Cap,Equity,nan,nan,False,False
+CVCE,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+CVCG,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+CVGB,,,,Smart Home,Equity,nan,nan,False,False
+CW8G,,,,Large/Mid Cap,Equity,nan,nan,False,False
+CW8U,,,,Large/Mid Cap,Equity,nan,nan,False,False
+CWEU,,,,Clean Energy,Equity,nan,nan,False,False
+CWFG,,,,Financial Services,Equity,nan,nan,False,False
+CWFU,,,,Financial Services,Equity,nan,nan,False,False
+CXAD,,,,Ex Agriculture,Commodity,nan,nan,False,False
+CXAP,,,,Ex Agriculture,Commodity,nan,nan,False,False
+CXAS,,,,Ex Agriculture,Commodity,nan,nan,False,False
+CXAU,,,,Ex Agriculture,Commodity,nan,nan,False,False
+CYBG,,,,Healthcare Innovations,Equity,nan,nan,False,False
+CYBO,,,,Healthcare Innovations,Equity,nan,nan,False,False
+CYBP,,,,Cybersecurity,Equity,nan,nan,False,False
+CYBR,,,,Cybersecurity,Equity,nan,nan,False,False
+CYCL,,,,Circular Economy,Equity,nan,nan,False,False
+CYGB,Asia,Eastern Asia,China,Government,Fixed Income,nan,nan,False,False
+CYN,,,,Mining,Equity,nan,nan,False,False
+CYSE,,,,Cybersecurity,Equity,nan,nan,False,False
+D467,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+DAGB,,,,Blockchain,Equity,nan,nan,False,False
+DAPP,,,,Blockchain,Equity,nan,nan,False,False
+DAXX,Europe,Western Europe,Germany,Large Cap,Equity,nan,nan,False,False
+DBRC,,,,BRIC,Equity,nan,nan,True,False
+DDBG,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+DEL2,Europe,Western Europe,Germany,Large Cap,Equity,nan,Long,False,False
+DEM,,,,Income,Equity,nan,nan,True,False
+DEMD,,,,Income,Equity,nan,nan,True,False
+DEMR,,,,Income,Equity,nan,nan,True,False
+DEMS,,,,Income,Equity,nan,nan,True,False
+DES2,Europe,Western Europe,Germany,Large Cap,Equity,nan,Short,False,False
+DFDU,,,,Income,Equity,nan,nan,False,False
+DFE,Europe,,,Small Cap,Equity,nan,nan,False,False
+DFEA,Europe,,,Small Cap,Equity,nan,nan,False,False
+DFEE,Europe,,,Small Cap,Equity,nan,nan,False,False
+DFEP,Europe,,,Small Cap,Equity,nan,nan,False,False
+DFNG,,,,Defense,Equity,nan,nan,False,False
+DFNS,,,,Defense,Equity,nan,nan,False,False
+DGI9,,,,Infrastructure - Digital,Equity,nan,nan,False,False
+DGIT,,,,Digitalisation,Equity,nan,nan,False,False
+DGN,Asia,,,All Cap,Equity,nan,nan,False,False
+DGRA,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+DGRG,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+DGRP,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+DGRW,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+DGSD,,,,Small Cap,Equity,nan,nan,True,False
+DGSE,,,,Small Cap,Equity,nan,nan,True,False
+DGTL,,,,Digitalisation,Equity,nan,nan,False,False
+DH2O,,,,Utilities - Water,Equity,nan,nan,False,False
+DHS,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+DHSA,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+DHSD,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+DHSG,Americas,Northern America,United States,Income,Equity,GBP,nan,False,False
+DHSP,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+DHYA,,,,High Yield,Fixed Income,nan,nan,False,False
+DHYG,,,,High Yield,Fixed Income,nan,nan,False,False
+DIG,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+DIGE,,,,Metaverse,Equity,nan,nan,False,False
+DIGI,,,,Infrastructure - Digital,Equity,nan,nan,False,False
+DIVI,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+DJEL,Americas,Northern America,United States,Industrials,Equity,nan,nan,False,False
+DJEU,Americas,Northern America,United States,Industrials,Equity,nan,nan,False,False
+DJMC,Europe,,,Mid Cap,Equity,nan,nan,False,False
+DJSC,Europe,,,Small Cap,Equity,nan,nan,False,False
+DL2P,Europe,Western Europe,Germany,Large Cap,Equity,nan,Long,False,False
+DLTM,Americas,Latin America and the Caribbean,,Large/Mid Cap,Equity,nan,nan,False,False
+DMAD,,,,Disruptive Materials,Equity,nan,nan,False,False
+DMAG,,,,Disruptive Materials,Equity,nan,nan,False,False
+DMAT,,,,Disruptive Materials,Equity,nan,nan,False,False
+DNE,,,,Private Equity,Equity,nan,nan,False,False
+DOCG,,,,Healthcare Innovations,Equity,nan,nan,False,False
+DOCT,,,,Healthcare Innovations,Equity,nan,nan,False,False
+DORE,,,,Clean Energy,Equity,nan,nan,False,False
+DPAG,,,,Fintech,Equity,nan,nan,False,False
+DPAY,,,,Fintech,Equity,nan,nan,False,False
+DPYA,,,,Real Estate,Equity,nan,nan,False,False
+DPYE,,,,Real Estate,Equity,EUR,nan,False,False
+DPYG,,,,Real Estate,Equity,GBP,nan,False,False
+DRDR,,,,Healthcare Innovations,Equity,nan,nan,False,False
+DRGG,Asia,Eastern Asia,China,Local Currency,Fixed Income,nan,nan,False,False
+DRGN,Asia,Eastern Asia,China,Local Currency,Fixed Income,nan,nan,False,False
+DRVE,,,,Electric Cars,Equity,nan,nan,False,False
+DRVG,,,,Electric Cars,Equity,nan,nan,False,False
+DS2P,Europe,Western Europe,Germany,Large Cap,Equity,nan,Short,False,False
+DSM,,,,Micro Cap,Equity,nan,nan,False,False
+DSUS,Americas,Northern America,United States,Government,Fixed Income,nan,Short,False,False
+DTEC,,,,Disruptive Technology,Equity,nan,nan,False,False
+DTLA,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+DTLE,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+DTRE,,,,Real Estate,Equity,nan,nan,False,False
+DVNO,,,,Loans,Fixed Income,nan,nan,False,False
+DXJ,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,USD,nan,False,False
+DXJA,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,USD,nan,False,False
+DXJG,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+DXJP,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,GBP,nan,False,False
+DXJZ,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+E127,,,,Large/Mid Cap,Equity,nan,nan,True,False
+EABE,Europe,,,Climate Transition,Equity,nan,nan,False,False
+EABG,,,,Large/Mid Cap,Equity,nan,nan,False,False
+EAHG,,,,Aggregate,Fixed Income,GBP,nan,False,False
+EART,,,,Government,Fixed Income,nan,nan,False,False
+EAT,Europe,,,Small/Mid Cap,Equity,nan,nan,False,False
+EBIG,,,,Ecommerce,Equity,nan,nan,False,False
+EBIZ,,,,Ecommerce,Equity,nan,nan,False,False
+EBUY,,,,Metaverse,Equity,nan,nan,False,False
+ECAR,,,,Electric Cars,Equity,nan,nan,False,False
+ECGH,,,,Broad Based,Commodity,GBP,nan,False,False
+ECOG,,,,Ecommerce Logisitics,Equity,nan,nan,False,False
+ECOM,,,,Ecommerce Logisitics,Equity,nan,nan,False,False
+ECRP,,,,Corporate,Fixed Income,nan,nan,False,False
+EDG2,,,,Large/Mid Cap,Equity,nan,nan,True,False
+EDIN,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+EDIV,Europe,,,Income,Equity,nan,nan,False,False
+EDOC,,,,Healthcare Innovations,Equity,nan,nan,False,False
+EDOG,,,,Healthcare Innovations,Equity,nan,nan,False,False
+EDVD,,,,Large/Mid Cap,Equity,nan,nan,True,False
+EEDG,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+EEDM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+EEDS,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+EEI,Europe,,,Income,Equity,nan,nan,False,False
+EEIA,Europe,,,Income,Equity,nan,nan,False,False
+EEIE,Europe,,,Income,Equity,nan,nan,False,False
+EEIP,Europe,,,Income,Equity,nan,nan,False,False
+EEJD,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+EEJG,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+EEUD,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+EEWD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+EEWG,,,,Large/Mid Cap,Equity,nan,nan,False,False
+EEXF,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+EFRN,Europe,,,Floating Rate,Fixed Income,nan,nan,False,False
+EGDM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+EGL,,,,Utilities,Equity,nan,nan,False,False
+EGMW,,,,Large/Mid Cap,Equity,nan,nan,False,False
+EGOG,,,,Government,Fixed Income,nan,nan,False,False
+EGOV,,,,Large/Mid Cap,Equity,nan,nan,False,False
+EGRA,Europe,,,Income,Equity,nan,nan,False,False
+EGRG,Europe,,,Income,Equity,nan,nan,False,False
+EGRP,Europe,,,Income,Equity,nan,nan,False,False
+EGRW,Europe,,,Income,Equity,nan,nan,False,False
+EHEF,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+EHYB,Europe,,,AT1,Fixed Income,nan,nan,False,False
+EHYG,,,,High Yield,Fixed Income,nan,nan,False,False
+EIMI,,,,Large/Mid Cap,Equity,nan,nan,True,False
+EIMU,,,,Large/Mid Cap,Equity,nan,nan,True,False
+EJFI,,,,Multi Asset,Multi Asset,nan,nan,False,False
+ELCR,,,,Future Mobility,Equity,nan,nan,False,False
+ELEC,,,,Infrastructure - EV,Equity,nan,nan,False,False
+ELEP,,,,Infrastructure - EV,Equity,nan,nan,False,False
+ELLE,,,,Gender Equality,Equity,nan,nan,False,False
+EMAD,,,,Large/Mid Cap,Equity,nan,nan,True,False
+EMAG,,,,Corporate,Fixed Income,nan,nan,True,False
+EMAS,,,,Large/Mid Cap,Equity,nan,nan,True,False
+EMAU,,,,Corporate,Fixed Income,nan,nan,True,False
+EMBE,,,,Aggregate,Fixed Income,EUR,nan,True,False
+EMCA,,,,Corporate,Fixed Income,nan,nan,True,False
+EMCP,,,,Corporate,Fixed Income,nan,nan,True,False
+EMCR,,,,Corporate,Fixed Income,nan,nan,True,False
+EMCV,,,,Aggregate,Fixed Income,nan,nan,True,False
+EMD5,,,,Government,Fixed Income,nan,nan,True,False
+EMDD,,,,Local Currency,Fixed Income,nan,nan,True,False
+EMDG,,,,Government,Fixed Income,nan,nan,True,False
+EMDH,,,,Corporate,Fixed Income,nan,nan,True,False
+EMDL,,,,Local Currency,Fixed Income,nan,nan,True,False
+EMDV,,,,Large/Mid Cap,Equity,nan,nan,True,False
+EMES,,,,Aggregate,Fixed Income,nan,nan,True,False
+EMGA,,,,Government,Fixed Income,nan,nan,True,False
+EMGB,,,,Local Currency,Fixed Income,nan,nan,True,False
+EMGU,,,,Large/Mid Cap,Equity,nan,nan,True,False
+EMH5,,,,Government,Fixed Income,nan,nan,True,False
+EMHD,,,,Income,Equity,nan,nan,True,False
+EMHF,,,,Large/Mid Cap,Equity,nan,nan,True,False
+EMHG,,,,Aggregate,Fixed Income,nan,nan,True,False
+EMID,Europe,,,Mid Cap,Equity,nan,nan,False,False
+EMIG,,,,Aggregate,Fixed Income,nan,nan,True,False
+EMIM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+EMLB,,,,Local Currency,Fixed Income,nan,nan,True,False
+EMLC,,,,Local Currency,Fixed Income,nan,nan,True,False
+EMLI,,,,Local Currency,Fixed Income,nan,nan,True,False
+EMLO,,,,Local Currency,Fixed Income,nan,nan,True,False
+EMLP,,,,Local Currency,Fixed Income,nan,nan,True,False
+EMMV,,,,Minimum Volatility,Equity,nan,nan,True,False
+EMPR,,,,Large/Mid Cap,Equity,nan,nan,True,False
+EMQP,,,,Ecommerce,Equity,nan,nan,True,False
+EMQQ,,,,Ecommerce,Equity,nan,nan,True,False
+EMRD,,,,Large/Mid Cap,Equity,nan,nan,True,False
+EMRJ,,,,Ecommerce,Equity,nan,nan,False,False
+EMRP,,,,Ecommerce,Equity,nan,nan,False,False
+EMSA,,,,Aggregate,Fixed Income,nan,nan,True,False
+EMSD,,,,Small Cap,Equity,nan,nan,True,False
+EMSM,,,,Small Cap,Equity,nan,nan,True,False
+EMUD,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+EMUG,,,,Corporate,Fixed Income,nan,nan,True,False
+EMUS,,,,Corporate,Fixed Income,nan,nan,True,False
+EMUU,Europe,,,Large/Mid Cap,Equity,USD,nan,False,False
+EMV,,,,Minimum Volatility,Equity,nan,nan,True,False
+EMVL,,,,Value,Equity,nan,nan,True,False
+EMXC,,,,Large/Mid Cap,Equity,nan,nan,True,False
+EMXG,,,,Large/Mid Cap,Equity,nan,nan,True,False
+EMXU,,,,Large/Mid Cap,Equity,nan,nan,True,False
+ENCG,,,,Broad Based,Commodity,nan,nan,False,False
+ENCO,,,,Broad Based,Commodity,nan,nan,False,False
+ENEF,,,,Energy,Commodity,nan,nan,False,False
+ENGB,,,,Energy,Commodity,nan,nan,False,False
+ENGE,Europe,,,Energy,Equity,nan,nan,False,False
+ENGW,,,,Energy,Equity,nan,nan,False,False
+ENGY,Europe,,,Energy,Equity,nan,nan,False,False
+ENRU,,,,Energy,Commodity,nan,nan,False,False
+EOT,Europe,,,All Cap,Equity,nan,nan,False,False
+EPAB,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+EPRA,,,,Real Estate,Equity,nan,nan,False,False
+EQDS,Europe,,,Income,Equity,nan,nan,False,False
+EQGB,Americas,Northern America,United States,Technology,Equity,GBP,nan,False,False
+EQJS,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+EQQD,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+EQQJ,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+EQQQ,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+EQQS,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+EQQU,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+EQSG,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+ERN1,Americas,Northern America,United States,Cash,Fixed Income,nan,nan,False,False
+ERNA,Americas,Northern America,United States,Cash,Fixed Income,nan,nan,False,False
+ERND,Americas,Northern America,United States,Cash,Fixed Income,nan,nan,False,False
+ERNE,Americas,Northern America,United States,Cash,Fixed Income,nan,nan,False,False
+ERNS,Americas,Northern America,United States,Cash,Fixed Income,nan,nan,False,False
+ERNU,Americas,Northern America,United States,Cash,Fixed Income,nan,nan,False,False
+ERO,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+ES15,Europe,Northern Europe,United Kingdom,Corporate,Fixed Income,nan,nan,False,False
+ESCT,Europe,,,Small Cap,Equity,nan,nan,False,False
+ESDG,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+ESDU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+ESEM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+ESES,,,,Large/Mid Cap,Equity,nan,nan,True,False
+ESEU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+ESGB,,,,Video Games,Equity,nan,nan,False,False
+ESGE,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+ESGG,,,,Large/Mid Cap,Equity,nan,nan,False,False
+ESGJ,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+ESGL,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+ESGO,,,,Mining - Gold,Equity,nan,nan,False,False
+ESGP,,,,Mining - Gold,Equity,nan,nan,False,False
+ESGS,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+ESGU,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+ESGW,,,,Large/Mid Cap,Equity,nan,nan,False,False
+ESIC,Europe,,,Consumer Discretionary,Equity,nan,nan,False,False
+ESIE,Europe,,,Energy,Equity,nan,nan,False,False
+ESIF,Europe,,,Financial Services,Equity,nan,nan,False,False
+ESIH,,,,Healthcare,Equity,nan,nan,False,False
+ESIN,,,,Industrials,Equity,nan,nan,False,False
+ESIS,Europe,,,Consumer Staples,Equity,nan,nan,False,False
+ESIT,Europe,,,Industrials,Equity,nan,nan,False,False
+ESJS,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+ESO,,,,Small/Mid Cap,Equity,nan,nan,False,False
+ESPB,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+ESPJ,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+ESPO,,,,Video Games,Equity,nan,nan,False,False
+ESPS,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+ESPY,,,,Cybersecurity,Equity,nan,nan,True,False
+ESRG,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+ESRU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+ESUD,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+ESUS,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+EU13,Europe,,,Government,Fixed Income,nan,nan,False,False
+EUCO,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+EUDI,Europe,,,Income,Equity,nan,nan,False,False
+EUDV,Europe,,,Income,Equity,nan,nan,False,False
+EUE,Europe,,,Large Cap,Equity,nan,nan,False,False
+EUFM,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+EUHD,Europe,,,Income,Equity,nan,nan,False,False
+EUMD,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+EUMV,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+EUN,Europe,,,Large Cap,Equity,nan,nan,False,False
+EUP3,,,,Currency,Currency,nan,Long,False,False
+EUP5,,,,Currency,Currency,nan,Long,False,False
+EUPA,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+EUSR,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+EUXS,Europe,,,Large/Mid Cap,Equity,GBP,nan,False,False
+EVAL,Europe,,,Value,Equity,nan,nan,False,False
+EWI,,,,Large/Mid Cap,Equity,nan,nan,False,False
+EWQX,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+EWSP,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+EXCS,,,,Large/Mid Cap,Equity,nan,nan,True,False
+EYED,Europe,,,Energy,Equity,nan,nan,False,False
+FA17,,,,Other,Multi Asset,nan,nan,False,False
+FAGB,Americas,Northern America,United States,High Yield,Fixed Income,GBP,nan,False,False
+FAGR,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+FAHY,Americas,Northern America,United States,High Yield,Fixed Income,nan,nan,False,False
+FAIG,,,,Broad Based,Commodity,nan,nan,False,False
+FAIR,,,,Loans,Fixed Income,nan,nan,False,False
+FAPI,,,,Cloud Computing and Internet,Equity,nan,nan,False,False
+FAS,Asia,,,Small/Mid Cap,Equity,nan,nan,False,False
+FASA,Europe,Northern Europe,United Kingdom,Large/Mid Cap,Equity,nan,nan,False,False
+FASE,Europe,Northern Europe,United Kingdom,Large/Mid Cap,Equity,nan,nan,False,False
+FBRT,,,,Energy,Commodity,nan,nan,False,False
+FBT,,,,Healthcare Innovations,Equity,nan,nan,False,False
+FBTU,,,,Healthcare Innovations,Equity,nan,nan,False,False
+FCAR,,,,Electric Cars,Equity,nan,nan,False,False
+FCBR,,,,Cybersecurity,Equity,nan,nan,False,False
+FCIT,,,,All Cap,Equity,nan,nan,False,False
+FCLD,,,,Cloud Computing and Internet,Equity,nan,nan,False,False
+FCRU,,,,Energy,Commodity,nan,nan,False,False
+FCSG,,,,Large Cap,Equity,nan,nan,False,False
+FCSS,Asia,Eastern Asia,China,All Cap,Equity,nan,nan,False,False
+FDHT,,,,Healthcare,Equity,nan,nan,False,False
+FDIU,,,,Cloud Computing and Internet,Equity,nan,nan,False,False
+FDN,,,,Cloud Computing and Internet,Equity,nan,nan,False,False
+FDNI,,,,Cloud Computing and Internet,Equity,nan,nan,False,False
+FDNU,,,,Cloud Computing and Internet,Equity,nan,nan,False,False
+FDOC,,,,Healthcare,Equity,nan,nan,False,False
+FDRV,,,,Electric Cars,Equity,nan,nan,False,False
+FEDF,Americas,Northern America,United States,Cash,Fixed Income,nan,nan,False,False
+FEDG,Americas,Northern America,United States,Cash,Fixed Income,nan,nan,False,False
+FEM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+FEMD,,,,Income,Equity,nan,nan,True,False
+FEME,,,,Income,Equity,nan,nan,True,False
+FEMI,,,,Income,Equity,nan,nan,True,False
+FEMP,,,,Aggregate,Fixed Income,GBP,nan,False,False
+FEMQ,,,,Income,Equity,nan,nan,True,False
+FEMR,,,,Large/Mid Cap,Equity,nan,nan,True,False
+FEMS,,,,Large/Mid Cap,Equity,nan,nan,True,False
+FEMU,,,,Large/Mid Cap,Equity,nan,nan,True,False
+FEQD,Europe,,,Income,Equity,nan,nan,False,False
+FEQP,Europe,,,Income,Equity,GBP,nan,False,False
+FEUD,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+FEUI,Europe,,,Income,Equity,nan,nan,False,False
+FEUR,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+FEUZ,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+FEV,Europe,,,All Cap,Equity,nan,nan,False,False
+FEX,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+FEXD,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+FEXU,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+FGBL,,,,Income,Equity,nan,nan,False,False
+FGGB,,,,Government,Fixed Income,nan,nan,False,False
+FGGP,,,,Government,Fixed Income,nan,nan,False,False
+FGHU,,,,High Yield,Fixed Income,nan,nan,False,False
+FGHY,,,,High Yield,Fixed Income,nan,nan,False,False
+FGLR,,,,Large/Mid Cap,Equity,nan,nan,False,False
+FGLS,,,,Large/Mid Cap,Equity,nan,nan,False,False
+FGOV,,,,Government,Fixed Income,GBP,nan,False,False
+FGQD,,,,Income,Equity,nan,nan,False,False
+FGQI,,,,Income,Equity,nan,nan,False,False
+FGQP,,,,Income,Equity,GBP,nan,False,False
+FGRD,,,,Infrastructure,Equity,nan,nan,False,False
+FGT,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+FHYG,,,,High Yield,Fixed Income,nan,nan,False,False
+FHYP,,,,High Yield,Fixed Income,nan,nan,False,False
+FIND,,,,Industrial Metals,Commodity,nan,nan,False,False
+FING,,,,Fintech,Equity,nan,nan,False,False
+FINW,,,,Financial Services,Equity,nan,nan,False,False
+FINX,,,,Fintech,Equity,nan,nan,False,False
+FJPR,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+FJPS,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+FJV,Asia,Eastern Asia,Japan,All Cap,Equity,nan,nan,False,False
+FKU,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+FKUD,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+FLEQ,Europe,,,All Cap,Equity,nan,nan,False,False
+FLES,Europe,,,Government,Fixed Income,nan,nan,False,False
+FLO5,Americas,Northern America,United States,Floating Rate,Fixed Income,nan,nan,False,False
+FLOA,Americas,Northern America,United States,Floating Rate,Fixed Income,nan,nan,False,False
+FLOS,Americas,Northern America,United States,Floating Rate,Fixed Income,GBP,nan,False,False
+FLOT,Americas,Northern America,United States,Floating Rate,Fixed Income,nan,nan,False,False
+FLPE,,,,Private Equity,Equity,nan,nan,False,False
+FLQA,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+FLRG,Europe,,,Aggregate,Fixed Income,nan,nan,False,False
+FLRK,Asia,Eastern Asia,South Korea,Large/Mid Cap,Equity,nan,nan,False,False
+FLUC,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+FLWG,,,,Cannabis,Equity,nan,nan,False,False
+FLWR,,,,Cannabis,Equity,nan,nan,False,False
+FLXB,Americas,Latin America and the Caribbean,Brazil,Large/Mid Cap,Equity,nan,nan,False,False
+FLXC,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+FLXD,Europe,,,Income,Equity,nan,nan,False,False
+FLXE,,,,Large/Mid Cap,Equity,nan,nan,True,False
+FLXG,,,,Large/Mid Cap,Equity,nan,nan,False,False
+FLXI,Asia,Southern Asia,India,Large/Mid Cap,Equity,nan,nan,False,False
+FLXK,Asia,Eastern Asia,South Korea,Large/Mid Cap,Equity,nan,nan,False,False
+FLXT,Asia,Eastern Asia,Taiwan,Large/Mid Cap,Equity,nan,nan,False,False
+FLXU,Americas,Northern America,United States,All Cap,Equity,nan,nan,False,False
+FLXX,,,,Income,Equity,nan,nan,False,False
+FMQP,,,,Ecommerce,Equity,nan,nan,True,False
+FMQQ,,,,Ecommerce,Equity,nan,nan,True,False
+FMTV,,,,Metaverse,Equity,nan,nan,False,False
+FMVR,,,,Metaverse,Equity,nan,nan,False,False
+FNCE,Europe,,,Financial Services,Equity,nan,nan,False,False
+FNCL,Europe,,,Financial Services,Equity,nan,nan,False,False
+FNCW,,,,Financial Services,Equity,nan,nan,False,False
+FNRG,,,,Clean Energy,Equity,nan,nan,False,False
+FOFD,,,,Food Technology,Equity,nan,nan,False,False
+FOGB,,,,Food Technology,Equity,nan,nan,False,False
+FOHW,,,,Health and Wellbeing,Equity,nan,nan,False,False
+FOOD,,,,Food Technology,Equity,nan,nan,False,False
+FPX,Americas,Northern America,United States,All Cap,Equity,nan,nan,False,False
+FPXE,Europe,,,All Cap,Equity,nan,nan,False,False
+FPXR,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+FPXS,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+FRCH,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+FREM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+FREQ,Europe,,,All Cap,Equity,nan,nan,False,False
+FRFD,,,,Food Technology,Equity,nan,nan,False,False
+FRGD,,,,Income,Equity,nan,nan,False,False
+FRGE,,,,Large/Mid Cap,Equity,nan,nan,False,False
+FRGP,Europe,Western Europe,France,Government,Fixed Income,GBP,nan,False,False
+FRHW,,,,Health and Wellbeing,Equity,nan,nan,False,False
+FRIN,Asia,Southern Asia,India,Large/Mid Cap,Equity,nan,nan,False,False
+FRNW,,,,Clean Energy,Equity,nan,nan,False,False
+FRQX,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+FRUC,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+FRUE,Americas,Northern America,United States,All Cap,Equity,nan,nan,False,False
+FRXD,Europe,,,Income,Equity,nan,nan,False,False
+FRXE,Europe,,,Government,Fixed Income,nan,nan,False,False
+FRXT,Asia,Eastern Asia,Taiwan,Large/Mid Cap,Equity,nan,nan,False,False
+FSED,,,,Aggregate,Fixed Income,nan,nan,True,False
+FSEM,,,,Aggregate,Fixed Income,nan,nan,True,False
+FSEU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+FSFL,,,,Clean Energy,Equity,nan,nan,False,False
+FSKY,,,,Cloud Computing and Internet,Equity,nan,nan,False,False
+FSMF,,,,Corporate,Fixed Income,nan,nan,False,False
+FSMG,,,,Corporate,Fixed Income,nan,nan,False,False
+FSMP,,,,Corporate,Fixed Income,nan,nan,False,False
+FSMU,,,,Corporate,Fixed Income,nan,nan,False,False
+FSUS,Americas,Northern America,United States,All Cap,Equity,nan,nan,False,False
+FSV,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+FSWD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+FT1K,Europe,Northern Europe,United Kingdom,Large/Mid Cap,Equity,nan,nan,False,False
+FTAD,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+FTAL,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+FTCS,,,,Large/Mid Cap,Equity,nan,nan,False,False
+FTEK,Americas,Northern America,United States,Fintech,Equity,nan,nan,False,False
+FTEU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+FTF,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+FTFX,,,,Aggregate Fixed Income,Equity,nan,nan,False,False
+FTV,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+FTWD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+FTWG,,,,Large/Mid Cap,Equity,nan,nan,False,False
+FUQA,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+FUSA,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+FUSD,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+FUSI,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+FUSP,Americas,Northern America,United States,Income,Equity,GBP,nan,False,False
+FUSR,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+FUSS,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+FVD,,,,Income,Equity,nan,nan,False,False
+FVUB,Americas,Latin America and the Caribbean,Brazil,Large/Mid Cap,Equity,nan,nan,False,False
+FVUG,Europe,,,Aggregate,Fixed Income,nan,nan,False,False
+FWRA,,,,Large/Mid Cap,Equity,nan,nan,False,False
+FWRG,,,,Large/Mid Cap,Equity,nan,nan,False,False
+FWSD,,,,Large/Mid Cap,Equity,GBP,nan,False,False
+FWT,Europe,Northern Europe,United Kingdom,Technology,VCT,nan,nan,False,False
+FXC,Asia,Eastern Asia,China,Large Cap,Equity,nan,nan,False,False
+FXGB,,,,Government,Fixed Income,nan,nan,False,False
+G500,Americas,Northern America,United States,Large Cap,Equity,GBP,nan,False,False
+GAAA,,,,Government,Fixed Income,nan,nan,False,False
+GABI,,,,ABS,Fixed Income,nan,nan,False,False
+GAGG,,,,Aggregate,Fixed Income,nan,nan,False,False
+GAGU,,,,Aggregate,Fixed Income,nan,nan,False,False
+GBCH,,,,Currency,Currency,nan,nan,False,False
+GBDV,,,,Income,Equity,nan,nan,False,False
+GBHG,,,,High Yield,Fixed Income,GBP,nan,False,False
+GBHS,,,,High Yield,Fixed Income,nan,nan,False,False
+GBHY,,,,High Yield,Fixed Income,nan,nan,False,False
+GBJP,,,,Currency,Currency,nan,nan,False,False
+GBP5,Europe,Northern Europe,United Kingdom,Corporate,Fixed Income,nan,nan,False,False
+GBPC,Europe,Northern Europe,United Kingdom,Corporate,Fixed Income,nan,nan,False,False
+GBPG,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+GBRE,,,,Real Estate,Equity,nan,nan,False,False
+GBS,,,,Precious Metals,Commodity,nan,nan,False,False
+GBSP,,,,Precious Metals,Commodity,GBP,nan,False,False
+GBSS,,,,Precious Metals,Commodity,nan,nan,False,False
+GBUR,,,,Currency,Currency,nan,nan,False,False
+GBUS,,,,Currency,Currency,nan,nan,False,False
+GCED,,,,Clean Energy,Equity,nan,nan,False,False
+GCEX,,,,Clean Energy,Equity,nan,nan,False,False
+GCGB,,,,Precious Metals,Commodity,nan,nan,False,False
+GCL,,,,Clean Energy,Equity,nan,nan,False,False
+GCLE,,,,Clean Energy,Equity,nan,nan,False,False
+GCLM,,,,Large/Mid Cap,Equity,nan,nan,False,False
+GCLX,,,,Clean Energy,Equity,nan,nan,False,False
+GCP,,,,Infrastructure,Equity,nan,nan,False,False
+GCSG,,,,Corporate,Fixed Income,nan,nan,False,False
+GCVB,,,,Convertible,Fixed Income,nan,nan,False,False
+GCVG,,,,Convertible,Fixed Income,GBP,nan,False,False
+GDGB,,,,Mining - Gold,Equity,nan,nan,False,False
+GDIG,,,,Mining,Equity,nan,nan,False,False
+GDX,,,,Mining - Gold,Equity,nan,nan,False,False
+GDXJ,,,,Mining - Gold,Equity,nan,nan,False,False
+GEDM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+GEDV,,,,Income,Equity,nan,nan,False,False
+GEND,,,,Gender Equality,Equity,nan,nan,False,False
+GENE,,,,Gender Equality,Equity,nan,nan,False,False
+GENG,,,,Gender Equality,Equity,GBP,nan,False,False
+GENY,,,,Millenials,Equity,nan,nan,False,False
+GFA,,,,High Yield,Fixed Income,nan,nan,False,False
+GFGB,,,,High Yield,Fixed Income,nan,nan,False,False
+GFOF,,,,Fintech,Equity,nan,nan,False,False
+GFOP,,,,Fintech,Equity,nan,nan,False,False
+GGOV,,,,Government,Fixed Income,nan,nan,False,False
+GGRA,,,,Income,Equity,nan,nan,False,False
+GGRB,,,,Income,Equity,nan,nan,False,False
+GGRG,,,,Income,Equity,nan,nan,False,False
+GGRP,,,,Income,Equity,nan,nan,False,False
+GGRW,,,,Income,Equity,nan,nan,False,False
+GHYG,,,,High Yield,Fixed Income,GBP,nan,False,False
+GHYS,,,,High Yield,Fixed Income,GBP,nan,False,False
+GHYU,,,,High Yield,Fixed Income,nan,nan,False,False
+GIF,,,,Other,Multi Asset,nan,nan,False,False
+GIGB,,,,Mining,Equity,nan,nan,False,False
+GIL5,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+GILE,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+GILG,,,,Government,Fixed Income,GBP,nan,False,False
+GILI,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+GILS,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+GIN,,,,Infrastructure,Equity,nan,nan,False,False
+GINC,,,,Income,Equity,nan,nan,False,False
+GISG,,,,Government,Fixed Income,nan,nan,False,False
+GIST,,,,Government,Fixed Income,nan,nan,False,False
+GJGB,,,,Mining - Gold,Equity,nan,nan,False,False
+GLAB,,,,Aggregate,Fixed Income,GBP,nan,False,False
+GLAD,,,,Aggregate,Fixed Income,USD,nan,False,False
+GLAG,,,,Aggregate,Fixed Income,nan,nan,False,False
+GLAU,,,,Aggregate,Fixed Income,USD,nan,False,False
+GLBL,,,,Aggregate,Fixed Income,nan,nan,False,False
+GLCB,,,,Convertible,Fixed Income,nan,nan,False,False
+GLCO,,,,Corporate,Fixed Income,nan,nan,False,False
+GLDA,,,,Precious Metals,Commodity,nan,nan,False,False
+GLDD,,,,Precious Metals,Commodity,nan,nan,False,False
+GLDU,,,,Precious Metals,Commodity,nan,nan,False,False
+GLDV,,,,Income,Equity,nan,nan,False,False
+GLDW,,,,Precious Metals,Commodity,nan,nan,False,False
+GLGG,,,,Utilities - Water,Equity,nan,nan,False,False
+GLRA,,,,Real Estate,Equity,nan,nan,False,False
+GLRE,,,,Real Estate,Equity,nan,nan,False,False
+GLT5,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+GLTA,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+GLTL,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+GLTP,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+GLTS,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+GLTY,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+GLUG,,,,Utilities - Water,Equity,nan,nan,False,False
+GNOG,,,,Healthcare Innovations,Equity,nan,nan,False,False
+GNOM,,,,Healthcare Innovations,Equity,nan,nan,False,False
+GOAT,,,,Wide Moat,Equity,nan,nan,False,False
+GOGB,,,,Wide Moat,Equity,nan,nan,False,False
+GOLB,,,,Mining - Gold,Equity,nan,nan,False,False
+GOT,,,,All Cap,Equity,nan,nan,False,False
+GOUD,,,,Government,Fixed Income,nan,nan,False,False
+GOVD,,,,Government,Fixed Income,nan,nan,False,False
+GOVG,,,,Government,Fixed Income,nan,nan,False,False
+GOVP,Americas,Northern America,United States,Government,Fixed Income,GBP,nan,False,False
+GOVU,,,,Government,Fixed Income,nan,nan,False,False
+GPAB,,,,Large/Mid Cap,Equity,nan,nan,False,False
+GPM,,,,Mining - Gold,Equity,nan,nan,False,False
+GPSA,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+GRDU,,,,Infrastructure,Equity,nan,nan,False,False
+GRID,Europe,Northern Europe,United Kingdom,Energy Infrastructure,Equity,nan,nan,False,False
+GRIT,,,,Mining,Equity,nan,nan,False,False
+GSCT,,,,Small Cap,Equity,nan,nan,False,False
+GSEM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+GSF,Americas,Northern America,United States,Energy Infrastructure,Equity,nan,nan,False,False
+GSLC,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+GSPX,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+GV1O,,,,Clean Energy,Equity,nan,nan,False,False
+GV2O,Europe,Northern Europe,United Kingdom,Energy,VCT,nan,nan,False,False
+GXLC,Americas,Northern America,United States,Communication Services,Equity,nan,nan,False,False
+GXLE,Americas,Northern America,United States,Energy,Equity,nan,nan,False,False
+GXLF,Americas,Northern America,United States,Financial Services,Equity,nan,nan,False,False
+GXLK,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+GXLV,Americas,Northern America,United States,Healthcare,Equity,nan,nan,False,False
+H50A,Europe,,,Large Cap,Equity,nan,nan,False,False
+H50E,Europe,,,Large Cap,Equity,nan,nan,False,False
+HAGG,,,,Corporate,Fixed Income,nan,nan,False,False
+HAGS,,,,Corporate,Fixed Income,nan,nan,False,False
+HAN,,,,Multi Asset,Multi Asset,nan,nan,False,False
+HANA,,,,All Cap,Equity,nan,nan,False,False
+HBDS,,,,Large/Mid Cap,Equity,nan,nan,False,False
+HBDV,,,,Large/Mid Cap,Equity,nan,nan,False,False
+HBRL,Americas,Latin America and the Caribbean,Brazil,Large/Mid Cap,Equity,nan,nan,False,False
+HCAA,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+HCAD,Americas,Northern America,Canada,Large/Mid Cap,Equity,nan,nan,False,False
+HCAN,Americas,Northern America,Canada,Large/Mid Cap,Equity,nan,nan,False,False
+HCAS,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+HCGB,Asia,Eastern Asia,China,Government,Fixed Income,nan,nan,False,False
+HCGE,Asia,Eastern Asia,China,Government,Fixed Income,nan,nan,False,False
+HCGG,Asia,Eastern Asia,China,Government,Fixed Income,nan,nan,False,False
+HCGU,Asia,Eastern Asia,China,Government,Fixed Income,nan,nan,False,False
+HCHA,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+HCHS,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+HDEM,,,,Income,Equity,nan,nan,True,False
+HDEU,Europe,,,Income,Equity,nan,nan,False,False
+HDGB,,,,Hydrogen Economy,Equity,nan,nan,False,False
+HDIQ,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+HDIV,,,,Corporate,Fixed Income,nan,nan,False,False
+HDLG,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+HDLV,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+HDRO,,,,Hydrogen Economy,Equity,nan,nan,False,False
+HEAE,Europe,,,Healthcare,Equity,nan,nan,False,False
+HEAL,,,,Healthcare Innovations,Equity,nan,nan,False,False
+HEAT,,,,Energy,Commodity,nan,nan,False,False
+HEAW,,,,Healthcare,Equity,nan,nan,False,False
+HEDF,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+HEDG,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+HEDJ,Europe,,,Large Cap,Equity,USD,nan,False,False
+HEDK,Europe,,,Large/Mid Cap,Equity,USD,nan,False,False
+HEDP,Europe,,,Large Cap,Equity,GBP,nan,False,False
+HEDS,Europe,,,Large/Mid Cap,Equity,USD,nan,False,False
+HEFT,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+HEIT,,,,Energy Infrastructure,Equity,nan,nan,False,False
+HEMA,,,,Large/Mid Cap,Equity,nan,nan,True,False
+HEMC,,,,Large/Mid Cap,Equity,nan,nan,True,False
+HEMV,,,,Value,Equity,nan,nan,True,False
+HERG,,,,Video Games,Equity,nan,nan,False,False
+HERU,,,,Video Games,Equity,nan,nan,False,False
+HESC,,,,Small Cap,Equity,nan,nan,True,False
+HESS,,,,Small Cap,Equity,nan,nan,True,False
+HEVS,,,,Value,Equity,nan,nan,True,False
+HFEJ,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+HFEL,Asia,,,Income,Equity,nan,nan,False,False
+HFEX,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+HGEN,,,,Hydrogen Economy,Equity,nan,nan,False,False
+HGT,,,,Private Equity,Equity,nan,nan,False,False
+HGVE,Asia,Eastern Asia,China,Government,Fixed Income,nan,nan,False,False
+HGVG,Asia,Eastern Asia,China,Government,Fixed Income,nan,nan,False,False
+HGVU,Asia,Eastern Asia,China,Government,Fixed Income,nan,nan,False,False
+HHI,,,,Multi Asset,Multi Asset,nan,nan,False,False
+HHV,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+HICL,,,,Infrastructure,Equity,nan,nan,False,False
+HIDD,Asia,South-eastern Asia,Indonesia,Large/Mid Cap,Equity,nan,nan,False,False
+HIDR,Asia,South-eastern Asia,Indonesia,Large/Mid Cap,Equity,nan,nan,False,False
+HIEM,,,,Islamic,Equity,nan,nan,True,False
+HIES,,,,Islamic,Equity,nan,nan,True,False
+HIEU,Europe,,,Islamic,Equity,nan,nan,False,False
+HIGH,Europe,,,High Yield,Fixed Income,nan,nan,False,False
+HINT,,,,Income,Equity,nan,nan,False,False
+HIPS,Europe,,,Islamic,Equity,nan,nan,False,False
+HIUA,Americas,Northern America,United States,Islamic,Equity,nan,nan,False,False
+HIUS,Americas,Northern America,United States,Islamic,Equity,nan,nan,False,False
+HIWO,,,,Islamic,Equity,nan,nan,False,False
+HIWS,,,,Islamic,Equity,nan,nan,False,False
+HKOD,Asia,Eastern Asia,South Korea,Large/Mid Cap,Equity,nan,nan,False,False
+HKOR,Asia,Eastern Asia,South Korea,Large/Mid Cap,Equity,nan,nan,False,False
+HLQD,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+HLTH,Europe,,,Healthcare,Equity,nan,nan,False,False
+HLTW,,,,Healthcare,Equity,nan,nan,False,False
+HMAD,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+HMAF,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+HMBR,Americas,Latin America and the Caribbean,Brazil,Large/Mid Cap,Equity,nan,nan,False,False
+HMCA,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+HMCD,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+HMCH,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+HMCT,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+HMCX,Europe,Northern Europe,United Kingdom,Mid Cap,Equity,nan,nan,False,False
+HMEA,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+HMED,Americas,Latin America and the Caribbean,Mexico,Large/Mid Cap,Equity,nan,nan,False,False
+HMEF,,,,Large/Mid Cap,Equity,nan,nan,True,False
+HMEM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+HMES,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+HMEU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+HMEX,Americas,Latin America and the Caribbean,Mexico,Large/Mid Cap,Equity,nan,nan,False,False
+HMJA,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+HMJD,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+HMJP,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+HMJS,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+HMLA,Americas,Latin America and the Caribbean,,Large/Mid Cap,Equity,nan,nan,False,False
+HMLD,Americas,Latin America and the Caribbean,,Large/Mid Cap,Equity,nan,nan,False,False
+HMUD,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+HMUS,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+HMWA,,,,Large/Mid Cap,Equity,nan,nan,False,False
+HMWD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+HMWO,,,,Large/Mid Cap,Equity,nan,nan,False,False
+HMWS,,,,Large/Mid Cap,Equity,nan,nan,False,False
+HMXA,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+HMXD,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+HMXJ,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+HMXS,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+HNE,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+HNSC,,,,Semiconductors,Equity,nan,nan,False,False
+HNSS,,,,Semiconductors,Equity,nan,nan,False,False
+HOGS,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+HOT,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+HPAE,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+HPAJ,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+HPAO,,,,Large/Mid Cap,Equity,nan,nan,False,False
+HPAS,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+HPAU,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+HPAW,,,,Large/Mid Cap,Equity,nan,nan,False,False
+HPAX,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+HPEF,,,,Large/Mid Cap,Equity,nan,nan,True,False
+HPEM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+HPJP,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+HPJS,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+HPRA,,,,Real Estate,Equity,nan,nan,False,False
+HPRC,,,,Real Estate,Equity,CHF,nan,False,False
+HPRD,,,,Real Estate,Equity,nan,nan,False,False
+HPRO,,,,Real Estate,Equity,nan,nan,False,False
+HPRS,,,,Real Estate,Equity,nan,nan,False,False
+HPUD,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+HPUS,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+HRI,,,,Small Cap,Equity,nan,nan,False,False
+HSAS,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+HSAX,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+HSDD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+HSDS,,,,Large/Mid Cap,Equity,nan,nan,False,False
+HSDU,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+HSED,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+HSEF,,,,Large/Mid Cap,Equity,nan,nan,True,False
+HSEM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+HSEP,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+HSES,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+HSEU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+HSGE,,,,Government,Fixed Income,nan,nan,False,False
+HSGG,,,,Government,Fixed Income,nan,nan,False,False
+HSGU,,,,Government,Fixed Income,nan,nan,False,False
+HSJA,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+HSJD,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+HSJP,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+HSJS,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+HSL,Europe,Northern Europe,United Kingdom,Small Cap,Equity,nan,nan,False,False
+HSMD,,,,Large/Mid Cap,Equity,nan,nan,True,False
+HSMS,,,,Large/Mid Cap,Equity,nan,nan,True,False
+HSPA,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+HSPC,Americas,Northern America,United States,Large Cap,Equity,CHF,nan,False,False
+HSPD,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+HSPS,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+HSPX,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+HSSU,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+HSTC,Asia,Eastern Asia,China,Technology,Equity,nan,nan,False,False
+HSTE,Asia,Eastern Asia,China,Technology,Equity,nan,nan,False,False
+HSUD,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+HSUK,Europe,Northern Europe,United Kingdom,Large/Mid Cap,Equity,nan,nan,False,False
+HSUS,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+HSWD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+HSWO,,,,Large/Mid Cap,Equity,nan,nan,False,False
+HSXD,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+HSXE,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+HSXJ,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+HSXU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+HTCF,,,,Corporate,Fixed Income,nan,nan,False,False
+HTRD,Asia,Western Asia,Turkey,Large/Mid Cap,Equity,nan,nan,False,False
+HTRY,Asia,Western Asia,Turkey,Large/Mid Cap,Equity,nan,nan,False,False
+HTWD,Asia,Eastern Asia,Taiwan,Large/Mid Cap,Equity,nan,nan,False,False
+HTWG,,,,Hydrogen Economy,Equity,nan,nan,False,False
+HTWN,Asia,Eastern Asia,Taiwan,Large/Mid Cap,Equity,nan,nan,False,False
+HTWO,,,,Hydrogen Economy,Equity,nan,nan,False,False
+HUKD,Europe,Northern Europe,United Kingdom,Large/Mid Cap,Equity,nan,nan,False,False
+HUKS,Europe,Northern Europe,United Kingdom,Large/Mid Cap,Equity,nan,nan,False,False
+HUKX,Europe,Northern Europe,United Kingdom,Large Cap,Equity,nan,nan,False,False
+HVPD,,,,Private Equity,Equity,nan,nan,False,False
+HVPE,,,,Private Equity,Equity,nan,nan,False,False
+HWDA,,,,Large/Mid Cap,Equity,nan,nan,False,False
+HWDC,,,,Large/Mid Cap,Equity,CHF,nan,False,False
+HWDE,,,,Large/Mid Cap,Equity,EUR,nan,False,False
+HWSC,,,,Small Cap,Equity,nan,nan,False,False
+HWSS,,,,Small Cap,Equity,nan,nan,False,False
+HWVL,,,,Value,Equity,nan,nan,False,False
+HWVS,,,,Value,Equity,nan,nan,False,False
+HWWA,,,,Large/Mid Cap,Equity,nan,nan,False,False
+HWWD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+HWWS,,,,Large/Mid Cap,Equity,nan,nan,False,False
+HYDE,,,,Hydrogen Economy,Equity,nan,nan,False,False
+HYDN,,,,Hydrogen Economy,Equity,nan,nan,False,False
+HYEA,,,,High Yield,Fixed Income,nan,nan,False,False
+HYEM,,,,High Yield,Fixed Income,nan,nan,True,False
+HYFA,Americas,Northern America,United States,High Yield,Fixed Income,nan,nan,False,False
+HYFC,Americas,Northern America,United States,High Yield,Fixed Income,nan,nan,False,False
+HYG,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+HYGB,,,,High Yield,Fixed Income,nan,nan,True,False
+HYGG,,,,Hydrogen Economy,Equity,nan,nan,False,False
+HYGN,,,,Hydrogen Economy,Equity,nan,nan,False,False
+HYGU,Europe,,,High Yield,Fixed Income,USD,nan,False,False
+HYLA,,,,High Yield,Fixed Income,nan,nan,False,False
+HYLD,,,,High Yield,Fixed Income,nan,nan,False,False
+HYSD,,,,Corporate,Fixed Income,nan,nan,False,False
+HYUS,Americas,Northern America,United States,High Yield,Fixed Income,nan,nan,False,False
+I500,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+IAAA,,,,Government,Fixed Income,nan,nan,False,False
+IAEX,Europe,Western Europe,Netherlands,Large Cap,Equity,nan,nan,False,False
+IAPD,Asia,,,Income,Equity,nan,nan,False,False
+IASH,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+IASP,Asia,,,Real Estate,Equity,nan,nan,False,False
+IAT,Asia,,,All Cap,Equity,nan,nan,False,False
+IAUP,,,,Mining - Gold,Equity,nan,nan,False,False
+IAUS,Oceania,Australia and New Zealand,Australia,Large/Mid Cap,Equity,nan,nan,False,False
+IB01,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+IBCI,Europe,,,Government,Fixed Income,nan,nan,False,False
+IBCX,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+IBGE,Europe,,,Government,Fixed Income,nan,nan,False,False
+IBGL,Europe,,,Government,Fixed Income,nan,nan,False,False
+IBGM,Europe,,,Government,Fixed Income,nan,nan,False,False
+IBGS,Europe,,,Government,Fixed Income,nan,nan,False,False
+IBGX,Europe,,,Government,Fixed Income,nan,nan,False,False
+IBGY,Europe,,,Government,Fixed Income,nan,nan,False,False
+IBGZ,Europe,,,Government,Fixed Income,nan,nan,False,False
+IBT,,,,Healthcare Innovations,Equity,nan,nan,False,False
+IBTA,Europe,,,Government,Fixed Income,nan,nan,False,False
+IBTE,Americas,Northern America,United States,Government,Fixed Income,GBP,nan,False,False
+IBTG,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+IBTL,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+IBTM,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+IBTS,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+IBTU,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+IBZL,Americas,Latin America and the Caribbean,Brazil,Large/Mid Cap,Equity,nan,nan,False,False
+ICBU,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+ICDU,Americas,Northern America,United States,Consumer Discretionary,Equity,nan,nan,False,False
+ICGT,,,,Private Equity,Equity,nan,nan,False,False
+ICOM,,,,Broad Based,Commodity,nan,nan,False,False
+ICSU,Americas,Northern America,United States,Consumer Staples,Equity,nan,nan,False,False
+IDAP,Asia,,,Income,Equity,nan,nan,False,False
+IDAR,Asia,,,Real Estate,Equity,nan,nan,False,False
+IDBT,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+IDBZ,Americas,Latin America and the Caribbean,Brazil,Large/Mid Cap,Equity,nan,nan,False,False
+IDEM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+IDFF,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+IDFX,Asia,Eastern Asia,China,Large Cap,Equity,nan,nan,False,False
+IDIN,,,,Infrastructure,Equity,nan,nan,False,False
+IDJG,Europe,,,Growth,Equity,nan,nan,False,False
+IDJP,Asia,Eastern Asia,Japan,Small Cap,Equity,nan,nan,False,False
+IDKO,Asia,Eastern Asia,South Korea,Large/Mid Cap,Equity,nan,nan,False,False
+IDNA,Americas,Northern America,,Large/Mid Cap,Equity,nan,nan,False,False
+IDP6,Americas,Northern America,United States,Small Cap,Equity,nan,nan,False,False
+IDPE,,,,Private Equity,Equity,nan,nan,False,False
+IDTG,Americas,Northern America,United States,Government,Fixed Income,GBP,nan,False,False
+IDTK,Asia,Western Asia,Turkey,Large/Mid Cap,Equity,nan,nan,False,False
+IDTL,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+IDTM,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+IDTP,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+IDTW,Asia,Eastern Asia,Taiwan,Large/Mid Cap,Equity,nan,nan,False,False
+IDUP,Americas,Northern America,United States,Real Estate,Equity,nan,nan,False,False
+IDUS,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+IDVY,Europe,,,Income,Equity,nan,nan,False,False
+IDWP,,,,Real Estate,Equity,nan,nan,False,False
+IDWR,,,,Large/Mid Cap,Equity,nan,nan,False,False
+IE15,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+IEAA,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+IEAC,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+IEAH,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+IEBC,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+IEDL,Europe,,,Value,Equity,nan,nan,False,False
+IEDY,,,,Income,Equity,nan,nan,True,False
+IEEM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+IEEU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+IEFM,Europe,,,Momentum,Equity,nan,nan,False,False
+IEFQ,Europe,,,Quality,Equity,nan,nan,False,False
+IEFS,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+IEFV,Europe,,,Value,Equity,nan,nan,False,False
+IEM,,,,Infrastructure,Equity,nan,nan,False,False
+IEMA,,,,Large/Mid Cap,Equity,nan,nan,True,False
+IEMB,,,,Aggregate,Fixed Income,nan,nan,True,False
+IEMD,Europe,,,Momentum,Equity,nan,nan,False,False
+IEMI,,,,Infrastructure,Equity,nan,nan,True,False
+IEML,,,,Local Currency,Fixed Income,nan,nan,True,False
+IEMS,,,,Small Cap,Equity,nan,nan,True,False
+IEMU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+IEQD,Europe,,,Quality,Equity,nan,nan,False,False
+IESG,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+IESU,Americas,Northern America,United States,Energy,Equity,nan,nan,False,False
+IEUX,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+IEVL,Europe,,,Value,Equity,nan,nan,False,False
+IEWQ,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+IFFF,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+IFRB,Europe,Western Europe,France,Government,Fixed Income,nan,nan,False,False
+IFSD,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+IFSU,Americas,Northern America,United States,All Cap,Equity,nan,nan,False,False
+IFSW,,,,Large/Mid Cap,Equity,nan,nan,False,False
+IGAA,Asia,,,Government,Fixed Income,nan,nan,True,False
+IGBE,Europe,Northern Europe,United Kingdom,Corporate,Fixed Income,nan,nan,False,False
+IGC,Asia,Southern Asia,India,Large/Mid Cap,Equity,nan,nan,False,False
+IGCB,Europe,Northern Europe,United Kingdom,Corporate,Fixed Income,nan,nan,False,False
+IGDA,,,,Islamic,Equity,nan,nan,False,False
+IGEA,,,,Local Currency,Fixed Income,nan,nan,True,False
+IGHY,,,,High Yield,Fixed Income,nan,nan,False,False
+IGIL,,,,Government,Fixed Income,nan,nan,False,False
+IGL5,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+IGLA,,,,Government,Fixed Income,nan,nan,False,False
+IGLH,,,,Government,Fixed Income,GBP,nan,False,False
+IGLO,,,,Government,Fixed Income,nan,nan,False,False
+IGLS,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+IGLT,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+IGSD,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+IGSG,,,,Large/Mid Cap,Equity,nan,nan,False,False
+IGSU,,,,Large/Mid Cap,Equity,nan,nan,False,False
+IGTM,Americas,Northern America,United States,Government,Fixed Income,GBP,nan,False,False
+IGUS,Americas,Northern America,United States,Large Cap,Equity,GBP,nan,False,False
+IGV,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+IGWD,,,,Large/Mid Cap,Equity,GBP,nan,False,False
+IH2O,,,,Utilities - Water,Equity,nan,nan,False,False
+IHCU,Americas,Northern America,United States,Healthcare,Equity,nan,nan,False,False
+IHHG,Americas,Northern America,United States,High Yield,Fixed Income,GBP,nan,False,False
+IHYA,Americas,Northern America,United States,High Yield,Fixed Income,nan,nan,False,False
+IHYE,Americas,Northern America,United States,High Yield,Fixed Income,EUR,nan,False,False
+IHYG,,,,High Yield,Fixed Income,nan,nan,False,False
+IHYU,,,,High Yield,Fixed Income,nan,nan,False,False
+IIND,Americas,Northern America,India,Large/Mid Cap,Equity,nan,nan,False,False
+IIP,Asia,Southern Asia,India,Infrastructure,Equity,nan,nan,False,False
+IISU,Americas,Northern America,United States,Industrials,Equity,nan,nan,False,False
+IITU,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+IJPA,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+IJPD,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,USD,nan,False,False
+IJPE,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,EUR,nan,False,False
+IJPH,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,GBP,nan,False,False
+IJPN,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+IJPU,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+IKOR,Asia,Eastern Asia,South Korea,Large/Mid Cap,Equity,nan,nan,False,False
+IKSA,Asia,Western Asia,Saudi Arabia,Large/Mid Cap,Equity,nan,nan,False,False
+IKSD,Asia,Western Asia,Saudi Arabia,Large/Mid Cap,Equity,nan,nan,False,False
+IMBA,Americas,Northern America,United States,MBS,Fixed Income,nan,nan,False,False
+IMBS,Americas,Northern America,United States,MBS,Fixed Income,nan,nan,False,False
+IMEU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+IMGP,,,,MBS,Fixed Income,GBP,nan,False,False
+IMIB,Europe,Southern Europe,Italy,Large Cap,Equity,nan,nan,False,False
+IMID,,,,Large/Mid Cap,Equity,nan,nan,False,False
+IMSU,Americas,Northern America,United States,Materials,Equity,nan,nan,False,False
+IMV,Europe,,,Minimum Volatility,Equity,nan,nan,False,False
+IMVU,Europe,,,Minimum Volatility,Equity,nan,nan,False,False
+INAA,Americas,Northern America,,Large/Mid Cap,Equity,nan,nan,False,False
+INDU,,,,Industrial Metals,Commodity,nan,nan,False,False
+INFB,,,,Government,Fixed Income,nan,nan,False,False
+INFG,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+INFL,Europe,,,Government,Fixed Income,nan,nan,False,False
+INFR,,,,Infrastructure,Equity,nan,nan,False,False
+INFU,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+INMG,,,,Industrial Metals,Commodity,nan,nan,False,False
+INMU,,,,Industrial Metals,Commodity,nan,nan,False,False
+INOV,,,,All Cap,Equity,nan,nan,False,False
+INPP,,,,Infrastructure,Equity,nan,nan,False,False
+INRG,,,,Clean Energy,Equity,nan,nan,False,False
+INRL,Asia,Southern Asia,India,Large/Mid Cap,Equity,nan,nan,False,False
+INRU,Asia,Southern Asia,India,Large/Mid Cap,Equity,nan,nan,False,False
+INSU,Americas,Northern America,United States,Financial Services,Equity,nan,nan,False,False
+INSX,Americas,Northern America,United States,Financial Services,Equity,nan,nan,False,False
+INTL,,,,Artificial Intelligence,Equity,nan,nan,False,False
+INV,,,,Multi Asset,Multi Asset,nan,nan,False,False
+INXG,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+IOGP,,,,Oil and Gas,Equity,nan,nan,False,False
+IPOL,Europe,Eastern Europe,Poland,Large/Mid Cap,Equity,nan,nan,False,False
+IPRP,Europe,,,Real Estate,Equity,nan,nan,False,False
+IPRV,,,,Private Equity,Equity,nan,nan,False,False
+IPU,Europe,Northern Europe,United Kingdom,Small Cap,Equity,nan,nan,False,False
+IPXE,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+IPXJ,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+IQCT,,,,Smart Cities,Equity,nan,nan,False,False
+IQCY,,,,Smart Cities,Equity,nan,nan,False,False
+IQSA,,,,Large/Mid Cap,Equity,nan,nan,False,False
+IRCP,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+IRSA,Africa,Sub-Saharan Africa,South Africa,Large/Mid Cap,Equity,nan,nan,False,False
+IS15,Europe,Northern Europe,United Kingdom,Corporate,Fixed Income,nan,nan,False,False
+ISAC,,,,Large/Mid Cap,Equity,nan,nan,False,False
+ISAG,,,,Agribusiness,Equity,nan,nan,False,False
+ISDE,,,,Islamic,Equity,nan,nan,True,False
+ISDU,Americas,Northern America,United States,Islamic,Equity,nan,nan,False,False
+ISDW,,,,Islamic,Equity,nan,nan,False,False
+ISEU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+ISF,Europe,Northern Europe,United Kingdom,Large Cap,Equity,nan,nan,False,False
+ISFD,Europe,Northern Europe,United Kingdom,Large Cap,Equity,USD,nan,False,False
+ISFE,Asia,,,Small Cap,Equity,nan,nan,False,False
+ISFR,Europe,Western Europe,France,Large/Mid Cap,Equity,nan,nan,False,False
+ISFU,Europe,Northern Europe,United Kingdom,Large Cap,Equity,nan,nan,False,False
+ISJP,Asia,Eastern Asia,Japan,Small Cap,Equity,nan,nan,False,False
+ISP6,Americas,Northern America,United States,Small Cap,Equity,nan,nan,False,False
+ISPE,Americas,Northern America,United States,Large Cap,Equity,GBP,nan,False,False
+ISPY,,,,Cybersecurity,Equity,nan,nan,False,False
+ISUN,,,,Clean Energy,Equity,nan,nan,False,False
+ISUS,Americas,Northern America,United States,Islamic,Equity,nan,nan,False,False
+ISWD,,,,Islamic,Equity,nan,nan,False,False
+ISXF,Europe,Northern Europe,United Kingdom,Corporate,Fixed Income,nan,nan,False,False
+ITEB,Europe,Southern Europe,Italy,Government,Fixed Income,GBP,nan,False,False
+ITEC,Europe,,,Technology,Equity,nan,nan,False,False
+ITEH,Europe,Southern Europe,Italy,Government,Fixed Income,USD,nan,False,False
+ITEK,,,,Technology,Equity,nan,nan,False,False
+ITEP,,,,Technology,Equity,nan,nan,False,False
+ITKY,Asia,Western Asia,Turkey,Large/Mid Cap,Equity,nan,nan,False,False
+ITPG,Americas,Northern America,United States,Government,Fixed Income,GBP,nan,False,False
+ITPS,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+ITWN,Asia,Eastern Asia,Taiwan,Large/Mid Cap,Equity,nan,nan,False,False
+IUAA,Americas,Northern America,United States,Aggregate,Fixed Income,nan,nan,False,False
+IUAE,Americas,Northern America,United States,Aggregate,Fixed Income,nan,nan,False,False
+IUAG,Americas,Northern America,United States,Aggregate,Fixed Income,nan,nan,False,False
+IUCB,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+IUCD,Americas,Northern America,United States,Consumer Discretionary,Equity,nan,nan,False,False
+IUCM,Americas,Northern America,United States,Communication Services,Equity,nan,nan,False,False
+IUCS,Americas,Northern America,United States,Consumer Staples,Equity,nan,nan,False,False
+IUES,Americas,Northern America,United States,Energy,Equity,nan,nan,False,False
+IUFS,Americas,Northern America,United States,Financial Services,Equity,nan,nan,False,False
+IUGA,Americas,Northern America,United States,Aggregate,Fixed Income,GBP,nan,False,False
+IUHC,Americas,Northern America,United States,Healthcare,Equity,nan,nan,False,False
+IUIS,Americas,Northern America,United States,Industrials,Equity,nan,nan,False,False
+IUIT,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+IUKD,Europe,Northern Europe,United Kingdom,Income,Equity,nan,nan,False,False
+IUKP,Europe,Northern Europe,United Kingdom,Real Estate,Equity,nan,nan,False,False
+IUMD,Americas,Northern America,United States,Momentum,Equity,nan,nan,False,False
+IUMF,Americas,Northern America,United States,Momentum,Equity,nan,nan,False,False
+IUMO,Americas,Northern America,United States,Momentum,Equity,nan,nan,False,False
+IUMS,Americas,Northern America,United States,Materials,Equity,nan,nan,False,False
+IUQA,Americas,Northern America,United States,Quality,Equity,nan,nan,False,False
+IUQD,Americas,Northern America,United States,Quality,Equity,nan,nan,False,False
+IUQF,Americas,Northern America,United States,Quality,Equity,nan,nan,False,False
+IUSA,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+IUSE,Americas,Northern America,United States,Large Cap,Equity,EUR,nan,False,False
+IUSF,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+IUSP,Americas,Northern America,United States,Real Estate,Equity,nan,nan,False,False
+IUSU,Americas,Northern America,United States,Utilities,Equity,nan,nan,False,False
+IUSZ,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+IUUS,Americas,Northern America,United States,Utilities,Equity,nan,nan,False,False
+IUVD,Americas,Northern America,United States,Value,Equity,nan,nan,False,False
+IUVF,Americas,Northern America,United States,Value,Equity,nan,nan,False,False
+IUVL,Americas,Northern America,United States,Value,Equity,nan,nan,False,False
+IVPB,,,,Multi Asset,Multi Asset,nan,nan,False,False
+IVPG,,,,Income,Equity,nan,nan,False,False
+IVPM,,,,Other,Multi Asset,nan,nan,False,False
+IVPU,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+IWDA,,,,Large/Mid Cap,Equity,nan,nan,False,False
+IWDE,,,,Large/Mid Cap,Equity,EUR,nan,False,False
+IWDG,,,,Large/Mid Cap,Equity,GBP,nan,False,False
+IWDP,,,,Real Estate,Equity,nan,nan,False,False
+IWFM,,,,Momentum,Equity,nan,nan,False,False
+IWFQ,,,,Quality,Equity,nan,nan,False,False
+IWFS,,,,Large/Mid Cap,Equity,nan,nan,False,False
+IWFV,,,,Value,Equity,nan,nan,False,False
+IWMO,,,,Momentum,Equity,nan,nan,False,False
+IWQU,,,,Quality,Equity,nan,nan,False,False
+IWRD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+IWSZ,,,,Large/Mid Cap,Equity,nan,nan,False,False
+IWVG,,,,Value,Equity,nan,nan,False,False
+IWVL,,,,Value,Equity,nan,nan,False,False
+IWVU,,,,Value,Equity,nan,nan,False,False
+J13E,Europe,,,Government,Fixed Income,nan,nan,False,False
+J13U,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+J15R,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+JAGI,Asia,,,All Cap,Equity,nan,nan,False,False
+JAM,Americas,Northern America,United States,All Cap,Equity,nan,nan,False,False
+JAPB,Asia,Eastern Asia,Japan,Government,Fixed Income,nan,nan,False,False
+JARA,,,,Multi Asset,Multi Asset,nan,nan,False,False
+JARE,,,,Multi Asset,Multi Asset,nan,nan,False,False
+JARG,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+JARI,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+JARU,,,,Multi Asset,Multi Asset,nan,nan,False,False
+JCAG,Asia,Eastern Asia,China,Aggregate,Fixed Income,nan,nan,False,False
+JCAP,Asia,Eastern Asia,China,Aggregate,Fixed Income,nan,nan,False,False
+JCAS,Asia,Eastern Asia,China,Cash,Fixed Income,nan,nan,False,False
+JCAU,Asia,Eastern Asia,China,Aggregate,Fixed Income,nan,nan,False,False
+JCCT,Asia,Eastern Asia,China,All Cap,Equity,nan,nan,False,False
+JCGA,Asia,Eastern Asia,China,Aggregate,Fixed Income,nan,nan,False,False
+JCGI,Asia,Eastern Asia,China,All Cap,Equity,nan,nan,False,False
+JCH,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+JCHA,Asia,Eastern Asia,China,Aggregate,Fixed Income,nan,nan,False,False
+JCSA,Asia,Eastern Asia,China,Cash,Fixed Income,nan,nan,False,False
+JCST,Asia,Eastern Asia,China,Cash,Fixed Income,nan,nan,False,False
+JCTC,Asia,Eastern Asia,China,All Cap,Equity,nan,nan,False,False
+JCTS,Asia,Eastern Asia,China,Cash,Fixed Income,nan,nan,False,False
+JEBP,Europe,,,Corporate,Fixed Income,GBP,nan,False,False
+JEDG,,,,Space,Equity,nan,nan,False,False
+JEDI,,,,Space,Equity,nan,nan,False,False
+JEDT,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+JEGI,Europe,,,All Cap,Equity,nan,nan,False,False
+JEMA,,,,Large/Mid Cap,Equity,nan,nan,True,False
+JEMI,,,,Income,Equity,nan,nan,True,False
+JERE,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+JETP,,,,Global Jets,Equity,nan,nan,False,False
+JETS,,,,Global Jets,Equity,nan,nan,False,False
+JFJ,Asia,Eastern Asia,Japan,All Cap,Equity,nan,nan,False,False
+JG15,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+JGC,,,,Large/Mid Cap,Equity,nan,nan,False,False
+JGEP,,,,Large/Mid Cap,Equity,GBP,nan,False,False
+JGGI,,,,Large/Mid Cap,Equity,nan,nan,False,False
+JGHD,,,,High Yield,Fixed Income,nan,nan,False,False
+JGHY,,,,High Yield,Fixed Income,nan,nan,False,False
+JGNR,,,,Aggregate,Fixed Income,nan,nan,False,False
+JGRE,,,,Large/Mid Cap,Equity,nan,nan,False,False
+JGRN,,,,Aggregate,Fixed Income,nan,nan,False,False
+JGSA,Europe,Northern Europe,United Kingdom,Cash,Fixed Income,nan,nan,False,False
+JGST,Europe,Northern Europe,United Kingdom,Cash,Fixed Income,nan,nan,False,False
+JGYH,,,,High Yield,Fixed Income,nan,nan,False,False
+JHEF,Asia,Eastern Asia,Japan,All Cap,Equity,nan,nan,False,False
+JHYP,,,,High Yield,Fixed Income,GBP,nan,False,False
+JHYU,,,,High Yield,Fixed Income,USD,nan,False,False
+JIBG,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+JII,Asia,Southern Asia,India,All Cap,Equity,nan,nan,False,False
+JLEN,,,,Infrastructure,Equity,nan,nan,False,False
+JMAB,,,,Government,Fixed Income,nan,nan,True,False
+JMBA,,,,Government,Fixed Income,nan,nan,True,False
+JMBP,,,,Government,Fixed Income,GBP,nan,True,False
+JMF,Europe,Northern Europe,United Kingdom,Mid Cap,Equity,nan,nan,False,False
+JMG,,,,Large/Mid Cap,Equity,nan,nan,True,False
+JMI,Europe,Northern Europe,United Kingdom,Small Cap,Equity,nan,nan,False,False
+JMRE,,,,Large/Mid Cap,Equity,nan,nan,True,False
+JNKE,Europe,,,High Yield,Fixed Income,nan,nan,False,False
+JNKS,Americas,Northern America,United States,High Yield,Fixed Income,nan,nan,False,False
+JPAS,Americas,Northern America,United States,Cash,Fixed Income,nan,nan,False,False
+JPBM,,,,Government,Fixed Income,nan,nan,True,False
+JPCT,,,,Large/Mid Cap,Equity,nan,nan,False,False
+JPEA,,,,Aggregate,Fixed Income,nan,nan,True,False
+JPEE,,,,Aggregate,Fixed Income,nan,nan,True,False
+JPEH,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,EUR,nan,False,False
+JPEL,,,,Private Equity,Equity,nan,nan,False,False
+JPGB,,,,Currency,Currency,nan,nan,False,False
+JPGL,,,,All Cap,Equity,nan,nan,False,False
+JPHG,Asia,Eastern Asia,Japan,Small/Mid Cap,Equity,GBP,nan,False,False
+JPHU,Asia,Eastern Asia,Japan,Small/Mid Cap,Equity,nan,nan,False,False
+JPJP,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,GBP,nan,False,False
+JPLG,,,,All Cap,Equity,nan,nan,False,False
+JPMB,,,,Government,Fixed Income,nan,nan,True,False
+JPNL,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+JPNU,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+JPSA,Americas,Northern America,United States,Cash,Fixed Income,nan,nan,False,False
+JPSG,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,GBP,nan,False,False
+JPSR,,,,Large/Mid Cap,Equity,nan,nan,False,False
+JPST,Americas,Northern America,United States,Cash,Fixed Income,nan,nan,False,False
+JPTC,,,,Large/Mid Cap,Equity,nan,nan,False,False
+JPTS,Americas,Northern America,United States,Cash,Fixed Income,nan,nan,False,False
+JPX4,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+JPXU,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,USD,nan,False,False
+JPXX,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,GBP,nan,False,False
+JR15,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+JRAE,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+JRBE,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+JRBU,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+JRCD,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+JRCE,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+JRDC,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+JRDE,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+JRDG,,,,Large/Mid Cap,Equity,nan,nan,False,False
+JRDM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+JRDZ,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+JREA,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+JREC,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+JRED,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+JREE,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+JREG,,,,Large/Mid Cap,Equity,nan,nan,False,False
+JREI,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+JREJ,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+JREM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+JREU,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+JREX,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+JREZ,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+JRGD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+JRIE,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+JRJE,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+JRMD,,,,Large/Mid Cap,Equity,nan,nan,True,False
+JRUB,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+JRUD,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+JRUP,Americas,Northern America,United States,Corporate,Fixed Income,GBP,nan,False,False
+JRXE,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+JRZD,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+JRZE,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+JSET,Europe,,,Government,Fixed Income,nan,nan,False,False
+JSGI,Asia,Eastern Asia,Japan,Small Cap,Equity,nan,nan,False,False
+JT13,Asia,Eastern Asia,Japan,Government,Fixed Income,nan,nan,False,False
+JU13,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+JUKC,Europe,Northern Europe,United Kingdom,Large Cap,Equity,nan,nan,False,False
+JUKE,Europe,Northern Europe,United Kingdom,Large Cap,Equity,nan,nan,False,False
+JURE,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+JUSC,Americas,Northern America,United States,Small Cap,Equity,nan,nan,False,False
+JZCP,,,,Private Equity,Equity,nan,nan,False,False
+KA50,Asia,Eastern Asia,China,Large Cap,Equity,nan,nan,False,False
+KARP,,,,Electric Cars,Equity,nan,nan,False,False
+KARS,,,,Electric Cars,Equity,nan,nan,False,False
+KAY,Europe,Northern Europe,United Kingdom,Technology,VCT,nan,nan,False,False
+KBND,Asia,Eastern Asia,China,Aggregate,Fixed Income,nan,nan,False,False
+KESG,Asia,Eastern Asia,China,All Cap,Equity,nan,nan,False,False
+KLMG,,,,Aggregate,Fixed Income,GBP,nan,False,False
+KLWD,,,,Cloud Computing and Internet,Equity,nan,nan,False,False
+KOIN,,,,Blockchain,Equity,nan,nan,False,False
+KOIP,,,,Blockchain,Equity,nan,nan,False,False
+KPC,,,,Large/Mid Cap,Equity,nan,nan,False,False
+KRM,,,,Fintech,Equity,nan,nan,False,False
+KROG,,,,Food Technology,Equity,nan,nan,False,False
+KROP,,,,Food Technology,Equity,nan,nan,False,False
+KRW,Asia,Eastern Asia,South Korea,Large/Mid Cap,Equity,nan,nan,False,False
+KRWL,Asia,Eastern Asia,South Korea,Large/Mid Cap,Equity,nan,nan,False,False
+KSTP,Asia,Eastern Asia,China,Large Cap,Equity,nan,nan,False,False
+KSTR,Asia,Eastern Asia,China,Large Cap,Equity,nan,nan,False,False
+KURE,Asia,Eastern Asia,China,Healthcare,Equity,nan,nan,False,False
+KWBE,Asia,Eastern Asia,China,Cloud Computing and Internet,Equity,nan,nan,False,False
+KWBP,Asia,Eastern Asia,China,Cloud Computing and Internet,Equity,nan,nan,False,False
+KWEB,Asia,Eastern Asia,China,Cloud Computing and Internet,Equity,nan,nan,False,False
+L100,Europe,Northern Europe,United Kingdom,Large Cap,Equity,nan,nan,False,False
+L6EW,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+LAGR,,,,Agriculture & Livestock,Commodity,nan,Long,False,False
+LALU,,,,Industrial Metals,Commodity,nan,Long,False,False
+LAUU,Oceania,Australia and New Zealand,Australia,Large Cap,Equity,nan,nan,False,False
+LAZG,,,,Optical Technology,Equity,nan,nan,False,False
+LAZR,,,,Optical Technology,Equity,nan,nan,False,False
+LBOW,Europe,Northern Europe,United Kingdom,Real Estate,Fixed Income,nan,nan,False,False
+LBRT,,,,Energy,Commodity,nan,Long,False,False
+LBUL,,,,Precious Metals,Commodity,nan,Long,False,False
+LCAL,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+LCAS,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+LCCN,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+LCFE,,,,Agriculture & Livestock,Commodity,nan,Long,False,False
+LCJD,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+LCJG,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,GBP,nan,False,False
+LCJP,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+LCNY,,,,Currency,Currency,nan,nan,False,False
+LCOC,,,,Agriculture & Livestock,Commodity,nan,Long,False,False
+LCOP,,,,Industrial Metals,Commodity,nan,Long,False,False
+LCOR,,,,Agriculture & Livestock,Commodity,nan,Long,False,False
+LCPE,Europe,,,Value,Equity,nan,nan,False,False
+LCRP,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+LCUD,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+LCUK,Europe,Northern Europe,United Kingdom,Large Cap,Equity,nan,nan,False,False
+LCUS,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+LCWD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+LCWL,,,,Large/Mid Cap,Equity,nan,nan,False,False
+LDAG,Asia,,,Income,Equity,nan,nan,False,False
+LDAP,Asia,,,Income,Equity,nan,nan,False,False
+LDCU,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+LDEG,Europe,,,Income,Equity,nan,nan,False,False
+LDEM,,,,Income,Equity,nan,nan,True,False
+LDEU,Europe,,,Income,Equity,nan,nan,False,False
+LDME,,,,Income,Equity,nan,nan,True,False
+LDUK,Europe,Northern Europe,United Kingdom,Income,Equity,nan,nan,False,False
+LEED,,,,Industrial Metals,Commodity,nan,nan,False,False
+LEGR,,,,Blockchain,Equity,nan,nan,False,False
+LEMA,,,,Large/Mid Cap,Equity,nan,nan,True,False
+LEMB,,,,Government,Fixed Income,nan,nan,True,False
+LEMD,,,,Large/Mid Cap,Equity,nan,nan,True,False
+LEML,,,,Large/Mid Cap,Equity,nan,nan,True,False
+LEMV,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+LERN,,,,Education Technology,Equity,nan,nan,False,False
+LESU,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+LESW,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+LEU3,,,,Currency,Currency,nan,Long,False,False
+LEUR,,,,Currency,Currency,nan,nan,False,False
+LGAG,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+LGAP,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+LGB3,,,,Currency,Currency,nan,Long,False,False
+LGBP,,,,Currency,Currency,nan,nan,False,False
+LGCF,,,,Broad Based,Commodity,nan,nan,False,False
+LGCU,,,,Broad Based,Commodity,nan,nan,False,False
+LGEG,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+LGEU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+LGGG,,,,All Cap,Equity,nan,nan,False,False
+LGGL,,,,All Cap,Equity,nan,nan,False,False
+LGJG,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+LGJP,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+LGUG,Americas,Northern America,United States,All Cap,Equity,nan,nan,False,False
+LGUK,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+LGUS,Americas,Northern America,United States,All Cap,Equity,nan,nan,False,False
+LIFE,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+LITG,,,,Batteries,Equity,nan,nan,False,False
+LITU,,,,Batteries,Equity,nan,nan,False,False
+LIVP,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+LIVU,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+LJP3,,,,Currency,Currency,nan,Long,False,False
+LJPY,,,,Currency,Currency,nan,nan,False,False
+LMS,,,,Private Equity,Equity,nan,nan,False,False
+LNGA,,,,Energy,Commodity,nan,Long,False,False
+LNIK,,,,Industrial Metals,Commodity,nan,Long,False,False
+LOCK,,,,Cybersecurity,Equity,nan,nan,False,False
+LOIL,,,,Energy,Commodity,nan,Long,False,False
+LOUF,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+LOWV,Americas,Northern America,United States,Minimum Volatility,Equity,nan,nan,False,False
+LPET,,,,Energy,Commodity,nan,Long,False,False
+LPLA,Americas,Latin America and the Caribbean,,Precious Metals,Commodity,nan,Long,False,False
+LQDA,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+LQDE,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+LQDG,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+LQDH,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+LQDS,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+LQEE,Americas,Northern America,United States,Corporate,Fixed Income,EUR,nan,False,False
+LQGH,Americas,Northern America,United States,Corporate,Fixed Income,GBP,nan,False,False
+LRNG,,,,Education Technology,Equity,nan,nan,False,False
+LSAA,,,,Other,Multi Asset,nan,nan,False,False
+LSIL,,,,Precious Metals,Commodity,nan,Long,False,False
+LSPU,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+LSPX,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+LSUG,,,,Agriculture & Livestock,Commodity,nan,Long,False,False
+LTAM,Americas,Latin America and the Caribbean,,Large/Mid Cap,Equity,nan,nan,False,False
+LTI,,,,Multi Asset,Multi Asset,nan,nan,False,False
+LUD5,,,,Currency,Currency,nan,Long,False,False
+LUK2,Europe,Northern Europe,United Kingdom,Large Cap,Equity,nan,Long,False,False
+LUMV,Americas,Northern America,United States,Minimum Volatility,Equity,nan,nan,False,False
+LUSC,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+LUTR,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+LUXG,,,,Consumer Discretionary,Equity,nan,nan,False,False
+LUXU,,,,Consumer Discretionary,Equity,nan,nan,False,False
+LVLC,,,,Minimum Volatility,Equity,nan,nan,False,False
+LVLG,,,,Minimum Volatility,Equity,nan,nan,False,False
+LVNG,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+LWDB,,,,Multi Asset,Multi Asset,nan,nan,False,False
+LWEA,,,,Agriculture & Livestock,Commodity,nan,Long,False,False
+LWI,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+LXUU,,,,Industrial Metals,Commodity,nan,nan,False,False
+M9SV,Asia,Eastern Asia,China,Minimum Volatility,Equity,nan,nan,False,False
+MACG,,,,Multi Asset - ESG,Equity,nan,nan,False,False
+MAGG,,,,Multi Asset - ESG,Equity,nan,nan,False,False
+MAGI,,,,Infrastructure,Equity,nan,nan,False,False
+MAJE,,,,Multi Asset,Multi Asset,nan,nan,False,False
+MAMG,,,,Multi Asset - ESG,Equity,nan,nan,False,False
+MATE,,,,Multi Asset,Multi Asset,nan,nan,False,False
+MAV4,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+MAVT,,,,Multi Asset,Multi Asset,nan,nan,False,False
+MCHN,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+MCHS,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+MCHT,Asia,Eastern Asia,China,Technology,Equity,nan,nan,False,False
+MCTS,Asia,Eastern Asia,China,Technology,Equity,nan,nan,False,False
+MCUU,,,,Industrial Metals,Commodity,nan,nan,False,False
+MDBG,,,,Government,Fixed Income,nan,nan,False,False
+MDBU,,,,Government,Fixed Income,nan,nan,False,False
+METE,,,,Metaverse,Equity,nan,nan,False,False
+METP,,,,Metaverse,Equity,nan,nan,False,False
+METR,,,,Metaverse,Equity,nan,nan,False,False
+METU,,,,Metaverse,Equity,nan,nan,False,False
+MEUD,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+MEUG,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+MEUS,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+MEXP,Americas,Latin America and the Caribbean,Mexico,Government,Fixed Income,nan,nan,False,False
+MEXS,Americas,Latin America and the Caribbean,Mexico,Government,Fixed Income,nan,nan,False,False
+MFDD,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+MFEX,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+MGCI,,,,Aggregate,Fixed Income,nan,nan,False,False
+MHN,,,,Energy,Equity,nan,nan,False,False
+MIBX,Europe,Southern Europe,Italy,Large Cap,Equity,nan,nan,False,False
+MIDD,Europe,Northern Europe,United Kingdom,Mid Cap,Equity,nan,nan,False,False
+MIG,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+MIG1,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+MIG3,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+MIG4,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+MIG5,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+MIGO,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+MILL,,,,Millenials,Equity,nan,nan,False,False
+MINI,Europe,Northern Europe,United Kingdom,Micro Cap,Equity,nan,nan,False,False
+MINT,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+MINV,,,,Minimum Volatility,Equity,nan,nan,False,False
+MIST,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+MIVO,Europe,,,Minimum Volatility,Equity,nan,nan,False,False
+MIX,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+MKUW,Asia,Western Asia,Kuwait,Large/Mid Cap,Equity,nan,nan,False,False
+MLPD,Americas,Northern America,United States,Energy Infrastructure,Equity,nan,nan,False,False
+MLPI,Americas,Northern America,United States,Energy Infrastructure,Equity,nan,nan,False,False
+MLPP,Americas,Northern America,United States,Energy Infrastructure,Equity,nan,nan,False,False
+MLPQ,Americas,Northern America,United States,Energy Infrastructure,Equity,nan,nan,False,False
+MLPS,Americas,Northern America,United States,Energy Infrastructure,Equity,nan,nan,False,False
+MLPX,Americas,Northern America,United States,Energy Infrastructure,Equity,nan,nan,False,False
+MMIT,,,,All Cap,Equity,nan,nan,True,False
+MMLP,Americas,Northern America,United States,Energy Infrastructure,Equity,nan,nan,False,False
+MMS,Europe,,,Small Cap,Equity,nan,nan,False,False
+MNKS,,,,Large/Mid Cap,Equity,nan,nan,False,False
+MNL,,,,Multi Asset,Multi Asset,nan,nan,False,False
+MNP,,,,All Cap,Equity,nan,nan,False,False
+MNTC,,,,Private Equity,Equity,nan,nan,False,False
+MNTN,,,,Other,Multi Asset,nan,nan,False,False
+MOAT,Americas,Northern America,United States,Wide Moat,Equity,nan,nan,False,False
+MOBI,,,,Future Mobility,Equity,nan,nan,False,False
+MOGB,Americas,Northern America,United States,Wide Moat,Equity,nan,nan,False,False
+MPLF,,,,Loans,Fixed Income,nan,nan,False,False
+MPLS,,,,Loans,Fixed Income,nan,nan,False,False
+MPO,,,,Real Estate,Equity,nan,nan,False,False
+MPXG,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+MRC,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+MRCH,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+MSAP,Asia,Western Asia,Saudi Arabia,Large/Mid Cap,Equity,nan,nan,False,False
+MSAU,Asia,Western Asia,Saudi Arabia,Large/Mid Cap,Equity,nan,nan,False,False
+MSDG,,,,Large/Mid Cap,Equity,nan,nan,True,False
+MSDU,,,,Large/Mid Cap,Equity,nan,nan,True,False
+MSED,Europe,,,Large Cap,Equity,nan,nan,False,False
+MSEU,Europe,,,Large Cap,Equity,nan,nan,False,False
+MSEX,Europe,,,Large Cap,Equity,GBP,nan,False,False
+MSRG,,,,Large/Mid Cap,Equity,nan,nan,True,False
+MSRU,,,,Large/Mid Cap,Equity,nan,nan,True,False
+MTE,Europe,,,Small Cap,Equity,nan,nan,False,False
+MTIX,Europe,,,Government,Fixed Income,nan,nan,False,False
+MTRL,Europe,,,Materials,Equity,nan,nan,False,False
+MTU,Europe,Northern Europe,United Kingdom,Small Cap,Equity,nan,nan,False,False
+MTVG,,,,Metaverse,Equity,nan,nan,False,False
+MTVR,,,,Metaverse,Equity,nan,nan,False,False
+MTXX,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+MUNI,Americas,Northern America,United States,Muni,Fixed Income,nan,nan,False,False
+MUNS,Americas,Northern America,United States,Muni,Fixed Income,nan,nan,False,False
+MUT,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+MVCT,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+MVEA,Americas,Northern America,United States,Minimum Volatility,Equity,nan,nan,False,False
+MVED,Europe,,,Minimum Volatility,Equity,nan,nan,False,False
+MVEE,Europe,,,Minimum Volatility,Equity,nan,nan,False,False
+MVEW,,,,Minimum Volatility,Equity,nan,nan,False,False
+MVI,,,,Small Cap,Equity,nan,nan,False,False
+MVIR,,,,Small/Mid Cap,Equity,nan,nan,False,False
+MVOL,,,,Minimum Volatility,Equity,nan,nan,False,False
+MVUS,Americas,Northern America,United States,Minimum Volatility,Equity,nan,nan,False,False
+MWRD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+MWY,,,,Multi Asset,Multi Asset,nan,nan,False,False
+MXEU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+MXFP,,,,Large/Mid Cap,Equity,nan,nan,True,False
+MXFS,,,,Large/Mid Cap,Equity,nan,nan,True,False
+MXJP,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+MXUD,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+MXUK,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+MXUS,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+MXWO,,,,Large/Mid Cap,Equity,nan,nan,False,False
+MXWS,,,,Large/Mid Cap,Equity,nan,nan,False,False
+MYI,,,,All Cap,Equity,nan,nan,False,False
+N400,Asia,Eastern Asia,Japan,Small/Mid Cap,Equity,nan,nan,False,False
+N4US,Asia,Eastern Asia,Japan,Small/Mid Cap,Equity,USD,nan,False,False
+NAIT,Americas,Northern America,,All Cap,Equity,nan,nan,False,False
+NAS,,,,Small Cap,Equity,nan,nan,False,False
+NASD,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+NASL,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+NATO,,,,Defense,Equity,nan,nan,False,False
+NATP,,,,Defense,Equity,nan,nan,False,False
+NAVF,Asia,Eastern Asia,Japan,Small Cap,Equity,nan,nan,False,False
+NBDD,,,,Special Situations,Fixed Income,nan,nan,False,False
+NBDG,,,,Special Situations,Fixed Income,nan,nan,False,False
+NBDX,,,,Special Situations,Fixed Income,nan,nan,False,False
+NBMI,,,,Aggregate,Fixed Income,nan,nan,False,False
+NBPE,,,,Private Equity,Equity,nan,nan,False,False
+NBPU,,,,Private Equity,Equity,nan,nan,False,False
+NCA2,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+NCYF,,,,High Yield,Fixed Income,nan,nan,False,False
+NDIA,Americas,Northern America,India,Large/Mid Cap,Equity,nan,nan,False,False
+NDUS,Europe,,,Industrials,Equity,nan,nan,False,False
+NESF,,,,Clean Energy,Equity,nan,nan,False,False
+NESG,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+NESP,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+NGAG,,,,Energy,Commodity,nan,nan,False,False
+NGAS,,,,Energy,Commodity,nan,nan,False,False
+NGAU,,,,Energy,Commodity,nan,nan,False,False
+NGSP,,,,Energy,Commodity,nan,nan,False,False
+NICK,,,,Industrial Metals,Commodity,nan,nan,False,False
+NIKU,,,,Industrial Metals,Commodity,nan,nan,False,False
+NRAM,Americas,Northern America,,Large/Mid Cap,Equity,nan,nan,False,False
+NRAU,Americas,Northern America,,Large/Mid Cap,Equity,nan,nan,False,False
+NRJC,Europe,Western Europe,France,Clean Energy,Equity,nan,nan,False,False
+NRJL,,,,Clean Energy,Equity,nan,nan,False,False
+NRJU,,,,Clean Energy,Equity,nan,nan,False,False
+NSI,,,,Multi Asset,Multi Asset,nan,nan,False,False
+NTN,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+NTV,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+NUCG,,,,Clean Energy,Equity,nan,nan,False,False
+NUCL,,,,Clean Energy,Equity,nan,nan,False,False
+NVT,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+NXTG,,,,Clean Energy,Equity,nan,nan,False,False
+NXTU,,,,Clean Energy,Equity,nan,nan,False,False
+OAP3,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+OCI,,,,Private Equity,Equity,nan,nan,False,False
+OIG,,,,Small Cap,Equity,nan,nan,False,False
+OIGB,Americas,Northern America,United States,Oil and Gas Services,Equity,nan,nan,False,False
+OIHV,Americas,Northern America,United States,Oil and Gas Services,Equity,nan,nan,False,False
+OIL2,,,,Energy,Commodity,nan,nan,False,False
+OIL3,,,,Energy,Commodity,nan,nan,False,False
+OILG,,,,Energy,Commodity,nan,nan,False,False
+OILU,,,,Energy,Commodity,nan,nan,False,False
+OIT,Europe,Northern Europe,United Kingdom,Small Cap,Equity,nan,nan,False,False
+OMXS,Europe,Northern Europe,Sweden,Large/Mid Cap,Equity,nan,nan,False,False
+ONWD,Europe,Northern Europe,United Kingdom,Small Cap,Equity,nan,nan,False,False
+OOA,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+OPEN,,,,Inclusion and Diversity,Equity,nan,nan,False,False
+ORIT,,,,Infrastructure,Equity,nan,nan,False,False
+OSEC,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+OT1,Europe,Northern Europe,United Kingdom,Technology,VCT,nan,nan,False,False
+OT3,Europe,Northern Europe,United Kingdom,Technology,VCT,nan,nan,False,False
+OT4,Europe,Northern Europe,United Kingdom,Technology,VCT,nan,nan,False,False
+OTV2,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+OUFU,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+OXH,Europe,Northern Europe,United Kingdom,Technology,VCT,nan,nan,False,False
+PABC,Asia,Eastern Asia,China,All Cap,Equity,nan,nan,False,False
+PABE,,,,Large/Mid Cap,Equity,nan,nan,True,False
+PABG,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+PABL,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+PABS,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+PABU,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+PABW,,,,Large/Mid Cap,Equity,nan,nan,False,False
+PAC,Asia,,,All Cap,Equity,nan,nan,False,False
+PADV,Asia,,,Income,Equity,nan,nan,False,False
+PAEM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+PAES,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+PAEX,,,,Large/Mid Cap,Equity,nan,nan,True,False
+PAJP,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+PAJS,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+PARI,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+PAUS,,,,Large/Mid Cap,Equity,nan,nan,False,False
+PAUX,,,,Large/Mid Cap,Equity,nan,nan,False,False
+PAVE,,,,Infrastructure,Equity,nan,nan,False,False
+PAVG,,,,Infrastructure,Equity,nan,nan,False,False
+PAWD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+PAWS,,,,Large/Mid Cap,Equity,nan,nan,False,False
+PAWZ,,,,Pet Care,Equity,nan,nan,False,False
+PAXG,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+PAXJ,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+PAYG,,,,Fintech,Equity,nan,nan,False,False
+PBRT,,,,Energy,Commodity,GBP,nan,False,False
+PCFT,,,,Financial Services,Equity,nan,nan,False,False
+PCGH,,,,Healthcare,Equity,nan,nan,False,False
+PCOM,,,,Broad Based,Commodity,nan,nan,False,False
+PCRD,,,,Energy,Commodity,GBP,nan,False,False
+PCT,,,,Technology,Equity,nan,nan,False,False
+PEMB,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+PEMD,,,,Aggregate,Fixed Income,nan,nan,True,False
+PETZ,,,,Pet Care,Equity,nan,nan,False,False
+PEX,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+PEY,,,,Private Equity,Equity,nan,nan,False,False
+PEYS,,,,Private Equity,Equity,nan,nan,False,False
+PGOO,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+PHAG,,,,Precious Metals,Commodity,nan,nan,False,False
+PHAU,,,,Precious Metals,Commodity,nan,nan,False,False
+PHEF,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+PHGP,,,,Precious Metals,Commodity,nan,nan,False,False
+PHI,Asia,,,All Cap,Equity,nan,nan,False,False
+PHPD,,,,Precious Metals,Commodity,nan,nan,False,False
+PHPM,,,,Precious Metals,Commodity,nan,nan,False,False
+PHPP,,,,Precious Metals,Commodity,nan,nan,False,False
+PHPT,,,,Precious Metals,Commodity,nan,nan,False,False
+PHSP,,,,Precious Metals,Commodity,nan,nan,False,False
+PIGI,,,,Infrastructure - Digital,Equity,nan,nan,False,False
+PIMT,,,,Industrial Metals,Commodity,GBP,nan,False,False
+PIN,,,,Private Equity,Equity,nan,nan,False,False
+PINT,,,,Infrastructure,Equity,nan,nan,False,False
+PLAN,,,,Corporate,Fixed Income,nan,nan,False,False
+PLTU,,,,Precious Metals,Commodity,nan,nan,False,False
+PMGR,,,,Clean Energy,Equity,nan,nan,False,False
+PMLP,Americas,Northern America,United States,Energy Infrastructure,Equity,nan,nan,False,False
+PMNT,,,,Fintech,Equity,nan,nan,False,False
+PNL,,,,Multi Asset,Multi Asset,nan,nan,False,False
+POLN,,,,Aggregate,Fixed Income,nan,nan,False,False
+PPDX,,,,Precious Metals,Commodity,nan,nan,False,False
+PPTX,,,,Precious Metals,Commodity,nan,nan,False,False
+PQVG,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+PQVM,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+PR1T,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+PRAC,Americas,Northern America,United States,Prefs,Fixed Income,nan,nan,False,False
+PRAM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+PRAU,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+PRFD,Americas,Northern America,United States,Prefs,Fixed Income,nan,nan,False,False
+PRFP,Americas,Northern America,United States,Prefs,Fixed Income,nan,nan,False,False
+PRIC,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+PRIE,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+PRIG,,,,Government,Fixed Income,nan,nan,False,False
+PRIJ,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+PRIP,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+PRIR,Europe,,,Government,Fixed Income,nan,nan,False,False
+PRIT,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+PRIU,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+PRIW,,,,Large/Mid Cap,Equity,nan,nan,False,False
+PRIZ,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+PRJU,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+PRMG,,,,Precious Metals,Commodity,nan,nan,False,False
+PRMU,,,,Precious Metals,Commodity,nan,nan,False,False
+PRUC,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+PRUK,Europe,Northern Europe,United Kingdom,Small/Mid Cap,Equity,nan,nan,False,False
+PRUS,Americas,Northern America,United States,Value,Equity,nan,nan,False,False
+PRWU,,,,Large/Mid Cap,Equity,nan,nan,False,False
+PSH,Americas,Northern America,United States,All Cap,Equity,nan,nan,False,False
+PSHD,Americas,Northern America,United States,All Cap,Equity,nan,nan,False,False
+PSRE,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+PSRF,Americas,Northern America,United States,Value,Equity,nan,nan,False,False
+PSRM,,,,All Cap,Equity,nan,nan,True,False
+PSRU,Europe,Northern Europe,United Kingdom,Large Cap,Equity,nan,nan,False,False
+PSRW,,,,All Cap,Equity,nan,nan,False,False
+PU13,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+PUIG,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+PUIP,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+PUS3,,,,Currency,Currency,nan,Long,False,False
+PUS5,,,,Currency,Currency,nan,Long,False,False
+PVN,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+QCLN,,,,Clean Energy,Equity,nan,nan,False,False
+QCLU,,,,Clean Energy,Equity,nan,nan,False,False
+QDFD,,,,Income,Equity,nan,nan,False,False
+QDIV,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+QUID,Europe,Northern Europe,United Kingdom,Corporate,Fixed Income,nan,nan,False,False
+QVFD,,,,Minimum Volatility,Equity,nan,nan,False,False
+QYLD,,,,Derivative,Equity,nan,nan,False,False
+QYLP,,,,Derivative,Equity,nan,nan,False,False
+QYLU,,,,Derivative,Equity,nan,nan,False,False
+R1GR,Americas,Northern America,United States,Growth,Equity,nan,nan,False,False
+R1VL,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+R2SC,Americas,Northern America,United States,Small Cap,Equity,nan,nan,False,False
+R2US,Americas,Northern America,United States,Small Cap,Equity,nan,nan,False,False
+RAYG,,,,Clean Energy,Equity,nan,nan,False,False
+RAYS,,,,Clean Energy,Equity,nan,nan,False,False
+RAYZ,,,,Clean Energy,Equity,nan,nan,False,False
+RBOD,,,,Automation & Robotics,Equity,nan,nan,False,False
+RBOT,,,,Automation & Robotics,Equity,nan,nan,False,False
+RBTX,,,,Automation & Robotics,Equity,nan,nan,False,False
+RC2,,,,Private Equity,Real Asset,nan,nan,False,False
+RCOI,,,,Loans,Fixed Income,nan,nan,False,False
+RCP,,,,Large/Mid Cap,Equity,nan,nan,False,False
+RECI,,,,Real Estate,Equity,nan,nan,False,False
+RECY,,,,Waste Recycling,Equity,nan,nan,False,False
+REGB,,,,Rare Earths,Equity,nan,nan,False,False
+REMX,,,,Rare Earths,Equity,nan,nan,False,False
+RENG,,,,Clean Energy,Equity,nan,nan,False,False
+RENW,,,,Clean Energy,Equity,nan,nan,False,False
+REUG,,,,Circular Economy,Equity,nan,nan,False,False
+REUS,,,,Circular Economy,Equity,nan,nan,False,False
+RHM,,,,Music Royalty,Equity,nan,nan,False,False
+RHMP,,,,Music Royalty,Equity,nan,nan,False,False
+RIAG,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+RIAP,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+RICI,,,,Broad Based,Commodity,nan,nan,False,False
+RIEG,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+RIEU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+RIII,Europe,Northern Europe,United Kingdom,Small Cap,Equity,nan,nan,False,False
+RIJG,,,,Large/Mid Cap,Equity,nan,nan,False,False
+RIJP,,,,Large/Mid Cap,Equity,nan,nan,False,False
+RIOL,Americas,Latin America and the Caribbean,Brazil,Large/Mid Cap,Equity,nan,nan,False,False
+RIOU,Americas,Latin America and the Caribbean,Brazil,Large/Mid Cap,Equity,nan,nan,False,False
+RISE,,,,High Yield,Fixed Income,nan,nan,False,False
+RIUG,,,,Large/Mid Cap,Equity,nan,nan,False,False
+RIUS,,,,Large/Mid Cap,Equity,nan,nan,False,False
+RKW,Europe,Northern Europe,United Kingdom,Small Cap,Equity,nan,nan,False,False
+RMII,,,,Infrastructure,Equity,nan,nan,False,False
+RMMC,Europe,Northern Europe,United Kingdom,Micro Cap,Equity,nan,nan,False,False
+RNRG,,,,Clean Energy,Equity,nan,nan,False,False
+RNRU,,,,Clean Energy,Equity,nan,nan,False,False
+ROAI,,,,Automation & Robotics,Equity,nan,nan,False,False
+ROBG,,,,Automation & Robotics,Equity,nan,nan,False,False
+ROBO,,,,Automation & Robotics,Equity,nan,nan,False,False
+ROLG,,,,Broad Based,Commodity,nan,nan,False,False
+ROLL,,,,Broad Based,Commodity,nan,nan,False,False
+ROOF,,,,Clean Energy,Equity,nan,nan,False,False
+RPAB,Europe,,,Climate Transition,Equity,nan,nan,False,False
+RQFI,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+RS2G,Americas,Northern America,United States,Small Cap,Equity,nan,nan,False,False
+RS2U,Americas,Northern America,United States,Small Cap,Equity,nan,nan,False,False
+RSE,,,,Energy,Equity,nan,nan,False,False
+RSGL,Americas,Northern America,United States,Growth,Equity,nan,nan,False,False
+RTW,,,,Healthcare Innovations,Equity,nan,nan,False,False
+RTWG,,,,Healthcare Innovations,Equity,nan,nan,False,False
+RTWO,Americas,Northern America,United States,Small Cap,Equity,nan,nan,False,False
+RTWP,Americas,Northern America,United States,Small Cap,Equity,nan,nan,False,False
+RTYS,Americas,Northern America,United States,Small Cap,Equity,nan,nan,False,False
+RUSG,Americas,Northern America,United States,Growth,Equity,nan,nan,False,False
+S100,Europe,Northern Europe,United Kingdom,Large Cap,Equity,nan,nan,False,False
+S250,Europe,Northern Europe,United Kingdom,Mid Cap,Equity,nan,nan,False,False
+S400,Asia,Eastern Asia,Japan,Small/Mid Cap,Equity,nan,nan,False,False
+S5EE,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+S5EG,Americas,Northern America,United States,Large Cap,Equity,GBP,nan,False,False
+S5SD,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+S600,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+S6EW,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+S7XP,Europe,,,Financial Services,Equity,nan,nan,False,False
+SAAA,,,,Government,Fixed Income,nan,nan,False,False
+SADA,Asia,,,Large/Mid Cap,Equity,nan,nan,True,False
+SAEM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+SAEU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+SAGG,,,,Aggregate,Fixed Income,nan,nan,False,False
+SAIN,,,,Income,Equity,nan,nan,False,False
+SAJP,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+SALL,,,,Broad Based,Commodity,nan,Short,False,False
+SAPA,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+SASU,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+SAUM,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+SAUS,Oceania,Australia and New Zealand,Australia,Large/Mid Cap,Equity,nan,nan,False,False
+SAWD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+SBEG,,,,Government,Fixed Income,nan,nan,True,False
+SBEM,,,,Government,Fixed Income,nan,nan,True,False
+SBIO,Americas,Northern America,United States,Healthcare Innovations,Equity,nan,nan,False,False
+SBO,Europe,Northern Europe,United Kingdom,Mid Cap,Equity,nan,nan,False,False
+SBRT,,,,Energy,Commodity,nan,Short,False,False
+SBUL,,,,Precious Metals,Commodity,nan,Short,False,False
+SBUS,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+SBUY,,,,Buyback,Equity,nan,nan,False,False
+SCF,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+SCNY,,,,Currency,Currency,nan,nan,False,False
+SCOP,,,,Industrial Metals,Commodity,nan,Short,False,False
+SCP,Europe,Northern Europe,United Kingdom,Mid Cap,Equity,nan,nan,False,False
+SDEU,Europe,Western Europe,Germany,Government,Fixed Income,nan,nan,False,False
+SDG3,,,,Healthcare Innovations,Equity,nan,nan,False,False
+SDG6,,,,Utilities - Water,Equity,nan,nan,False,False
+SDG7,,,,Clean Energy,Equity,nan,nan,False,False
+SDG9,,,,Innovation,Equity,nan,nan,False,False
+SDGX,,,,Large/Mid Cap,Equity,nan,nan,False,False
+SDHA,Americas,Northern America,United States,High Yield,Fixed Income,nan,nan,False,False
+SDHG,Americas,Northern America,United States,High Yield,Fixed Income,nan,nan,False,False
+SDHY,Americas,Northern America,United States,High Yield,Fixed Income,nan,nan,False,False
+SDIA,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+SDIG,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+SDIP,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+SDIU,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+SDIV,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+SDJP,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+SDP,Asia,,,All Cap,Equity,nan,nan,False,False
+SDUE,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+SDUS,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+SDV,Europe,Northern Europe,United Kingdom,Income,Equity,nan,nan,False,False
+SDWD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+SE15,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+SEAG,Europe,,,Aggregate,Fixed Income,nan,nan,False,False
+SEC,Europe,Northern Europe,United Kingdom,Small Cap,Equity,nan,nan,False,False
+SEDM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+SEDY,,,,Income,Equity,nan,nan,True,False
+SEED,,,,Private Equity,Equity,nan,nan,False,False
+SEGA,Europe,,,Government,Fixed Income,nan,nan,False,False
+SEGM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+SEMA,,,,Large/Mid Cap,Equity,nan,nan,True,False
+SEMB,,,,Aggregate,Fixed Income,nan,nan,True,False
+SEMC,,,,Aggregate,Fixed Income,nan,nan,True,False
+SEMG,,,,Semiconductors,Equity,nan,nan,False,False
+SEMH,,,,Government,Fixed Income,nan,nan,True,False
+SEML,,,,Local Currency,Fixed Income,nan,nan,True,False
+SEMU,,,,Semiconductors,Equity,nan,nan,False,False
+SEPA,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+SEQI,,,,Infrastructure,Equity,nan,nan,False,False
+SETM,,,,Materials - Energy Transition,Equity,nan,nan,False,False
+SETP,,,,Materials - Energy Transition,Equity,nan,nan,False,False
+SEU3,,,,Currency,Currency,nan,Long,False,False
+SEUC,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+SEUR,,,,Currency,Currency,nan,nan,False,False
+SGB3,,,,Currency,Currency,nan,Long,False,False
+SGBP,,,,Currency,Currency,nan,nan,False,False
+SGBS,,,,Precious Metals,Commodity,nan,nan,False,False
+SGBX,,,,Precious Metals,Commodity,nan,nan,False,False
+SGEA,,,,Local Currency,Fixed Income,nan,nan,True,False
+SGIL,,,,Government,Fixed Income,nan,nan,False,False
+SGJP,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+SGLO,,,,Government,Fixed Income,nan,nan,False,False
+SGQD,,,,Income,Equity,nan,nan,False,False
+SGQL,,,,Income,Equity,nan,nan,False,False
+SGQX,,,,Income,Equity,GBP,nan,False,False
+SGSU,,,,Corporate,Fixed Income,GBP,nan,False,False
+SGWS,,,,Large/Mid Cap,Equity,nan,nan,False,False
+SHIP,,,,Other,Multi Asset,nan,nan,False,False
+SHLD,,,,Cybersecurity,Equity,nan,nan,False,False
+SHLG,,,,Cybersecurity,Equity,nan,nan,False,False
+SHPP,,,,Other,Multi Asset,nan,nan,False,False
+SHRS,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+SHYG,,,,High Yield,Fixed Income,nan,nan,False,False
+SHYU,,,,High Yield,Fixed Income,nan,nan,False,False
+SIGC,,,,All Cap,Equity,nan,nan,False,False
+SILG,,,,Mining - Silver,Equity,nan,nan,False,False
+SILP,,,,Precious Metals,Commodity,nan,nan,False,False
+SILV,,,,Mining - Silver,Equity,nan,nan,False,False
+SIME,,,,Industrial Metals,Commodity,nan,Short,False,False
+SIUS,,,,Precious Metals,Commodity,nan,nan,False,False
+SJG,Asia,Eastern Asia,Japan,All Cap,Equity,nan,nan,False,False
+SJNK,Americas,Northern America,United States,High Yield,Fixed Income,nan,nan,False,False
+SJP3,,,,Currency,Currency,nan,Long,False,False
+SJPA,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+SJPY,,,,Currency,Currency,nan,nan,False,False
+SKYP,,,,Cloud Computing and Internet,Equity,nan,nan,False,False
+SKYU,,,,Cloud Computing and Internet,Equity,nan,nan,False,False
+SKYY,,,,Cloud Computing and Internet,Equity,nan,nan,False,False
+SLFR,,,,Other,Multi Asset,nan,nan,False,False
+SLFX,,,,Other,Multi Asset,nan,nan,False,False
+SLVR,,,,Precious Metals,Commodity,nan,nan,False,False
+SLXX,,,,Aggregate,Fixed Income,nan,nan,False,False
+SMBS,Americas,Northern America,United States,MBS,Fixed Income,nan,nan,False,False
+SMEA,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+SMEU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+SMGB,,,,Semiconductors,Equity,nan,nan,False,False
+SMH,,,,Semiconductors,Equity,nan,nan,False,False
+SMIF,,,,Aggregate,Fixed Income,nan,nan,False,False
+SMPA,,,,Large/Mid Cap,Equity,nan,nan,True,False
+SMRU,,,,Large/Mid Cap,Equity,nan,nan,False,False
+SMT,,,,Large/Mid Cap,Equity,nan,nan,False,False
+SMTC,Americas,Northern America,United States,Cash,Fixed Income,nan,nan,False,False
+SMUD,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+SNGA,,,,Energy,Commodity,nan,Short,False,False
+SNIK,,,,Industrial Metals,Commodity,nan,Short,False,False
+SNSG,,,,Cloud Computing and Internet,Equity,nan,nan,False,False
+SNSR,,,,Cloud Computing and Internet,Equity,nan,nan,False,False
+SOI,Asia,,,Income,Equity,nan,nan,False,False
+SOIL,,,,Energy,Commodity,nan,Short,False,False
+SOND,,,,Music Royalty,Equity,nan,nan,False,False
+SONG,,,,Music Royalty,Equity,nan,nan,False,False
+SOYB,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+SOYO,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+SOYU,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+SP5C,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+SP5G,Americas,Northern America,United States,Large Cap,Equity,GBP,nan,False,False
+SP5L,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+SPAG,,,,Agribusiness,Equity,nan,nan,False,False
+SPDA,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+SPED,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+SPEH,Europe,Southern Europe,Spain,Government,Fixed Income,USD,nan,False,False
+SPEP,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+SPEQ,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+SPES,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+SPEX,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+SPGP,,,,Mining - Gold,Equity,nan,nan,False,False
+SPLG,Americas,Northern America,United States,Minimum Volatility,Equity,nan,nan,False,False
+SPLW,Americas,Northern America,United States,Minimum Volatility,Equity,nan,nan,False,False
+SPMD,Americas,Northern America,United States,Minimum Volatility,Equity,nan,nan,False,False
+SPMV,Americas,Northern America,United States,Minimum Volatility,Equity,nan,nan,False,False
+SPOG,,,,Oil and Gas,Equity,nan,nan,False,False
+SPOL,Europe,Eastern Europe,Poland,Large/Mid Cap,Equity,nan,nan,False,False
+SPPB,Europe,Southern Europe,Spain,Government,Fixed Income,GBP,nan,False,False
+SPQB,Americas,Northern America,United States,Quarterly Buffer,Equity,nan,nan,False,False
+SPQH,Americas,Northern America,United States,Quarterly Tail Hedge,Equity,nan,nan,False,False
+SPUD,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+SPUG,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+SPX4,Americas,Northern America,United States,Mid Cap,Equity,nan,nan,False,False
+SPX5,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+SPXD,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+SPXE,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+SPXJ,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+SPXP,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+SPXS,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+SPY4,Americas,Northern America,United States,Mid Cap,Equity,nan,nan,False,False
+SPY5,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+SQBP,Americas,Northern America,United States,Quarterly Buffer,Equity,nan,nan,False,False
+SQHP,Americas,Northern America,United States,Quarterly Tail Hedge,Equity,nan,nan,False,False
+SRHE,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+SRIU,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+SRIW,,,,Large/Mid Cap,Equity,nan,nan,False,False
+SRSA,Africa,Sub-Saharan Africa,South Africa,Large/Mid Cap,Equity,nan,nan,False,False
+SRUG,Americas,Northern America,United States,Large/Mid Cap,Equity,GBP,nan,False,False
+SRWG,,,,Large/Mid Cap,Equity,GBP,nan,False,False
+SSAC,,,,Large/Mid Cap,Equity,nan,nan,False,False
+SSHY,Americas,Northern America,United States,High Yield,Fixed Income,nan,nan,False,False
+SSIF,,,,Aggregate,Fixed Income,nan,nan,False,False
+SSIL,,,,Precious Metals,Commodity,nan,Short,False,False
+SSON,,,,Small/Mid Cap,Equity,nan,nan,False,False
+SST,Asia,,,Small Cap,Equity,nan,nan,False,False
+SSXF,Europe,Northern Europe,United Kingdom,Corporate,Fixed Income,nan,nan,False,False
+STEA,Americas,Northern America,United States,High Yield,Fixed Income,nan,nan,False,False
+STHE,Americas,Northern America,United States,High Yield,Fixed Income,nan,nan,False,False
+STHS,Americas,Northern America,United States,High Yield,Fixed Income,nan,nan,False,False
+STHY,Americas,Northern America,United States,High Yield,Fixed Income,nan,nan,False,False
+STPH,Americas,Northern America,United States,Derivative,Derivative,GBP,nan,False,False
+STPU,Americas,Northern America,United States,Derivative,Derivative,nan,nan,False,False
+STS,,,,All Cap,Equity,nan,nan,False,False
+STYC,Americas,Northern America,United States,High Yield,Fixed Income,nan,nan,False,False
+SUAG,Americas,Northern America,United States,Aggregate,Fixed Income,nan,nan,False,False
+SUAP,Americas,Northern America,United States,Large/Mid Cap,Equity,GBP,nan,False,False
+SUAS,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+SUD5,,,,Currency,Currency,nan,Long,False,False
+SUES,,,,Large/Mid Cap,Equity,nan,nan,True,False
+SUGA,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+SUJA,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+SUJP,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+SUJS,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,EUR,nan,False,False
+SUK2,Europe,Northern Europe,United Kingdom,Large Cap,Equity,nan,Short,False,False
+SUKC,Europe,Northern Europe,United Kingdom,Corporate,Fixed Income,nan,nan,False,False
+SUOE,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+SUOG,Europe,Northern Europe,United Kingdom,Corporate,Fixed Income,nan,nan,False,False
+SUOP,Europe,Northern Europe,United Kingdom,Corporate,Fixed Income,GBP,nan,False,False
+SUP3,,,,Currency,Currency,nan,Long,False,False
+SUP5,,,,Currency,Currency,nan,Long,False,False
+SUSC,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+SUSD,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+SUSM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+SUSS,,,,Corporate,Fixed Income,nan,nan,False,False
+SUSU,,,,Corporate,Fixed Income,nan,nan,False,False
+SUSW,,,,Large/Mid Cap,Equity,nan,nan,False,False
+SUUS,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+SUWG,,,,Large/Mid Cap,Equity,nan,nan,False,False
+SUWS,,,,Large/Mid Cap,Equity,nan,nan,False,False
+SVCT,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+SVM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+SWDA,,,,Large/Mid Cap,Equity,nan,nan,False,False
+SWEF,,,,Real Estate,Equity,nan,nan,False,False
+SWLD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+SWLH,,,,Large/Mid Cap,Equity,GBP,nan,False,False
+SWPA,,,,Large/Mid Cap,Equity,nan,nan,False,False
+SWRD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+SX5S,Europe,,,Large Cap,Equity,nan,nan,False,False
+SXLB,Americas,Northern America,United States,Materials,Equity,nan,nan,False,False
+SXLC,Americas,Northern America,United States,Communication Services,Equity,nan,nan,False,False
+SXLE,Americas,Northern America,United States,Energy,Equity,nan,nan,False,False
+SXLF,Americas,Northern America,United States,Financial Services,Equity,nan,nan,False,False
+SXLI,Americas,Northern America,United States,Industrials,Equity,nan,nan,False,False
+SXLK,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+SXLP,Americas,Northern America,United States,Consumer Staples,Equity,nan,nan,False,False
+SXLU,Americas,Northern America,United States,Utilities,Equity,nan,nan,False,False
+SXLV,Americas,Northern America,United States,Healthcare,Equity,nan,nan,False,False
+SXLY,Americas,Northern America,United States,Consumer Discretionary,Equity,nan,nan,False,False
+SYNC,,,,Healthcare,Equity,nan,nan,False,False
+T10G,Americas,Northern America,United States,Government,Fixed Income,GBP,nan,False,False
+T1AP,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+T3GB,Americas,Northern America,United States,Government,Fixed Income,GBP,nan,False,False
+T3MP,,,,Climate Transition,Equity,nan,nan,False,False
+T3PM,,,,Climate Transition,Equity,nan,nan,False,False
+TAGB,Europe,,,Government,Fixed Income,nan,nan,False,False
+TAGD,Asia,,,High Yield,Fixed Income,nan,nan,False,False
+TAGH,Asia,,,High Yield,Fixed Income,nan,nan,False,False
+TAHY,Asia,,,High Yield,Fixed Income,nan,nan,False,False
+TANN,,,,Clean Energy,Equity,nan,nan,False,False
+TANP,,,,Clean Energy,Equity,nan,nan,False,False
+TCBT,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+TCGB,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+TDGB,,,,Income,Equity,nan,nan,False,False
+TDIV,,,,Income,Equity,nan,nan,False,False
+TECW,,,,Technology,Equity,nan,nan,False,False
+TEET,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+TEGB,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+TELE,Europe,,,Communication Services,Equity,nan,nan,False,False
+TEM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+TENT,,,,Energy,Equity,nan,nan,False,False
+TFG,,,,Multi Asset,Multi Asset,nan,nan,False,False
+TFGS,,,,Multi Asset,Multi Asset,nan,nan,False,False
+TFIF,Europe,,,Aggregate,Fixed Income,nan,nan,False,False
+TFRN,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TFRP,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TGBG,Europe,,,Government,Fixed Income,nan,nan,False,False
+TGBT,Europe,,,Government,Fixed Income,nan,nan,False,False
+TGCC,Asia,Western Asia,,Aggregate,Fixed Income,nan,nan,False,False
+TGGD,Asia,Western Asia,,Aggregate,Fixed Income,nan,nan,False,False
+THFA,,,,High Yield,Fixed Income,nan,nan,False,False
+THMG,,,,Large/Mid Cap,Equity,nan,nan,False,False
+THMZ,,,,Large/Mid Cap,Equity,nan,nan,False,False
+THRG,Europe,Northern Europe,United Kingdom,Small/Mid Cap,Equity,nan,nan,False,False
+TI5G,Americas,Northern America,United States,Government,Fixed Income,GBP,nan,False,False
+TIGB,Americas,Northern America,United States,Government,Fixed Income,GBP,nan,False,False
+TIGG,Asia,Southern Asia,India,Government,Fixed Income,nan,nan,False,False
+TIGR,Asia,Southern Asia,India,Government,Fixed Income,nan,nan,False,False
+TIGT,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+TINF,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TING,Americas,Northern America,United States,Government,Fixed Income,GBP,nan,False,False
+TINM,,,,Industrial Metals,Commodity,nan,nan,False,False
+TIP5,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TIPA,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TIPG,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TIPH,Americas,Northern America,United States,Government,Fixed Income,GBP,nan,False,False
+TIPS,Europe,,,Government,Fixed Income,nan,nan,False,False
+TIPU,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TMPL,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+TNOW,,,,Communication Services,Equity,nan,nan,False,False
+TORG,,,,Loans,Multi Asset,nan,nan,False,False
+TORO,,,,Loans,Fixed Income,nan,nan,False,False
+TP05,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TPHG,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+TPHU,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+TPOS,,,,Multi Asset,Multi Asset,nan,nan,False,False
+TPOU,,,,Multi Asset,Multi Asset,nan,nan,False,False
+TPV,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+TPXG,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+TPXU,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+TR3G,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TR7G,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TR7S,Americas,Northern America,United States,Government,Fixed Income,GBP,nan,False,False
+TRE,,,,Real Estate,Equity,nan,nan,False,False
+TRE3,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TRE7,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TREG,,,,Real Estate,Equity,nan,nan,False,False
+TREI,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TREL,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TRES,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TRET,,,,Real Estate,Equity,nan,nan,False,False
+TREX,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TRGB,Americas,Northern America,United States,Government,Fixed Income,GBP,nan,False,False
+TRIA,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TRIG,,,,Infrastructure,Equity,nan,nan,False,False
+TRIP,,,,Travel,Equity,nan,nan,False,False
+TRIS,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TRLG,Americas,Northern America,United States,Government,Fixed Income,GBP,nan,False,False
+TRLX,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TRS3,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TRS5,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TRSG,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TRSX,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TRSY,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TRXG,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TRXS,Americas,Northern America,United States,Government,Fixed Income,GBP,nan,False,False
+TRY,,,,Real Estate,Equity,nan,nan,False,False
+TRYP,,,,Travel,Equity,nan,nan,False,False
+TSGB,,,,Large/Mid Cap,Equity,nan,nan,False,False
+TSWE,,,,Large/Mid Cap,Equity,nan,nan,False,False
+TSY3,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+TURU,Asia,Western Asia,Turkey,Large/Mid Cap,Equity,nan,nan,False,False
+TV1,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+TV2A,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+TV2H,,,,Healthcare,VCT,nan,nan,False,False
+TV2V,,,,Healthcare,VCT,nan,nan,False,False
+U10C,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+U10G,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+U127,,,,Large/Mid Cap,Equity,nan,nan,True,False
+U13E,Americas,Northern America,United States,Government,Fixed Income,GBP,nan,False,False
+U13G,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+U37G,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+U37H,Americas,Northern America,United States,Government,Fixed Income,GBP,nan,False,False
+U71G,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+U71H,Americas,Northern America,United States,Government,Fixed Income,EUR,nan,False,False
+UAV,Europe,Northern Europe,United Kingdom,VCT,VCT,nan,nan,False,False
+UB00,,,,Real Estate,Equity,nan,nan,False,False
+UB01,,,,Real Estate,Equity,nan,nan,False,False
+UB02,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+UB03,Europe,Northern Europe,United Kingdom,Large Cap,Equity,nan,nan,False,False
+UB06,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+UB0A,Americas,Northern America,United States,Large/Mid Cap,Equity,GBP,nan,False,False
+UB0D,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,GBP,nan,False,False
+UB0E,Europe,,,Large/Mid Cap,Equity,GBP,nan,False,False
+UB0F,Europe,,,Large/Mid Cap,Equity,GBP,nan,False,False
+UB12,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+UB17,Europe,,,Value,Equity,nan,nan,False,False
+UB20,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+UB23,Americas,Northern America,Canada,Large/Mid Cap,Equity,nan,nan,False,False
+UB30,,,,Large/Mid Cap,Equity,nan,nan,True,False
+UB32,,,,Large/Mid Cap,Equity,nan,nan,True,False
+UB39,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+UB45,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+UB69,Europe,,,Small Cap,Equity,nan,nan,False,False
+UB74,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+UB82,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+UB99,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+UBIF,Europe,,,Government,Fixed Income,nan,nan,False,False
+UBTL,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+UBTP,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+UBTS,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+UBXX,,,,Aggregate,Fixed Income,nan,nan,True,False
+UC03,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+UC04,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+UC07,Americas,Northern America,United States,Value,Equity,nan,nan,False,False
+UC13,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+UC14,,,,Broad Based,Commodity,nan,nan,False,False
+UC15,,,,Broad Based,Commodity,nan,nan,False,False
+UC44,,,,Large/Mid Cap,Equity,nan,nan,False,False
+UC46,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+UC48,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+UC55,,,,Large/Mid Cap,Equity,nan,nan,False,False
+UC63,Europe,Northern Europe,United Kingdom,Large/Mid Cap,Equity,nan,nan,False,False
+UC64,Europe,Northern Europe,United Kingdom,Large/Mid Cap,Equity,nan,nan,False,False
+UC65,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+UC67,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+UC68,,,,Large/Mid Cap,Equity,nan,nan,False,False
+UC76,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+UC79,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+UC81,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+UC82,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+UC84,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+UC85,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+UC86,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+UC87,Americas,Northern America,Canada,Large/Mid Cap,Equity,GBP,nan,False,False
+UC90,,,,Broad Based,Commodity,nan,nan,False,False
+UC93,Europe,Western Europe,Switzerland,Large/Mid Cap,Equity,GBP,nan,False,False
+UC94,Europe,Western Europe,Switzerland,Large/Mid Cap,Equity,GBP,nan,False,False
+UC95,Americas,Northern America,United States,Minimum Volatility,Equity,nan,nan,False,False
+UC96,Americas,Northern America,United States,Value,Equity,GBP,nan,False,False
+UC97,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+UC98,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+UC99,Americas,Northern America,United States,Quality,Equity,nan,nan,False,False
+UCAP,Americas,Northern America,United States,Value,Equity,nan,nan,False,False
+UCRP,,,,Corporate,Fixed Income,nan,nan,False,False
+UD02,Europe,,,Minimum Volatility,Equity,nan,nan,False,False
+UD03,Europe,,,Value,Equity,nan,nan,False,False
+UD04,Europe,,,Quality,Equity,nan,nan,False,False
+UD06,,,,Broad Based,Commodity,GBP,nan,False,False
+UD07,,,,Broad Based,Commodity,nan,nan,False,False
+UD08,,,,Ex Agriculture,Commodity,GBP,nan,False,False
+UDVD,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+UEDV,,,,Income,Equity,nan,nan,False,False
+UEM,,,,All Cap,Equity,nan,nan,True,False
+UESD,,,,Corporate,Fixed Income,nan,nan,False,False
+UESG,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+UFOP,,,,Space,Equity,nan,nan,False,False
+UFSD,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+UGAS,,,,Energy,Commodity,nan,nan,False,False
+UGDV,,,,Income,Equity,nan,nan,False,False
+UH10,Americas,Northern America,United States,Government,Fixed Income,GBP,nan,False,False
+UHYC,,,,High Yield,Fixed Income,nan,nan,False,False
+UHYD,,,,High Yield,Fixed Income,nan,nan,False,False
+UHYG,Americas,Northern America,United States,High Yield,Fixed Income,nan,nan,False,False
+UHYH,,,,High Yield,Fixed Income,nan,nan,False,False
+UHYP,,,,High Yield,Fixed Income,nan,nan,False,False
+UIFS,Americas,Northern America,United States,Financial Services,Equity,nan,nan,False,False
+UIGB,Americas,Northern America,United States,Income,Equity,GBP,nan,False,False
+UINC,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+UIND,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+UINU,Americas,Northern America,United States,Government,Fixed Income,nan,Short,False,False
+UKCO,Europe,Northern Europe,United Kingdom,Corporate,Fixed Income,nan,nan,False,False
+UKDV,Europe,Northern Europe,United Kingdom,Income,Equity,nan,nan,False,False
+UKEL,Europe,Northern Europe,United Kingdom,All Cap,Equity,nan,nan,False,False
+UKG5,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+UKRE,Europe,Northern Europe,United Kingdom,Real Estate,Equity,nan,nan,False,False
+UKSR,Europe,Northern Europe,United Kingdom,Large/Mid Cap,Equity,nan,nan,False,False
+UKW,Europe,Northern Europe,United Kingdom,Clean Energy,Equity,nan,nan,False,False
+UNCU,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+UNIC,,,,Disruptive Technology,Equity,nan,nan,False,False
+UPAD,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+UPVL,Americas,Northern America,United States,Value,Equity,GBP,nan,False,False
+UQLT,Americas,Northern America,United States,Quality,Equity,GBP,nan,False,False
+URGB,,,,Currency,Currency,nan,nan,False,False
+URND,,,,Mining - Uranium,Equity,nan,nan,False,False
+URNG,,,,Mining - Uranium,Equity,nan,nan,False,False
+URNM,,,,Mining - Uranium,Equity,nan,nan,False,False
+URNP,,,,Mining - Uranium,Equity,nan,nan,False,False
+URNU,,,,Mining - Uranium,Equity,nan,nan,False,False
+US10,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+US13,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+US37,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+US71,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+USA,Americas,Northern America,United States,Growth,Equity,nan,nan,False,False
+USAG,Americas,Northern America,United States,Aggregate,Fixed Income,nan,nan,False,False
+USAL,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+USAU,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+USCR,,,,High Yield,Fixed Income,nan,nan,False,False
+USDC,,,,Corporate,Fixed Income,nan,nan,False,False
+USDG,,,,Corporate,Fixed Income,nan,nan,False,False
+USDV,Americas,Northern America,United States,Income,Equity,nan,nan,False,False
+USF,Americas,Northern America,United States,Clean Energy,Equity,nan,nan,False,False
+USFM,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+USFP,Americas,Northern America,United States,Clean Energy,Equity,nan,nan,False,False
+USFR,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+USGB,,,,Currency,Currency,nan,nan,False,False
+USHF,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+USHY,Americas,Northern America,United States,High Yield,Fixed Income,nan,nan,False,False
+USIC,,,,Corporate,Fixed Income,nan,nan,False,False
+USIG,,,,Corporate,Fixed Income,nan,nan,False,False
+USIX,,,,Corporate,Fixed Income,nan,nan,False,False
+USLV,Americas,Northern America,United States,Minimum Volatility,Equity,nan,nan,False,False
+USML,Americas,Northern America,United States,Small Cap,Equity,nan,nan,False,False
+USMV,Americas,Northern America,United States,Minimum Volatility,Equity,nan,nan,False,False
+USP3,,,,Currency,Currency,nan,Long,False,False
+USP5,,,,Currency,Currency,nan,Long,False,False
+USPA,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+USPG,Americas,Northern America,United States,Large Cap,Equity,GBP,nan,False,False
+USPY,,,,Cybersecurity,Equity,nan,nan,False,False
+USRI,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+USSC,Americas,Northern America,United States,Small Cap,Equity,nan,nan,False,False
+USTY,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+USUF,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+USVL,Americas,Northern America,United States,Value,Equity,nan,nan,False,False
+UTIL,Europe,,,Utilities,Equity,nan,nan,False,False
+UTIP,Europe,,,Government,Fixed Income,nan,nan,False,False
+UTL,,,,Multi Asset,Multi Asset,nan,nan,False,False
+UVAL,Americas,Northern America,United States,Value,Equity,nan,nan,False,False
+V3AA,,,,All Cap,Equity,nan,nan,False,False
+V3AB,,,,All Cap,Equity,nan,nan,False,False
+V3AL,,,,All Cap,Equity,nan,nan,False,False
+V3AM,,,,All Cap,Equity,nan,nan,False,False
+V3EA,Europe,,,All Cap,Equity,nan,nan,False,False
+V3EL,Europe,,,All Cap,Equity,nan,nan,False,False
+V3GD,,,,Corporate,Fixed Income,nan,nan,False,False
+V3GP,,,,Corporate,Fixed Income,nan,nan,False,False
+V3GS,,,,Corporate,Fixed Income,nan,nan,False,False
+V3GU,,,,Corporate,Fixed Income,nan,nan,False,False
+V3MA,,,,All Cap,Equity,nan,nan,True,False
+V3MB,,,,All Cap,Equity,nan,nan,True,False
+V3ML,,,,All Cap,Equity,nan,nan,True,False
+V3MM,,,,All Cap,Equity,nan,nan,True,False
+V3NA,Americas,Northern America,,All Cap,Equity,nan,nan,False,False
+V3NB,Americas,Northern America,,All Cap,Equity,nan,nan,False,False
+V3NL,Americas,Northern America,,All Cap,Equity,nan,nan,False,False
+V3NM,Americas,Northern America,,All Cap,Equity,nan,nan,False,False
+V3PA,Asia,,,All Cap,Equity,nan,nan,False,False
+V3PB,Asia,,,All Cap,Equity,nan,nan,False,False
+V3PL,Asia,,,All Cap,Equity,nan,nan,False,False
+V3PM,Asia,,,All Cap,Equity,nan,nan,False,False
+V3RE,,,,Corporate,Fixed Income,nan,nan,False,False
+V3RF,,,,Corporate,Fixed Income,nan,nan,False,False
+V3RP,Europe,,,Corporate,Fixed Income,GBP,nan,False,False
+V3SD,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+V3SP,Americas,Northern America,United States,Corporate,Fixed Income,GBP,nan,False,False
+V3SS,,,,Corporate,Fixed Income,nan,nan,False,False
+V3SU,,,,Corporate,Fixed Income,nan,nan,False,False
+VAAA,Europe,,,Government,Fixed Income,nan,nan,False,False
+VAGP,,,,Aggregate,Fixed Income,GBP,nan,False,False
+VAGS,,,,Aggregate,Fixed Income,nan,nan,False,False
+VAGU,,,,Aggregate,Fixed Income,nan,nan,False,False
+VALW,,,,Value,Equity,nan,nan,False,False
+VAPU,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+VAPX,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+VCPA,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+VDCA,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+VDCP,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+VDEA,,,,Government,Fixed Income,nan,nan,True,False
+VDEM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+VDET,,,,Government,Fixed Income,nan,nan,True,False
+VDEV,,,,Large/Mid Cap,Equity,nan,nan,False,False
+VDJP,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+VDNR,Americas,Northern America,,Large/Mid Cap,Equity,nan,nan,False,False
+VDPA,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+VDPG,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+VDPX,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+VDST,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+VDTA,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+VDTS,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+VDTY,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+VDUC,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+VECA,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+VECP,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+VEGB,,,,Sustainable Food,Equity,nan,nan,False,False
+VEGI,,,,Sustainable Food,Equity,nan,nan,False,False
+VEIL,Asia,South-eastern Asia,Vietnam,All Cap,Equity,nan,nan,False,False
+VEMA,,,,Government,Fixed Income,nan,nan,True,False
+VEMT,,,,Government,Fixed Income,nan,nan,True,False
+VERE,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+VERG,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+VERX,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+VETA,Europe,,,Government,Fixed Income,nan,nan,False,False
+VETY,Europe,,,Government,Fixed Income,nan,nan,False,False
+VEUA,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+VEUD,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+VEUR,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+VEVE,,,,Large/Mid Cap,Equity,nan,nan,False,False
+VFEA,,,,Large/Mid Cap,Equity,nan,nan,True,False
+VFEG,,,,Large/Mid Cap,Equity,nan,nan,True,False
+VFEM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+VGER,Europe,Western Europe,Germany,All Cap,Equity,nan,nan,False,False
+VGOV,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+VGPA,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+VGVA,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+VHVE,,,,Large/Mid Cap,Equity,nan,nan,False,False
+VHVG,,,,Large/Mid Cap,Equity,nan,nan,False,False
+VHYA,,,,Income,Equity,nan,nan,False,False
+VHYD,,,,Income,Equity,nan,nan,False,False
+VHYG,,,,Income,Equity,nan,nan,False,False
+VHYL,,,,Income,Equity,nan,nan,False,False
+VIP,,,,Real Estate,Equity,nan,nan,False,False
+VJPA,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+VJPB,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+VJPN,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+VJPU,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+VMID,Europe,Northern Europe,United Kingdom,Mid Cap,Equity,nan,nan,False,False
+VMIG,Europe,Northern Europe,United Kingdom,Mid Cap,Equity,nan,nan,False,False
+VNH,Asia,South-eastern Asia,Vietnam,All Cap,Equity,nan,nan,False,False
+VNRA,Americas,Northern America,,Large/Mid Cap,Equity,nan,nan,False,False
+VNRG,Americas,Northern America,,Large/Mid Cap,Equity,nan,nan,False,False
+VNRT,Americas,Northern America,,Large/Mid Cap,Equity,nan,nan,False,False
+VOF,Asia,South-eastern Asia,Vietnam,All Cap,Equity,nan,nan,False,False
+VOLT,,,,Batteries,Equity,nan,nan,False,False
+VPAC,,,,Prefs,Fixed Income,nan,nan,False,False
+VPN,,,,Cloud Computing and Internet,Equity,nan,nan,False,False
+VPNG,,,,Cloud Computing and Internet,Equity,nan,nan,False,False
+VRPS,Americas,Northern America,United States,Prefs,Fixed Income,nan,nan,False,False
+VSCA,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+VSL,,,,Special Situations,Fixed Income,nan,nan,False,False
+VTA,,,,Loans,Fixed Income,nan,nan,False,False
+VTAS,,,,Loans,Fixed Income,nan,nan,False,False
+VUAA,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+VUAG,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+VUCP,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+VUKE,Europe,Northern Europe,United Kingdom,Large Cap,Equity,nan,nan,False,False
+VUKG,Europe,Northern Europe,United Kingdom,Large Cap,Equity,nan,nan,False,False
+VUSA,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+VUSC,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+VUSD,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+VUTA,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+VUTY,Europe,Northern Europe,United Kingdom,Government,Fixed Income,nan,nan,False,False
+VWCG,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+VWRA,,,,Large/Mid Cap,Equity,nan,nan,False,False
+VWRD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+VWRL,,,,Large/Mid Cap,Equity,nan,nan,False,False
+VWRP,,,,Large/Mid Cap,Equity,nan,nan,False,False
+WATC,,,,Utilities - Water,Equity,nan,nan,False,False
+WATL,,,,Utilities - Water,Equity,nan,nan,False,False
+WATU,,,,Utilities - Water,Equity,nan,nan,False,False
+WBIO,,,,Healthcare Innovations,Equity,nan,nan,False,False
+WBLK,,,,Blockchain,Equity,nan,nan,False,False
+WCAR,,,,Electric Cars,Equity,nan,nan,False,False
+WCBR,,,,Cybersecurity,Equity,nan,nan,False,False
+WCCA,,,,Carbon Emission,Commodity,nan,nan,False,False
+WCCP,,,,Carbon Emission,Commodity,nan,nan,False,False
+WCLD,,,,Cloud Computing and Internet,Equity,nan,nan,False,False
+WCOA,,,,Broad Based,Commodity,nan,nan,False,False
+WCOB,,,,Broad Based,Commodity,nan,nan,False,False
+WCOD,,,,Consumer Discretionary,Equity,nan,nan,False,False
+WCOG,,,,Broad Based,Commodity,nan,nan,False,False
+WCOM,,,,Broad Based,Commodity,GBP,nan,False,False
+WCOS,,,,Consumer Staples,Equity,nan,nan,False,False
+WDEE,,,,Energy,Equity,nan,nan,False,False
+WDFE,,,,Financial Services,Equity,nan,nan,False,False
+WDNA,,,,Healthcare Innovations,Equity,nan,nan,False,False
+WDSC,,,,Small Cap,Equity,nan,nan,False,False
+WDTE,,,,Technology,Equity,nan,nan,False,False
+WEAP,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+WEAT,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+WEEG,,,,Energy,Equity,nan,nan,False,False
+WELL,,,,Healthcare Innovations,Equity,nan,nan,False,False
+WELP,,,,Healthcare Innovations,Equity,nan,nan,False,False
+WENS,,,,Energy,Equity,nan,nan,False,False
+WESG,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+WFEG,,,,Financial Services,Equity,nan,nan,False,False
+WFIN,,,,Financial Services,Equity,nan,nan,False,False
+WGES,,,,Large/Mid Cap,Equity,nan,nan,False,False
+WGLD,,,,Precious Metals,Commodity,nan,nan,False,False
+WHCE,,,,Healthcare,Equity,nan,nan,False,False
+WHCG,,,,Healthcare,Equity,nan,nan,False,False
+WHEA,,,,Healthcare,Equity,nan,nan,False,False
+WIAU,,,,High Yield,Fixed Income,nan,nan,False,False
+WIGG,,,,High Yield,Fixed Income,nan,nan,False,False
+WING,,,,High Yield,Fixed Income,nan,nan,False,False
+WINV,Europe,Northern Europe,United Kingdom,Small/Mid Cap,Equity,nan,nan,False,False
+WKOF,Asia,Eastern Asia,South Korea,All Cap,Equity,nan,nan,False,False
+WLDD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+WLDL,,,,Large/Mid Cap,Equity,nan,nan,False,False
+WLDS,,,,Small Cap,Equity,nan,nan,False,False
+WLDU,,,,Large/Mid Cap,Equity,nan,nan,False,False
+WMAT,,,,Materials,Equity,nan,nan,False,False
+WMVG,,,,Minimum Volatility,Equity,GBP,nan,False,False
+WNDE,,,,Clean Energy,Equity,nan,nan,False,False
+WNDG,,,,Clean Energy,Equity,nan,nan,False,False
+WNDI,,,,Clean Energy,Equity,nan,nan,False,False
+WNDU,,,,Industrials,Equity,nan,nan,False,False
+WNDY,,,,Clean Energy,Equity,nan,nan,False,False
+WNER,,,,Real Estate,Equity,nan,nan,False,False
+WNEW,,,,Real Estate,Equity,nan,nan,False,False
+WNGE,,,,High Yield,Fixed Income,EUR,nan,False,False
+WNRG,,,,Energy,Equity,nan,nan,False,False
+WOOD,,,,Timber,Equity,nan,nan,False,False
+WOSC,,,,Small Cap,Equity,nan,nan,False,False
+WQDS,,,,Income,Equity,nan,nan,False,False
+WQDV,,,,Income,Equity,nan,nan,False,False
+WRCY,,,,Waste Recycling,Equity,nan,nan,False,False
+WRDU,,,,Large/Mid Cap,Equity,nan,nan,False,False
+WREN,,,,Clean Energy,Equity,nan,nan,False,False
+WRLD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+WRNW,,,,Clean Energy,Equity,nan,nan,False,False
+WSCR,,,,Small Cap,Equity,nan,nan,False,False
+WSML,,,,Small Cap,Equity,nan,nan,False,False
+WSRI,,,,Large/Mid Cap,Equity,nan,nan,False,False
+WTAI,,,,Artificial Intelligence,Equity,nan,nan,False,False
+WTAN,,,,All Cap,Equity,nan,nan,False,False
+WTEC,,,,Technology,Equity,nan,nan,False,False
+WTEG,,,,Technology,Equity,nan,nan,False,False
+WTEL,,,,Communication Services,Equity,nan,nan,False,False
+WTNR,,,,Real Estate,Equity,nan,nan,False,False
+WTRE,,,,Real Estate,Equity,nan,nan,False,False
+WUKD,Europe,Northern Europe,United Kingdom,Income,Equity,nan,nan,False,False
+WUTI,,,,Utilities,Equity,nan,nan,False,False
+WVAL,,,,Value,Equity,nan,nan,False,False
+WWH,,,,Healthcare,Equity,nan,nan,False,False
+WWTU,,,,Agriculture & Livestock,Commodity,nan,nan,False,False
+WXAG,,,,Ex Agriculture,Commodity,nan,nan,False,False
+X71U,Europe,,,Government,Fixed Income,nan,nan,False,False
+X7GB,Europe,,,Government,Fixed Income,nan,nan,False,False
+X7PP,Europe,,,Financial Services,Equity,nan,nan,False,False
+X7PS,Europe,,,Financial Services,Equity,nan,nan,False,False
+XASX,Europe,Northern Europe,United Kingdom,Large/Mid Cap,Equity,nan,nan,False,False
+XAUS,Oceania,Australia and New Zealand,Australia,Large Cap,Equity,nan,nan,False,False
+XAXD,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+XAXJ,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+XBAG,,,,Aggregate,Fixed Income,nan,nan,False,False
+XBAK,Asia,Southern Asia,Pakistan,Large/Mid Cap,Equity,nan,nan,False,False
+XBCU,,,,Ex Agriculture,Commodity,nan,nan,False,False
+XBGB,Europe,Western Europe,Germany,Government,Fixed Income,GBP,nan,False,False
+XBGG,,,,Aggregate,Fixed Income,nan,nan,False,False
+XBLC,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+XBUS,Europe,Western Europe,Germany,Government,Fixed Income,USD,nan,False,False
+XCAD,Americas,Northern America,Canada,Large/Mid Cap,Equity,nan,nan,False,False
+XCEU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+XCHA,Asia,Eastern Asia,China,Large Cap,Equity,nan,nan,False,False
+XCJD,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+XCJU,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+XCMC,,,,Broad Based,Commodity,nan,nan,False,False
+XCNA,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+XCO2,,,,Aggregate,Fixed Income,nan,nan,False,False
+XCOG,,,,Aggregate,Fixed Income,nan,nan,False,False
+XCOU,,,,Aggregate,Fixed Income,nan,nan,False,False
+XCS2,Oceania,Australia and New Zealand,Australia,Government,Fixed Income,nan,nan,False,False
+XCS3,Asia,South-eastern Asia,Malaysia,Large/Mid Cap,Equity,nan,nan,False,False
+XCS4,Asia,South-eastern Asia,Thailand,Large/Mid Cap,Equity,nan,nan,False,False
+XCS5,Asia,Southern Asia,India,Large/Mid Cap,Equity,nan,nan,False,False
+XCS6,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+XCS7,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+XCTE,Asia,Eastern Asia,China,Technology,Equity,nan,nan,False,False
+XCTU,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XCTW,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XCUD,Americas,Northern America,United States,Climate Transition,Equity,nan,nan,False,False
+XCUU,Americas,Northern America,United States,Climate Transition,Equity,nan,nan,False,False
+XCX3,Asia,South-eastern Asia,Malaysia,Large/Mid Cap,Equity,nan,nan,False,False
+XCX4,Asia,South-eastern Asia,Taiwan,Large/Mid Cap,Equity,nan,nan,False,False
+XCX5,Asia,Southern Asia,India,Large/Mid Cap,Equity,nan,nan,False,False
+XCX6,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+XCX7,Asia,Eastern Asia,China,Large/Mid Cap,Equity,nan,nan,False,False
+XD11,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XD12,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XD3E,Europe,,,Income,Equity,nan,nan,False,False
+XD5D,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+XD5E,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+XD5S,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+XD9U,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+XDAX,Europe,Western Europe,Germany,Large Cap,Equity,nan,nan,False,False
+XDBG,,,,Ex Agriculture,Commodity,nan,nan,False,False
+XDDX,Europe,Western Europe,Germany,Large Cap,Equity,nan,nan,False,False
+XDEB,,,,Minimum Volatility,Equity,nan,nan,False,False
+XDED,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+XDEG,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XDEM,,,,Momentum,Equity,nan,nan,False,False
+XDEQ,,,,Quality,Equity,nan,nan,False,False
+XDER,,,,Real Estate,Equity,nan,nan,False,False
+XDEU,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+XDEV,,,,Value,Equity,nan,nan,False,False
+XDEW,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+XDEX,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XDG3,,,,Healthcare Innovations,Equity,nan,nan,False,False
+XDG6,,,,Utilities - Water,Equity,nan,nan,False,False
+XDG7,,,,Clean Energy,Equity,nan,nan,False,False
+XDG9,,,,Innovation,Equity,nan,nan,False,False
+XDGB,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+XDGI,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XDGU,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+XDJP,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+XDN0,Europe,Northern Europe,,Large/Mid Cap,Equity,nan,nan,False,False
+XDNG,Asia,Eastern Asia,Japan,Small/Mid Cap,Equity,nan,nan,False,False
+XDNS,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+XDNU,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+XDNY,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+XDPG,Americas,Northern America,United States,Large Cap,Equity,GBP,nan,False,False
+XDPP,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+XDPU,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+XDUK,Europe,Northern Europe,United Kingdom,Large Cap,Equity,nan,nan,False,False
+XDUS,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+XDW0,,,,Energy,Equity,nan,nan,False,False
+XDWC,,,,Consumer Discretionary,Equity,nan,nan,False,False
+XDWD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XDWE,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+XDWF,,,,Financial Services,Equity,nan,nan,False,False
+XDWG,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XDWH,,,,Healthcare,Equity,nan,nan,False,False
+XDWI,,,,Industrials,Equity,nan,nan,False,False
+XDWL,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XDWM,,,,Materials,Equity,nan,nan,False,False
+XDWP,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XDWS,,,,Consumer Staples,Equity,nan,nan,False,False
+XDWT,,,,Technology,Equity,nan,nan,False,False
+XDWU,,,,Utilities,Equity,nan,nan,False,False
+XDWY,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XECT,Europe,,,Climate Transition,Equity,nan,nan,False,False
+XEMD,,,,Large/Mid Cap,Equity,nan,nan,True,False
+XEMG,,,,Large/Mid Cap,Equity,nan,nan,True,False
+XEML,,,,Government,Fixed Income,nan,nan,True,False
+XEMN,,,,Large/Mid Cap,Equity,nan,nan,True,False
+XEMP,,,,Government,Fixed Income,nan,nan,True,False
+XEOU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+XEPA,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+XEPG,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+XESC,Europe,,,Large Cap,Equity,nan,nan,False,False
+XESE,,,,Large/Mid Cap,Equity,nan,nan,True,False
+XESJ,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+XESU,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+XESW,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XESX,Europe,,,Large Cap,Equity,nan,nan,False,False
+XEUM,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+XEWG,Americas,Northern America,United States,Large Cap,Equity,GBP,nan,False,False
+XFFE,Americas,Northern America,United States,Cash,Fixed Income,nan,nan,False,False
+XFNT,,,,Fintech,Equity,nan,nan,False,False
+XFRM,,,,Ex Agriculture,Commodity,nan,nan,False,False
+XFSN,,,,Fintech,Equity,nan,nan,False,False
+XFVT,Asia,South-eastern Asia,Vietnam,Large/Mid Cap,Equity,nan,nan,False,False
+XG11,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XG12,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XG7S,,,,Government,Fixed Income,nan,nan,False,False
+XG7U,,,,Government,Fixed Income,nan,nan,False,False
+XGBB,,,,Aggregate,Fixed Income,GBP,nan,False,False
+XGDD,,,,Income,Equity,nan,nan,False,False
+XGED,Europe,,,Government,Fixed Income,nan,nan,False,False
+XGEN,,,,Healthcare Innovations,Equity,nan,nan,False,False
+XGEP,Europe,,,Government,Fixed Income,nan,nan,False,False
+XGES,,,,Healthcare Innovations,Equity,nan,nan,False,False
+XGGB,,,,Government,Fixed Income,nan,nan,False,False
+XGID,,,,Infrastructure,Equity,nan,nan,False,False
+XGIG,,,,Government,Fixed Income,nan,nan,False,False
+XGIU,,,,Government,Fixed Income,nan,nan,False,False
+XGLB,Europe,,,Government,Fixed Income,nan,nan,False,False
+XGLE,Europe,,,Government,Fixed Income,nan,nan,False,False
+XGLF,Asia,Western Asia,,Large/Mid Cap,Equity,nan,nan,False,False
+XGLU,,,,Government,Fixed Income,nan,nan,False,False
+XGSD,,,,Income,Equity,nan,nan,False,False
+XGSG,,,,Government,Fixed Income,nan,nan,False,False
+XGSI,,,,Government,Fixed Income,nan,nan,False,False
+XHYG,,,,High Yield,Fixed Income,nan,nan,False,False
+XIDD,Asia,South-eastern Asia,Indonesia,Large/Mid Cap,Equity,nan,nan,False,False
+XIGB,Asia,Southern Asia,India,Government,Fixed Income,nan,nan,False,False
+XKS2,Asia,Eastern Asia,South Korea,Large/Mid Cap,Equity,nan,nan,False,False
+XKSD,Asia,Eastern Asia,South Korea,Large/Mid Cap,Equity,nan,nan,False,False
+XLBP,Americas,Northern America,United States,Materials,Equity,nan,nan,False,False
+XLBS,Americas,Northern America,United States,Materials,Equity,nan,nan,False,False
+XLCP,,,,Communication Services,Equity,nan,nan,False,False
+XLCS,,,,Communication Services,Equity,nan,nan,False,False
+XLDX,Europe,Western Europe,Germany,Large Cap,Equity,nan,Long,False,False
+XLEP,Americas,Northern America,United States,Energy,Equity,nan,nan,False,False
+XLES,Americas,Northern America,United States,Energy,Equity,nan,nan,False,False
+XLFQ,Americas,Northern America,United States,Financial Services,Equity,nan,nan,False,False
+XLFS,Americas,Northern America,United States,Financial Services,Equity,nan,nan,False,False
+XLIP,Americas,Northern America,United States,Industrials,Equity,nan,nan,False,False
+XLIS,Americas,Northern America,United States,Industrials,Equity,nan,nan,False,False
+XLKQ,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+XLKS,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+XLPE,,,,Private Equity,Equity,nan,nan,False,False
+XLPP,,,,Consumer Staples,Equity,nan,nan,False,False
+XLPS,,,,Consumer Staples,Equity,nan,nan,False,False
+XLUP,Americas,Northern America,United States,Utilities,Equity,nan,nan,False,False
+XLUS,Americas,Northern America,United States,Utilities,Equity,nan,nan,False,False
+XLVP,Americas,Northern America,United States,Healthcare,Equity,nan,nan,False,False
+XLVS,Americas,Northern America,United States,Healthcare,Equity,nan,nan,False,False
+XLYP,Americas,Northern America,United States,Consumer Discretionary,Equity,nan,nan,False,False
+XLYS,Americas,Northern America,United States,Consumer Discretionary,Equity,nan,nan,False,False
+XM1D,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+XMAD,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+XMAF,Africa,,,Large Cap,Equity,nan,nan,False,False
+XMAS,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+XMAU,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XMAW,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XMBD,Americas,Latin America and the Caribbean,Brazil,Large/Mid Cap,Equity,nan,nan,False,False
+XMBR,Americas,Latin America and the Caribbean,Brazil,Large/Mid Cap,Equity,nan,nan,False,False
+XMCX,Europe,Northern Europe,United Kingdom,Mid Cap,Equity,nan,nan,False,False
+XMED,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+XMEM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+XMES,Americas,Latin America and the Caribbean,Mexico,Large/Mid Cap,Equity,nan,nan,False,False
+XMEU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+XMEX,Americas,Latin America and the Caribbean,Mexico,Large/Mid Cap,Equity,nan,nan,False,False
+XMID,Asia,South-eastern Asia,Indonesia,Large/Mid Cap,Equity,nan,nan,False,False
+XMJD,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+XMJP,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+XMLA,Americas,Latin America and the Caribbean,,Large/Mid Cap,Equity,nan,nan,False,False
+XMLD,Americas,Latin America and the Caribbean,,Large/Mid Cap,Equity,nan,nan,False,False
+XMMD,,,,Large/Mid Cap,Equity,nan,nan,True,False
+XMME,,,,Large/Mid Cap,Equity,nan,nan,True,False
+XMMS,,,,Large/Mid Cap,Equity,nan,nan,True,False
+XMTD,Asia,Eastern Asia,Taiwan,Large/Mid Cap,Equity,nan,nan,False,False
+XMTW,Asia,Eastern Asia,Taiwan,Large/Mid Cap,Equity,nan,nan,False,False
+XMUD,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+XMUJ,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+XMUS,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+XMVU,Americas,Northern America,United States,Minimum Volatility,Equity,nan,nan,False,False
+XMWD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XMXD,,,,Large/Mid Cap,Equity,nan,nan,True,False
+XNAQ,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+XNAS,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+XNGI,,,,Cloud Computing and Internet,Equity,nan,nan,False,False
+XNGS,,,,Cloud Computing and Internet,Equity,nan,nan,False,False
+XNID,Asia,Southern Asia,India,Large Cap,Equity,nan,nan,False,False
+XNIF,Asia,Southern Asia,India,Large Cap,Equity,nan,nan,False,False
+XNJG,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+XNJS,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+XNNS,,,,Technology,Equity,nan,nan,False,False
+XNNV,,,,Technology,Equity,nan,nan,False,False
+XNZE,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+XNZG,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+XNZN,Europe,Northern Europe,,Large/Mid Cap,Equity,nan,nan,False,False
+XNZS,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XNZU,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+XNZW,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XPHG,Asia,South-eastern Asia,Philippines,Large/Mid Cap,Equity,nan,nan,False,False
+XPHI,Asia,South-eastern Asia,Philippines,Large/Mid Cap,Equity,nan,nan,False,False
+XPPT,Americas,Latin America and the Caribbean,,Precious Metals,Commodity,nan,nan,False,False
+XPXD,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+XPXJ,Asia,,,Large/Mid Cap,Equity,nan,nan,False,False
+XQUA,,,,Large/Mid Cap,Fixed Income,nan,nan,True,False
+XREP,,,,Real Estate,Equity,nan,nan,False,False
+XRES,,,,Real Estate,Equity,nan,nan,False,False
+XRH0,,,,Industrial Metals,Commodity,nan,nan,False,False
+XRMU,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+XRSG,Americas,Northern America,United States,Small Cap,Equity,nan,nan,False,False
+XRSS,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+XRSU,Americas,Northern America,United States,Small Cap,Equity,nan,nan,False,False
+XS2D,Americas,Northern America,United States,Large Cap,Equity,nan,Long,False,False
+XS3R,Europe,,,Consumer Staples,Equity,nan,nan,False,False
+XS5G,Americas,Northern America,United States,Large Cap,Equity,GBP,nan,False,False
+XS6R,Europe,,,Utilities,Equity,nan,nan,False,False
+XS7R,Europe,,,Financial Services,Equity,nan,nan,False,False
+XS8R,Europe,,,Technology,Equity,nan,nan,False,False
+XSCD,,,,Consumer Discretionary,Equity,nan,nan,False,False
+XSCS,,,,Consumer Staples,Equity,nan,nan,False,False
+XSD2,Europe,Western Europe,Germany,Large Cap,Equity,nan,Short,False,False
+XSDR,Europe,,,Healthcare,Equity,nan,nan,False,False
+XSDX,Europe,Western Europe,Germany,Large Cap,Equity,nan,Short,False,False
+XSEN,,,,Energy,Equity,nan,nan,False,False
+XSFD,,,,Frontier Markets,Equity,nan,nan,True,False
+XSFN,Americas,Northern America,United States,Financial Services,Equity,nan,nan,False,False
+XSFR,,,,Frontier Markets,Equity,nan,nan,True,False
+XSGI,,,,Infrastructure,Equity,nan,nan,False,False
+XSHC,Americas,Northern America,United States,Healthcare,Equity,nan,nan,False,False
+XSKR,Europe,,,Communication Services,Equity,nan,nan,False,False
+XSLR,,,,Precious Metals,Commodity,nan,nan,False,False
+XSNR,Europe,,,Industrials,Equity,nan,nan,False,False
+XSOE,,,,Large/Mid Cap,Equity,nan,nan,True,False
+XSOP,,,,Large/Mid Cap,Equity,nan,nan,True,False
+XSPD,Americas,Northern America,United States,Large Cap,Equity,nan,Short,False,False
+XSPR,,,,Materials,Equity,nan,nan,False,False
+XSPS,Americas,Northern America,United States,Large Cap,Equity,nan,Short,False,False
+XSPU,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+XSPX,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+XSSX,Europe,,,Large Cap,Equity,nan,Short,False,False
+XSTC,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+XSTR,,,,Cash,Fixed Income,nan,nan,False,False
+XSX6,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+XSXD,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+XSXG,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+XT01,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+XT0D,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+XT2D,Americas,Northern America,United States,Large Cap,Equity,nan,Short,False,False
+XTIP,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+XUCD,,,,Consumer Discretionary,Equity,nan,nan,False,False
+XUCM,Americas,Northern America,United States,Communication Services,Equity,nan,nan,False,False
+XUCS,,,,Consumer Staples,Equity,nan,nan,False,False
+XUEB,,,,Aggregate,Fixed Income,nan,nan,True,False
+XUEK,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+XUEM,,,,Aggregate,Fixed Income,nan,nan,True,False
+XUEN,,,,Energy,Equity,nan,nan,False,False
+XUFB,Americas,Northern America,United States,Financial Services,Equity,nan,nan,False,False
+XUFN,Americas,Northern America,United States,Financial Services,Equity,nan,nan,False,False
+XUHA,,,,High Yield,Fixed Income,nan,nan,False,False
+XUHC,Americas,Northern America,United States,Healthcare,Equity,nan,nan,False,False
+XUHG,,,,High Yield,Fixed Income,GBP,nan,False,False
+XUHY,,,,High Yield,Fixed Income,nan,nan,False,False
+XUIN,Americas,Northern America,United States,Industrials,Equity,nan,nan,False,False
+XUKS,Europe,Northern Europe,United Kingdom,Large Cap,Equity,nan,Short,False,False
+XUKX,Europe,Northern Europe,United Kingdom,Large Cap,Equity,nan,nan,False,False
+XUS1,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+XUSD,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+XUST,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+XUSW,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+XUT3,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+XUTC,Americas,Northern America,United States,Technology,Equity,nan,nan,False,False
+XUTD,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+XUTG,Americas,Northern America,United States,Government,Fixed Income,nan,nan,False,False
+XVTD,Asia,South-eastern Asia,Vietnam,Large/Mid Cap,Equity,nan,nan,False,False
+XWBS,,,,Minimum Volatility,Equity,nan,nan,False,False
+XWD1,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XWEB,,,,Minimum Volatility,Equity,nan,nan,False,False
+XWEM,,,,Momentum,Equity,nan,nan,False,False
+XWEQ,,,,Quality,Equity,nan,nan,False,False
+XWEV,,,,Value,Equity,nan,nan,False,False
+XWFS,,,,Financial Services,Equity,nan,nan,False,False
+XWLD,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XWMS,,,,Momentum,Equity,nan,nan,False,False
+XWQS,,,,Quality,Equity,nan,nan,False,False
+XWTS,,,,Communication Services,Equity,nan,nan,False,False
+XWVS,,,,Value,Equity,nan,nan,False,False
+XX25,Asia,Eastern Asia,China,Large Cap,Equity,nan,nan,False,False
+XX2D,Asia,Eastern Asia,China,Large Cap,Equity,nan,nan,False,False
+XXSC,Europe,,,Small Cap,Equity,nan,nan,False,False
+XYLD,Americas,Northern America,United States,Corporate,Fixed Income,nan,nan,False,False
+XYLP,,,,Derivative,Derivative,nan,nan,False,False
+XYLU,,,,Derivative,Derivative,nan,nan,False,False
+XZ2G,,,,High Yield,Fixed Income,nan,nan,False,False
+XZBD,,,,Corporate,Fixed Income,nan,nan,False,False
+XZBU,,,,Corporate,Fixed Income,nan,nan,False,False
+XZE5,Europe,,,Corporate,Fixed Income,nan,nan,False,False
+XZEM,,,,Large/Mid Cap,Equity,nan,nan,True,False
+XZES,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+XZEU,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+XZEW,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+XZEZ,Europe,,,Large/Mid Cap,Equity,nan,nan,False,False
+XZHE,,,,High Yield,Fixed Income,nan,nan,False,False
+XZHS,,,,High Yield,Fixed Income,nan,nan,False,False
+XZHY,,,,High Yield,Fixed Income,nan,nan,False,False
+XZMD,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+XZMJ,Asia,Eastern Asia,Japan,Large/Mid Cap,Equity,nan,nan,False,False
+XZMU,Americas,Northern America,United States,Large/Mid Cap,Equity,nan,nan,False,False
+XZSP,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+XZSS,Americas,Northern America,United States,Large Cap,Equity,nan,nan,False,False
+XZUD,,,,Government,Fixed Income,nan,nan,False,False
+XZW0,,,,Large/Mid Cap,Equity,nan,nan,False,False
+XZWG,,,,Government,Fixed Income,nan,nan,False,False
+XZWS,,,,Government,Fixed Income,nan,nan,False,False
+YIEL,,,,High Yield,Fixed Income,nan,nan,False,False
+YODA,,,,Space,Equity,nan,nan,False,False
+ZERO,,,,Clean Energy,Equity,nan,nan,False,False
+ZERP,,,,Clean Energy,Equity,nan,nan,False,False
+ZINC,,,,Industrial Metals,Commodity,nan,nan,False,False

@@ -7,5 +7,6 @@ urlpatterns = [
     path('api/login/', CustomLoginView.as_view(), name='custom_login_cbv'),
     path('api/logout/', LogoutView.as_view(), name='logout'),
     path('api/portal/', include('portal.urls')),
+    path('api/investment/', include('investment.urls')),
 ]
 

@@ -1093,3 +1093,50 @@ class BookAPIView(APIView):
         serializer = BookSerializer(books, many=True)
         # Return a response
         return Response(serializer.data, status=status.HTTP_200_OK)
+
+class GetTemporaryCredentialsView(APIView):
+
+    def get(self, request):
+        sts_client = boto3.client("sts")
+        try:
+            response = sts_client.get_session_token(
+                DurationSeconds=3600
+            )  # 1 hour session
+            credentials = response["Credentials"]
+            return JsonResponse(
+                {
+                    "AccessKeyId": credentials["AccessKeyId"],
+                    "SecretAccessKey": credentials["SecretAccessKey"],
+                    "SessionToken": credentials["SessionToken"],
+                    "Expiration": credentials["Expiration"],
+                }
+            )
+        except NoCredentialsError:
+            log_str = "Invalid AWS credentials"
+            status_txt = "error"
+            status=400
+            return json_response(log_str, status_txt, status)
+
+
+class GetPresignedUrlView(APIView):
+
+    def get(self, request):
+        s3_client = boto3.client("s3", region_name=AWS_DEFAULT_REGION)
+        bucket_name = AWS_STORAGE_BUCKET_NAME
+        file_type = request.GET.get("filetype")
+
+        try:
+            presigned_post = s3_client.generate_presigned_post(
+                Bucket=bucket_name,
+                Key="tradingview/tradingview.csv",
+                Fields={"Content-Type": file_type},
+                Conditions=[{"Content-Type": file_type}],
+                ExpiresIn=3600,  # Expires in 1 hour
+            )
+            print("presigned_post: ", presigned_post)
+            return JsonResponse(presigned_post)
+        except NoCredentialsError:
+            log_str = "Invalid AWS credentials"
+            status_txt = "error"
+            status=400
+            return json_response(log_str, status_txt, status)

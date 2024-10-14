@@ -1140,3 +1140,90 @@ class GetPresignedUrlView(APIView):
             status_txt = "error"
             status=400
             return json_response(log_str, status_txt, status)
+
+class UpdateCurrentInvestmentView(APIView):
+
+    def put(self, request, *args, **kwargs):
+        data = request.data
+        ticker = data.get("ticker")
+        book = data.get("book")
+        transaction_px = data.get("transaction_px")
+        qty = data.get("qty")
+
+        # Validate and convert qty and transaction_px
+        try:
+            qty = int(qty)
+            transaction_px = float(transaction_px)
+        except (ValueError, TypeError):
+            return Response(
+                {"error": "Invalid data type for qty or transaction_px"},
+                status=status.HTTP_400_BAD_REQUEST,
+            )
+
+        # Validate and fetch the foreign key objects
+        try:
+            etp = Etp.objects.get(ticker=ticker)
+            book_obj = Book.objects.get(name=book)
+        except (Etp.DoesNotExist, Book.DoesNotExist) as e:
+            return Response({"error": str(e)}, status=status.HTTP_400_BAD_REQUEST)
+
+        # Retrieve the existing investment if it exists
+        investment = CurrentInvestment.objects.filter(ticker=etp, book=book_obj).first()
+
+        # Validate conditions for selling securities
+        if qty < 0:  # Selling shares
+            if not investment:  # No existing investment found
+                return Response(
+                    {"error": "Cannot sell a security you do not have a position in."},
+                    status=status.HTTP_400_BAD_REQUEST,
+                )
+            elif investment.qty + qty < 0:  # Trying to sell more shares than owned
+                return Response(
+                    {
+                        "error": "Cannot sell more shares than you currently own.",
+                        "current_qty": investment.qty,
+                    },
+                    status=status.HTTP_400_BAD_REQUEST,
+                )
+
+        # Handle existing or new investment creation
+        try:
+            if not investment:
+                # Creating a new investment
+                investment = CurrentInvestment.objects.create(
+                    ticker=etp,
+                    book=book_obj,
+                    qty=qty if qty > 0 else 0,
+                    avg_px=transaction_px,
+                    current_px=transaction_px,
+                )
+            else:
+                # Updating an existing investment
+                total_qty = investment.qty + qty
+                new_avg_px = (
+                    (investment.qty * investment.avg_px) + (qty * transaction_px)
+                ) / total_qty if total_qty != 0 else 0
+                investment.qty = total_qty
+                investment.avg_px = new_avg_px
+                investment.current_px = transaction_px
+                investment.save()
+
+        except Exception as e:
+            return Response({"error": str(e)}, status=status.HTTP_400_BAD_REQUEST)
+
+        return Response(
+            {
+                "message": "Investment updated successfully",
+            },
+            status=status.HTTP_200_OK,
+        )
+
+class BookAPIView(APIView):
+
+    def get(self, request):
+        # Retrieve all current investments
+        books = Book.objects.all()
+        # Serialize the data
+        serializer = BookSerializer(books, many=True)
+        # Return a response
+        return Response(serializer.data, status=status.HTTP_200_OK)

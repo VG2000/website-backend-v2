@@ -22,6 +22,9 @@ services:
     command: >
       sh -c "python manage.py makemigrations &&
              python manage.py migrate &&
+             python manage.py insert_geography &&
+             python manage.py insert_objectives &&
+             python manage.py insert_books_and_currencies &&
              python manage.py create_projects_if_not_exists &&
              python manage.py create_superuser_if_not_exists --superuser_email "superuser@example.com" --superuser_password "password" &&
              python manage.py runserver 0.0.0.0:8000"

@@ -14,4 +14,7 @@ urlpatterns = [
      path("tradingview/", views.TradingviewObjectiveViewSet.as_view({'get': 'list'}), name="tradingview"),
      path("add-to-watchlist/", views.WatchlistCreateView.as_view(), name="add-to-watchlist"),
      path("delete-from-watchlist/<str:id>/", views.WatchlistDeleteView.as_view(), name="delete-from-watchlist"),
+     path('get-current-investments/', views.CurrentInvestmentDetailView.as_view(), name='get-current-investments'),
+     path('get-books/', views.BookAPIView.as_view(), name='get-books'),
+     path('update-current-investments/', views.UpdateCurrentInvestmentView.as_view(), name='update-current-investments'),
 ]

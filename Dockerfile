@@ -6,14 +6,10 @@ ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
 # Install system dependencies
-RUN apt-get update 
-# RUN apt-get install -y --no-install-recommends build-essential
-RUN apt-get install -y --no-install-recommends gcc
-RUN apt-get install -y --no-install-recommends libpq-dev
-RUN apt-get install -y --no-install-recommends python3-dev
-
-RUN apt-get clean 
-RUN rm -rf /var/lib/apt/lists/*
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends gcc libpq-dev python3-dev dnsutils telnet \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
 # Set work directory
 WORKDIR /app
@@ -25,7 +21,7 @@ COPY requirements.prod.txt .
 RUN /venv/bin/pip install --upgrade pip \
     && /venv/bin/pip install -r requirements.prod.txt
 
-# Copy project
+# Copy project files to the builder stage
 COPY . .
 
 # Collect static files
@@ -33,6 +29,12 @@ RUN /venv/bin/python manage.py collectstatic --noinput --verbosity 3
 
 # Final stage
 FROM python:3.12.3-slim-bookworm AS final
+
+# Install necessary tools for DNS and connectivity checks in the final stage
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends dnsutils telnet \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
 # Copy virtual environment from builder stage
 COPY --from=builder /venv /venv
@@ -50,4 +52,6 @@ RUN chmod +x /usr/src/app/start-server.sh
 
 # Run the startup script
 CMD ["/usr/src/app/start-server.sh"]
+
+
 

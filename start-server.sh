@@ -9,6 +9,10 @@ telnet website-db-v2.cruuok6w6x96.eu-west-2.rds.amazonaws.com 5432
 # Run database migrations
 python manage.py makemigrations
 python manage.py migrate
+python manage.py insert_geography
+python manage.py insert_objectives
+python manage.py insert_books_and_currencies
+python manage.py create_projects_if_not_exists
 python manage.py insert_objectives
 
 # Check if the superuser is already created

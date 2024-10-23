@@ -714,6 +714,7 @@ class TradingViewUploadView(APIView):
     # permission_classes = [IsAuthenticated]
 
     def get(self, request):
+        print("Tradingview View")
         update_bool = True  # Time to move to S3
         if update_bool:
             # path = os.path.join(constants.TV_DATA_DIRECTORY_PATH, most_recent_file)

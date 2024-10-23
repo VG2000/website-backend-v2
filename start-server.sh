@@ -25,4 +25,6 @@ if [ ! -f /usr/src/app/.superuser_created ]; then
 fi
 
 # Start the application server
-exec gunicorn --workers 3 --bind 0.0.0.0:8080 backend_v2.wsgi:application
+exec gunicorn --workers 3 --bind 0.0.0.0:8080 backend_v2.wsgi:application --timeout 120
+
+

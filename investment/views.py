@@ -714,39 +714,54 @@ class TradingViewUploadView(APIView):
     # permission_classes = [IsAuthenticated]
 
     def get(self, request):
-        print("Tradingview View")
+        logger.debug("Entered TradingViewUploadView GET method")
+
         update_bool = True  # Time to move to S3
         if update_bool:
-            # path = os.path.join(constants.TV_DATA_DIRECTORY_PATH, most_recent_file)
+            logger.info("Downloading CSV from S3")
             file = download_csv_from_s3(
                 bucket_name=AWS_STORAGE_BUCKET_NAME,
                 s3_file_path="tradingview/tradingview.csv",
                 local_file_path="/tmp/tradingview.csv",
-                download_file_name="tradinvgview.csv",
+                download_file_name="tradingview.csv",
             )
             if isinstance(file, HttpResponse):
-                # If an error occurred, csv_content will be an HttpResponse
+                logger.error("Failed to download CSV from S3. Returning error response.")
                 return file
-            df_tv = pd.read_csv(io.BytesIO(file))
-            print(list(df_tv.columns))
-            print(df_tv)
+
+            logger.debug("Reading CSV file into DataFrame")
+            try:
+                df_tv = pd.read_csv(io.BytesIO(file))
+                logger.info(f"CSV loaded successfully with {df_tv.shape[0]} rows and columns: {list(df_tv.columns)}")
+            except Exception as e:
+                logger.error(f"Failed to load CSV: {e}")
+                log_str = f"Failed to load CSV: {e}"
+                status_txt = "error"
+                status = 500
+                return json_response(log_str, status_txt, status)
+
             cols = list(constants.TRADINGVIEW_COLS.keys())
-            # If the columns do not match then you probably downloaded the wrong column template
+
             try:
                 df_tv = df_tv[cols]
+                logger.info("CSV columns matched successfully.")
             except Exception as e:
-                print("Columns do not match:", e)
-                log_str = f"CSV columns do not match expected values: ,{e}"
+                logger.error(f"CSV columns do not match expected values: {e}")
+                log_str = f"CSV columns do not match expected values: {e}"
                 status_txt = "error"
-                status = 200
+                status = 400
                 return json_response(log_str, status_txt, status)
 
             df_tv = df_tv.rename(columns=constants.TRADINGVIEW_COLS)
             if df_tv.shape[0] > 0:
+                logger.info("Processing DataFrame and preparing for database update.")
+
                 # Send for formatting
                 df = format_df(df=df_tv)
+
                 # Convert DataFrame to a list of dictionaries
                 dicts = df.to_dict("records")
+
                 # Fetch existing tickers to determine which rows need updates vs. creates
                 existing_tickers = set(
                     TradingView.objects.filter(
@@ -763,34 +778,41 @@ class TradingViewUploadView(APIView):
                     else:
                         new_objs.append(TradingView(**row))
 
+                logger.debug(f"Prepared {len(new_objs)} new objects and {len(update_objs)} updates for the database.")
+
                 # Using Django's atomic transaction to ensure data integrity
                 with transaction.atomic():
                     # Bulk create new objects
                     TradingView.objects.bulk_create(
                         new_objs, ignore_conflicts=True
-                    )  # Consider ignore_conflicts based on your needs
+                    )
+                    logger.info(f"Bulk created {len(new_objs)} new records.")
 
-                    # For bulk updating, since Django does not fetch PK for bulk_create, we need to fetch them
+                    # Bulk update existing objects
                     if update_objs:
-                        # Assuming 'ticker' is a unique field
                         for obj in update_objs:
                             TradingView.objects.filter(ticker=obj.ticker).update(
                                 **{field: getattr(obj, field) for field in df.columns}
                             )
-                log_str =  "TradingView Updated"
-                status_txt = "success"
-                status=200
-                return json_response(log_str, status_txt, status)
-            else:
-                log_str =  "New TradingView csv not found."
-                status_txt = "success"
-                status=204
-                return json_response(log_str, status_txt, status)
-        log_str =  "TradingView DataFrame empty. Check."
-        status_txt = "success"
-        status=204
-        return json_response(log_str, status_txt, status)
+                        logger.info(f"Bulk updated {len(update_objs)} existing records.")
 
+                log_str = "TradingView Updated"
+                status_txt = "success"
+                status = 200
+                return json_response(log_str, status_txt, status)
+
+            else:
+                logger.warning("No new rows found in the TradingView CSV.")
+                log_str = "New TradingView csv not found."
+                status_txt = "success"
+                status = 204
+                return json_response(log_str, status_txt, status)
+
+        logger.warning("TradingView DataFrame empty. No updates performed.")
+        log_str = "TradingView DataFrame empty. Check."
+        status_txt = "success"
+        status = 204
+        return json_response(log_str, status_txt, status)
 
 class UploadNoMetadataCSVView(APIView):
 
@@ -1088,12 +1110,25 @@ class BookAPIView(APIView):
     # permission_classes = [IsAuthenticated]
 
     def get(self, request):
-        # Retrieve all current investments
-        books = Book.objects.all()
-        # Serialize the data
-        serializer = BookSerializer(books, many=True)
-        # Return a response
-        return Response(serializer.data, status=status.HTTP_200_OK)
+        logger.debug("Entered BookAPIView GET method")
+
+        try:
+            # Retrieve all current books (investments)
+            logger.info("Fetching all books from the database")
+            books = Book.objects.all()
+
+            # Serialize the data
+            logger.debug(f"Serializing {books.count()} books")
+            serializer = BookSerializer(books, many=True)
+
+            # Log the successful operation
+            logger.info("Successfully retrieved and serialized books")
+            return Response(serializer.data, status=status.HTTP_200_OK)
+
+        except Exception as e:
+            # Log the error if something goes wrong
+            logger.error(f"Error occurred while fetching books: {e}")
+            return Response({"error": "Failed to retrieve books"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 class GetTemporaryCredentialsView(APIView):
 

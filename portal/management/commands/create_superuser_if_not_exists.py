@@ -26,7 +26,7 @@ class Command(BaseCommand):
 
             # Add all projects to the superuser
             all_projects = Project.objects.all()
-            # all_projects = Project.objects.filter(name__in=['my-mp', 'investments'])
+            # all_projects = Project.objects.filter(name__in=['my-mp', 'investment'])
             superuser.projects.set(all_projects)
             superuser.save()
 
@@ -39,8 +39,9 @@ class Command(BaseCommand):
             user = User.objects.create_user(email=user_email, password=user_password)
             self.stdout.write(self.style.SUCCESS('Regular user created.'))
 
-            # Add "my-mp" and "investments" projects to the regular user
+            # Add "my-mp" and "investment" projects to the regular user
             projects_to_assign = Project.objects.filter(name__in=['my-mp', 'investment'])
+            self.stdout.write(self.style.SUCCESS(f"Projects found: {[project.name for project in projects_to_assign]}"))
             user.projects.set(projects_to_assign)
             user.save()
 

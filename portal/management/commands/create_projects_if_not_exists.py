@@ -39,23 +39,17 @@ class Command(BaseCommand):
 
         for project_data in projects:
             try:
-                # Try to get the existing project by name
                 project = Project.objects.get(name=project_data["name"])
-                # Update the project with the new data
+                self.stdout.write(f"Found existing project: {project.name}")
                 project.is_public = project_data["is_public"]
                 project.alt = project_data["alt"]
                 project.icon_url = project_data["icon_url"]
                 project.description = project_data["description"]
                 project.save()
-                self.stdout.write(
-                    self.style.SUCCESS(f"Project updated: {project.name}")
-                )
+                self.stdout.write(self.style.SUCCESS(f"Project updated: {project.name}"))
             except Project.DoesNotExist:
-                # If project does not exist, create a new one
                 Project.objects.create(**project_data)
-                self.stdout.write(
-                    self.style.SUCCESS(f"Successfully added project: {project_data['name']}")
-                )
+                self.stdout.write(self.style.SUCCESS(f"Successfully added project: {project_data['name']}"))
 
         # # Add portfolio_admiin
         # project, created = Project.objects.get_or_create(

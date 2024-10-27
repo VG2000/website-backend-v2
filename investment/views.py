@@ -70,6 +70,14 @@ AWS_DEFAULT_REGION = env("AWS_DEFAULT_REGION")
 AWS_STORAGE_BUCKET_NAME = env("AWS_STORAGE_BUCKET_NAME")
 # Create your views here.
 
+def test_s3_connection(bucket_name):
+    s3 = boto3.client("s3")
+    try:
+        response = s3.head_bucket(Bucket=bucket_name)
+        logger.info(f"S3 connection successful: {response}")
+    except Exception as e:
+        logger.error(f"Failed to connect to S3: {e}")
+
 
 # @permission_classes([IsAuthenticated])
 def download_csv_from_s3(
@@ -700,17 +708,17 @@ class WeeklyVolumesUploadView(APIView):
 
                 clean_url_tail = url_tail.replace("%20", " ").replace(".xlsx", "")
                 logger.info(f"File for {clean_url_tail} uploaded successfully. Removed {initial_count - len(df)} duplicates.")
-                return json_response(f"File for {clean_url_tail} uploaded successfully.", "success", response.status_code)
+                return Response({'message': f"File for {clean_url_tail} uploaded successfully."}, status=status.HTTP_200_OK)
 
             except Exception as e:
                 logger.error(f"Error processing Excel file: {e}")
                 return json_response(f"Error reading workbook: {e}", "error", response.status_code)
         else:
             logger.error(f"Failed to fetch data: {response.status_code}")
-            return json_response(f"URL request failed. Error Code: {response.status_code}", "error", response.status_code)
+            return Response({'message': f"URL request failed. Error Code: {response.status_code}"}, status=response.status_code)
 
 
-class TradingViewUploadView(APIView):
+class TradingViewDownloadView(APIView):
     # permission_classes = [IsAuthenticated]
 
     def get(self, request):
@@ -718,7 +726,8 @@ class TradingViewUploadView(APIView):
 
         update_bool = True  # Time to move to S3
         if update_bool:
-            logger.info("Downloading CSV from S3")
+            logger.info("Downloading CSV from S3. Testing connection...")
+            test_s3_connection(AWS_STORAGE_BUCKET_NAME)
             file = download_csv_from_s3(
                 bucket_name=AWS_STORAGE_BUCKET_NAME,
                 s3_file_path="tradingview/tradingview.csv",
@@ -1263,3 +1272,151 @@ class BookAPIView(APIView):
         serializer = BookSerializer(books, many=True)
         # Return a response
         return Response(serializer.data, status=status.HTTP_200_OK)
+
+
+class TestAPIView(APIView):
+# permission_classes = [IsAuthenticated]
+    def previous_friday(self, date, weeks_ago=0):
+        # Calculate the previous Friday date
+        last_friday = date - timedelta(days=(date.weekday() - 4) % 7)
+        return last_friday - timedelta(weeks=weeks_ago)
+
+    def construct_weekly_url_tail(self, date, weeks_ago=0):
+        last_friday = self.previous_friday(date, weeks_ago)
+        url_tail = f"{last_friday.day}%20{last_friday.strftime('%B')}%20{last_friday.year}.xlsx"
+        logger.debug(f"Constructed URL tail: {url_tail}")
+        return url_tail
+
+    def fetch_weekly_volume(self, weeks_ago=0):
+        url_tail = self.construct_weekly_url_tail(datetime.now(), weeks_ago)
+        url = f"{constants.WEEKLY_BASE_URL}{url_tail}"
+        try:
+            logger.debug(f"Fetching URL: {url}")
+            response = requests.get(url, timeout=10)
+            response.raise_for_status()  # Ensure the response status is 2xx
+            logger.info(f"Fetching URL: {url} - Status: {response.status_code}")
+            return response, url_tail
+        except requests.exceptions.RequestException as e:
+            logger.error(f"Error fetching data from {url}: {e}")
+            return None, url_tail  # Return url_tail even when there's an exception
+
+    def get(self, request):
+        response, url_tail = self.fetch_weekly_volume()
+        if response is None:
+            logger.error(f"Failed to fetch data for {url_tail}")
+            return Response(
+                {
+                    'message': f"File for {url_tail} not found.",
+                    'error': 'Failed to fetch data from external API.'
+                },
+                status=status.HTTP_500_INTERNAL_SERVER_ERROR
+            )
+
+        return Response(
+            {'message': f"File for {url_tail} uploaded successfully."},
+            status=status.HTTP_200_OK
+    )
+
+class TestAPIView2(APIView):
+    # permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        logger.debug("Entered TradingViewUploadView GET method")
+
+        update_bool = True  # Time to move to S3
+        if update_bool:
+            logger.info("Downloading CSV from S3")
+            file = download_csv_from_s3(
+                bucket_name=AWS_STORAGE_BUCKET_NAME,
+                s3_file_path="tradingview/tradingview.csv",
+                local_file_path="/tmp/tradingview.csv",
+                download_file_name="tradingview.csv",
+            )
+            if isinstance(file, HttpResponse):
+                logger.error("Failed to download CSV from S3. Returning error response.")
+                return file
+
+            logger.debug("Reading CSV file into DataFrame")
+            try:
+                df_tv = pd.read_csv(io.BytesIO(file))
+                logger.info(f"CSV loaded successfully with {df_tv.shape[0]} rows and columns: {list(df_tv.columns)}")
+            except Exception as e:
+                logger.error(f"Failed to load CSV: {e}")
+                log_str = f"Failed to load CSV: {e}"
+                status_txt = "error"
+                status = 500
+                return json_response(log_str, status_txt, status)
+
+            cols = list(constants.TRADINGVIEW_COLS.keys())
+
+            try:
+                df_tv = df_tv[cols]
+                logger.info("CSV columns matched successfully.")
+            except Exception as e:
+                logger.error(f"CSV columns do not match expected values: {e}")
+                log_str = f"CSV columns do not match expected values: {e}"
+                status_txt = "error"
+                status = 400
+                return json_response(log_str, status_txt, status)
+
+            df_tv = df_tv.rename(columns=constants.TRADINGVIEW_COLS)
+            if df_tv.shape[0] > 0:
+                logger.info("Processing DataFrame and preparing for database update.")
+
+                # Send for formatting
+                df = format_df(df=df_tv)
+
+                # Convert DataFrame to a list of dictionaries
+                dicts = df.to_dict("records")
+
+                # Fetch existing tickers to determine which rows need updates vs. creates
+                existing_tickers = set(
+                    TradingView.objects.filter(
+                        ticker__in=[row["ticker"] for row in dicts]
+                    ).values_list("ticker", flat=True)
+                )
+
+                new_objs = []
+                update_objs = []
+
+                for row in dicts:
+                    if row["ticker"] in existing_tickers:
+                        update_objs.append(TradingView(**row))
+                    else:
+                        new_objs.append(TradingView(**row))
+
+                logger.debug(f"Prepared {len(new_objs)} new objects and {len(update_objs)} updates for the database.")
+
+                # Using Django's atomic transaction to ensure data integrity
+                with transaction.atomic():
+                    # Bulk create new objects
+                    TradingView.objects.bulk_create(
+                        new_objs, ignore_conflicts=True
+                    )
+                    logger.info(f"Bulk created {len(new_objs)} new records.")
+
+                    # Bulk update existing objects
+                    if update_objs:
+                        for obj in update_objs:
+                            TradingView.objects.filter(ticker=obj.ticker).update(
+                                **{field: getattr(obj, field) for field in df.columns}
+                            )
+                        logger.info(f"Bulk updated {len(update_objs)} existing records.")
+
+                log_str = "TradingView Updated"
+                status_txt = "success"
+                status = 200
+                return json_response(log_str, status_txt, status)
+
+            else:
+                logger.warning("No new rows found in the TradingView CSV.")
+                log_str = "New TradingView csv not found."
+                status_txt = "success"
+                status = 204
+                return json_response(log_str, status_txt, status)
+
+        logger.warning("TradingView DataFrame empty. No updates performed.")
+        log_str = "TradingView DataFrame empty. Check."
+        status_txt = "success"
+        status = 204
+        return json_response(log_str, status_txt, status)

@@ -5,6 +5,7 @@ app_name = "investment"
 
 urlpatterns = [
      path('fetch-tradingview/', views.TradingViewDownloadView.as_view(), name='fetch-tradingview'),
+     path('update-tradingview/', views.TradingViewCSVUploadAPIView.as_view(), name='update-tradingview'),
      path("update-instruments/", views.InstrumentUploadView.as_view(), name="update-instruments"),
      path('update-monthly/', views.MonthlyVolumesUploadView.as_view(), name="update-monthly"),
      path("update-weekly/", views.WeeklyVolumesUploadView.as_view(), name="update-weekly"),
@@ -17,4 +18,5 @@ urlpatterns = [
      path('get-current-investments/', views.CurrentInvestmentDetailView.as_view(), name='get-current-investments'),
      path('get-books/', views.BookAPIView.as_view(), name='get-books'),
      path('update-current-investments/', views.UpdateCurrentInvestmentView.as_view(), name='update-current-investments'),
+     path('test/', views.TestAPIView2.as_view(), name='test'),
 ]

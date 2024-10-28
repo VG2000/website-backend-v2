@@ -46,53 +46,73 @@ import investment.constants as constants
 import pandas as pd
 import csv
 import io
-import os
 import environ
 import logging
 import requests
 import warnings
 import boto3
+from botocore.config import Config
 from botocore.exceptions import NoCredentialsError, PartialCredentialsError
 from django.http import HttpResponse, HttpResponseNotFound
 from investment.utils.response_utils import json_response
 import logging
 # Get an instance of a logger
 logger = logging.getLogger(__name__)
-
-
-# Initialize environment variables
+# Get an instance of environ and fetch AWS credentials
 env = environ.Env()
-environ.Env.read_env(os.path.join(os.path.dirname(__file__), "../backend/.env"))
-
+environ.Env.read_env()
 AWS_ACCESS_KEY_ID = env("AWS_ACCESS_KEY_ID")
 AWS_SECRET_ACCESS_KEY = env("AWS_SECRET_ACCESS_KEY")
 AWS_DEFAULT_REGION = env("AWS_DEFAULT_REGION")
 AWS_STORAGE_BUCKET_NAME = env("AWS_STORAGE_BUCKET_NAME")
-# Create your views here.
+
 
 def test_s3_connection(bucket_name):
-    s3 = boto3.client("s3")
+    logger.info("Entered test_s3_connection.. Creating boto3.client object...")
+    s3 = boto3.client(
+    "s3",
+    aws_access_key_id=AWS_ACCESS_KEY_ID,
+    aws_secret_access_key=AWS_SECRET_ACCESS_KEY,
+    region_name=AWS_DEFAULT_REGION,
+    config=Config(
+            connect_timeout=10,  # Time in seconds before a connection attempt times out
+            read_timeout=15,  # Time in seconds for read timeout
+            retries={
+                'max_attempts': 3,  # Number of retry attempts for the connection
+                'mode': 'standard'
+            }
+        )
+)
     try:
+        logger.info("s3 client created.. Testing connection...")
         response = s3.head_bucket(Bucket=bucket_name)
         logger.info(f"S3 connection successful: {response}")
     except Exception as e:
-        logger.error(f"Failed to connect to S3: {e}")
+        logger.error(f"Failed to connect to bucket {bucket_name} on S3: {e}")
 
 
 # @permission_classes([IsAuthenticated])
-def download_csv_from_s3(
-    bucket_name, s3_file_path, local_file_path, download_file_name
-):
-    s3 = boto3.client("s3")
-
+def download_csv_from_s3(bucket_name, s3_file_path, local_file_path, download_file_name):
+    s3 = boto3.client(
+        "s3",
+        aws_access_key_id=AWS_ACCESS_KEY_ID,
+        aws_secret_access_key=AWS_SECRET_ACCESS_KEY,
+        region_name=AWS_DEFAULT_REGION,
+    )
     try:
-        s3.download_file(bucket_name, s3_file_path, local_file_path)
+        logger.info("Starting download from S3...")
+        with open(local_file_path, 'wb') as f:
+            s3.download_fileobj(bucket_name, s3_file_path, f)
+        logger.info("Download completed.")
 
+        # Verify the file content after downloading
         with open(local_file_path, "rb") as f:
             csv_content = f.read()
             if csv_content:
+                logger.info(f"File read successfully. Size: {len(csv_content)} bytes.")
                 return csv_content
             else:
+                logger.error("File is empty.")
                 response = HttpResponse(csv_content, content_type="text/csv")
                 response["Content-Disposition"] = (
                     f'attachment; filename="{download_file_name}"'
@@ -100,11 +120,95 @@ def download_csv_from_s3(
                 return response
 
     except (NoCredentialsError, PartialCredentialsError):
+        logger.error("Credentials not available.")
         return HttpResponse("Credentials not available", status=403)
     except s3.exceptions.NoSuchKey:
+        logger.error("The requested file does not exist on S3.")
         return HttpResponseNotFound("The requested file does not exist on S3")
     except Exception as e:
+        logger.error(f"An error occurred: {e}")
         return HttpResponse(f"An error occurred: {str(e)}", status=500)
+
+
+def upload_tradingview_csv_to_db(file):
+            logger.debug("Reading CSV file into DataFrame")
+            try:
+                df_tv = pd.read_csv(io.BytesIO(file))
+                logger.info(f"CSV loaded successfully with {df_tv.shape[0]} rows and columns: {list(df_tv.columns)}")
+            except Exception as e:
+                logger.error(f"Failed to load CSV: {e}")
+                log_str = f"Failed to load CSV: {e}"
+                status_txt = "error"
+                status = 500
+                return json_response(log_str, status_txt, status)
+
+            cols = list(constants.TRADINGVIEW_COLS.keys())
+
+            try:
+                df_tv = df_tv[cols]
+                logger.info("CSV columns matched successfully.")
+            except Exception as e:
+                logger.error(f"CSV columns do not match expected values: {e}")
+                log_str = f"CSV columns do not match expected values: {e}"
+                status_txt = "error"
+                status = 400
+                return json_response(log_str, status_txt, status)
+
+            df_tv = df_tv.rename(columns=constants.TRADINGVIEW_COLS)
+            if df_tv.shape[0] > 0:
+                logger.info("Processing DataFrame and preparing for database update.")
+
+                # Send for formatting
+                df = format_df(df=df_tv)
+
+                # Convert DataFrame to a list of dictionaries
+                dicts = df.to_dict("records")
+
+                # Fetch existing tickers to determine which rows need updates vs. creates
+                existing_tickers = set(
+                    TradingView.objects.filter(
+                        ticker__in=[row["ticker"] for row in dicts]
+                    ).values_list("ticker", flat=True)
+                )
+
+                new_objs = []
+                update_objs = []
+
+                for row in dicts:
+                    if row["ticker"] in existing_tickers:
+                        update_objs.append(TradingView(**row))
+                    else:
+                        new_objs.append(TradingView(**row))
+
+                logger.debug(f"Prepared {len(new_objs)} new objects and {len(update_objs)} updates for the database.")
+
+                # Using Django's atomic transaction to ensure data integrity
+                with transaction.atomic():
+                    # Bulk create new objects
+                    TradingView.objects.bulk_create(
+                        new_objs, ignore_conflicts=True
+                    )
+                    logger.info(f"Bulk created {len(new_objs)} new records.")
+
+                    # Bulk update existing objects
+                    if update_objs:
+                        for obj in update_objs:
+                            TradingView.objects.filter(ticker=obj.ticker).update(
+                                **{field: getattr(obj, field) for field in df.columns}
+                            )
+                        logger.info(f"Bulk updated {len(update_objs)} existing records.")
+
+                log_str = "TradingView Updated"
+                status_txt = "success"
+                status = 200
+                return json_response(log_str, status_txt, status)
+
+            else:
+                logger.warning("No new rows found in the TradingView CSV.")
+                log_str = "New TradingView csv not found."
+                status_txt = "success"
+                status = 204
+                return json_response(log_str, status_txt, status)
 
 
 # @permission_classes([IsAuthenticated])
@@ -126,10 +230,88 @@ def upload_to_s3(file_obj, bucket_name, object_name):
     try:
         s3_client.upload_fileobj(file_obj, bucket_name, object_name)
         print(f"File uploaded to bucket '{bucket_name}' as '{object_name}'")
+        upload_tradingview_csv_to_db(file_obj)
         return True
     except NoCredentialsError:
         print("Credentials not available")
         return False
+
+class TradingViewCSVUploadAPIView(APIView):
+    # permission_classes = [IsAuthenticated]  # Uncomment if you want to enforce authentication
+
+    def post(self, request):
+        # Check if a file is provided in the request
+        file = request.FILES.get('file')
+        if not file:
+            logger.error("No file provided in the request.")
+            return Response({"message": "No file provided"}, status=status.HTTP_400_BAD_REQUEST)
+
+        logger.debug("Reading CSV file into DataFrame")
+        try:
+            df_tv = pd.read_csv(io.BytesIO(file.read()))
+            logger.info(f"CSV loaded successfully with {df_tv.shape[0]} rows and columns: {list(df_tv.columns)}")
+        except Exception as e:
+            logger.error(f"Failed to load CSV: {e}")
+            return Response({"message": f"Failed to load CSV: {e}"}, status=status.HTTP_400_BAD_REQUEST)
+
+        cols = list(constants.TRADINGVIEW_COLS.keys())
+
+        try:
+            df_tv = df_tv[cols]
+            logger.info("CSV columns matched successfully.")
+        except Exception as e:
+            logger.error(f"CSV columns do not match expected values: {e}")
+            return Response({"message": f"CSV columns do not match expected values: {e}"}, status=status.HTTP_400_BAD_REQUEST)
+
+        df_tv = df_tv.rename(columns=constants.TRADINGVIEW_COLS)
+        if df_tv.shape[0] > 0:
+            logger.info("Processing DataFrame and preparing for database update.")
+
+            # Send for formatting
+            df = format_df(df=df_tv)
+
+            # Convert DataFrame to a list of dictionaries
+            dicts = df.to_dict("records")
+
+            # Fetch existing tickers to determine which rows need updates vs. creates
+            existing_tickers = set(
+                TradingView.objects.filter(
+                    ticker__in=[row["ticker"] for row in dicts]
+                ).values_list("ticker", flat=True)
+            )
+
+            new_objs = []
+            update_objs = []
+
+            for row in dicts:
+                if row["ticker"] in existing_tickers:
+                    update_objs.append(TradingView(**row))
+                else:
+                    new_objs.append(TradingView(**row))
+
+            logger.debug(f"Prepared {len(new_objs)} new objects and {len(update_objs)} updates for the database.")
+
+            # Using Django's atomic transaction to ensure data integrity
+            with transaction.atomic():
+                # Bulk create new objects
+                TradingView.objects.bulk_create(
+                    new_objs, ignore_conflicts=True
+                )
+                logger.info(f"Bulk created {len(new_objs)} new records.")
+
+                # Bulk update existing objects
+                if update_objs:
+                    for obj in update_objs:
+                        TradingView.objects.filter(ticker=obj.ticker).update(
+                            **{field: getattr(obj, field) for field in df.columns}
+                        )
+                    logger.info(f"Bulk updated {len(update_objs)} existing records.")
+
+            return Response({"message": "TradingView Updated"}, status=status.HTTP_200_OK)
+
+        else:
+            logger.warning("No new rows found in the TradingView CSV.")
+            return Response({"message": "New TradingView csv not found."}, status=status.HTTP_204_NO_CONTENT)
 
 
 class TradingviewObjectiveViewSet(viewsets.ModelViewSet):
@@ -727,6 +909,7 @@ class TradingViewDownloadView(APIView):
         update_bool = True  # Time to move to S3
         if update_bool:
             logger.info("Downloading CSV from S3. Testing connection...")
+            logger.info(f"AWS_STORAGE_BUCKET_NAME: {AWS_STORAGE_BUCKET_NAME}")
             test_s3_connection(AWS_STORAGE_BUCKET_NAME)
             file = download_csv_from_s3(
                 bucket_name=AWS_STORAGE_BUCKET_NAME,
@@ -1322,101 +1505,28 @@ class TestAPIView2(APIView):
 
     def get(self, request):
         logger.debug("Entered TradingViewUploadView GET method")
+        logger.info("Downloading CSV from S3")
+        # AWS S3 configuration
+        bucket_name = 'website-public-bucket'
+        s3_file_key = 'tradingview/tradingview.csv'
+        local_file_path = '/tmp/tradingview.csv'  # Save to /tmp in the container
 
-        update_bool = True  # Time to move to S3
-        if update_bool:
-            logger.info("Downloading CSV from S3")
-            file = download_csv_from_s3(
-                bucket_name=AWS_STORAGE_BUCKET_NAME,
-                s3_file_path="tradingview/tradingview.csv",
-                local_file_path="/tmp/tradingview.csv",
-                download_file_name="tradingview.csv",
-            )
-            if isinstance(file, HttpResponse):
-                logger.error("Failed to download CSV from S3. Returning error response.")
-                return file
+        # Create an S3 client using boto3
+        s3_client = boto3.client('s3')
 
-            logger.debug("Reading CSV file into DataFrame")
-            try:
-                df_tv = pd.read_csv(io.BytesIO(file))
-                logger.info(f"CSV loaded successfully with {df_tv.shape[0]} rows and columns: {list(df_tv.columns)}")
-            except Exception as e:
-                logger.error(f"Failed to load CSV: {e}")
-                log_str = f"Failed to load CSV: {e}"
-                status_txt = "error"
-                status = 500
-                return json_response(log_str, status_txt, status)
+        try:
+            # Open the file in binary write mode
+            with open(local_file_path, 'wb') as f:
+                # Stream the download in chunks
+                s3_client.download_fileobj(bucket_name, s3_file_key, f)
 
-            cols = list(constants.TRADINGVIEW_COLS.keys())
+            return JsonResponse({"message": "File downloaded successfully.", "file_path": local_file_path})
 
-            try:
-                df_tv = df_tv[cols]
-                logger.info("CSV columns matched successfully.")
-            except Exception as e:
-                logger.error(f"CSV columns do not match expected values: {e}")
-                log_str = f"CSV columns do not match expected values: {e}"
-                status_txt = "error"
-                status = 400
-                return json_response(log_str, status_txt, status)
+        except s3_client.exceptions.NoSuchKey:
+            return JsonResponse({"error": "The specified key does not exist in the bucket."}, status=404)
 
-            df_tv = df_tv.rename(columns=constants.TRADINGVIEW_COLS)
-            if df_tv.shape[0] > 0:
-                logger.info("Processing DataFrame and preparing for database update.")
+        except (NoCredentialsError, PartialCredentialsError) as e:
+            return JsonResponse({"error": f"Credentials issue: {str(e)}"}, status=403)
 
-                # Send for formatting
-                df = format_df(df=df_tv)
-
-                # Convert DataFrame to a list of dictionaries
-                dicts = df.to_dict("records")
-
-                # Fetch existing tickers to determine which rows need updates vs. creates
-                existing_tickers = set(
-                    TradingView.objects.filter(
-                        ticker__in=[row["ticker"] for row in dicts]
-                    ).values_list("ticker", flat=True)
-                )
-
-                new_objs = []
-                update_objs = []
-
-                for row in dicts:
-                    if row["ticker"] in existing_tickers:
-                        update_objs.append(TradingView(**row))
-                    else:
-                        new_objs.append(TradingView(**row))
-
-                logger.debug(f"Prepared {len(new_objs)} new objects and {len(update_objs)} updates for the database.")
-
-                # Using Django's atomic transaction to ensure data integrity
-                with transaction.atomic():
-                    # Bulk create new objects
-                    TradingView.objects.bulk_create(
-                        new_objs, ignore_conflicts=True
-                    )
-                    logger.info(f"Bulk created {len(new_objs)} new records.")
-
-                    # Bulk update existing objects
-                    if update_objs:
-                        for obj in update_objs:
-                            TradingView.objects.filter(ticker=obj.ticker).update(
-                                **{field: getattr(obj, field) for field in df.columns}
-                            )
-                        logger.info(f"Bulk updated {len(update_objs)} existing records.")
-
-                log_str = "TradingView Updated"
-                status_txt = "success"
-                status = 200
-                return json_response(log_str, status_txt, status)
-
-            else:
-                logger.warning("No new rows found in the TradingView CSV.")
-                log_str = "New TradingView csv not found."
-                status_txt = "success"
-                status = 204
-                return json_response(log_str, status_txt, status)
-
-        logger.warning("TradingView DataFrame empty. No updates performed.")
-        log_str = "TradingView DataFrame empty. Check."
-        status_txt = "success"
-        status = 204
-        return json_response(log_str, status_txt, status)
+        except Exception as e:
+            return JsonResponse({"error": f"An error occurred: {str(e)}"}, status=500)

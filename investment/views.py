@@ -814,64 +814,75 @@ class MonthlyVolumesUploadView(APIView):
             status = res.status_code
             return json_response(log_str, status_txt, status)
 
-
 class WeeklyVolumesUploadView(APIView):
     # permission_classes = [IsAuthenticated]
 
     def previous_friday(self, date, weeks_ago=0):
-        # Calculate the previous Friday date
+        logger.debug(f"Calculating previous Friday for date: {date} with weeks_ago: {weeks_ago}")
         last_friday = date - timedelta(days=(date.weekday() - 4) % 7)
-        return last_friday - timedelta(weeks=weeks_ago)
+        previous_friday = last_friday - timedelta(weeks=weeks_ago)
+        logger.debug(f"Previous Friday calculated as: {previous_friday}")
+        return previous_friday
 
     def construct_weekly_url_tail(self, date, weeks_ago=0):
-        # Construct the URL tail using the calculated last Friday
         last_friday = self.previous_friday(date, weeks_ago)
-        return f"{last_friday.day}%20{last_friday.strftime('%B')}%20{last_friday.year}.xlsx"
+        url_tail = f"{last_friday.day}%20{last_friday.strftime('%B')}%20{last_friday.year}.xlsx"
+        logger.debug(f"Constructed URL tail: {url_tail} for date: {date} and weeks_ago: {weeks_ago}")
+        return url_tail
 
     def fetch_weekly_volume(self, weeks_ago=0):
-        # Fetch the weekly volume data by trying the current or previous week
         url_tail = self.construct_weekly_url_tail(datetime.now(), weeks_ago)
         url = f"{constants.WEEKLY_BASE_URL}{url_tail}"
         response = requests.get(url)
-        logger.info(f"Fetching URL: {url} - Status: {response.status_code}")
+        logger.info(f"Fetching URL: {url}")
+        logger.debug(f"Response status for URL '{url}': {response.status_code}")
         return response, url_tail
 
     def get(self, request):
+        logger.info("WeeklyVolumesUploadView GET request received.")
+        
+        # Initial fetch attempt
         response, url_tail = self.fetch_weekly_volume()
-        # Retry with the previous week if not found
+        
+        # Retry logic if not found (404)
         if response.status_code == 404:
-            logger.info("Trying the previous week's data due to 404 status.")
+            logger.warning("Received 404. Trying to fetch previous week's data.")
             response, url_tail = self.fetch_weekly_volume(weeks_ago=1)
 
         if response.status_code == requests.codes.ok:
+            logger.info(f"Successfully fetched data for URL tail: {url_tail}")
             try:
+                # Load the Excel file content into a DataFrame
                 df = pd.read_excel(
                     io.BytesIO(response.content),
                     engine="openpyxl",
                     skiprows=constants.WEEKLY_ETP_VOLUME_SKIP_ROWS,
                     sheet_name=constants.WEEKLY_ETP_VOLUME_SHEET,
                 )
-                # Process DataFrame
+                logger.debug(f"DataFrame loaded with {len(df)} rows from {url_tail}")
+
+                # Standardize columns and check for required columns
                 df.columns = map(str.lower, df.columns)
                 df = df.rename(columns=constants.WEEKLY_ETP_VOLUME_MAP)
                 required_columns = constants.WEEKLY_ETP_VOLUME_MAP.values()
                 df = df[required_columns]
-                # Clean DataFrame: drop duplicates and empty strings
                 initial_count = len(df)
+                logger.debug(f"DataFrame columns after renaming: {df.columns.tolist()}")
+
+                # Drop duplicates and handle missing values in critical columns
                 df = df.drop_duplicates(subset=["ticker"])
-                # List of columns to check for empty strings
+                logger.info(f"Dropped {initial_count - len(df)} duplicate rows. Rows remaining: {len(df)}")
+                
                 columns_to_check = ["avg_trade_size", "gbp_turnover", "number_of_trades", "avg_spread"]
-
-                # Replace empty strings with NaN to standardize the check
                 df[columns_to_check] = df[columns_to_check].replace("", pd.NA)
-
-                # Drop rows where any of the specified columns are empty (NaN after replacement)
                 df = df.dropna(subset=columns_to_check)
+                logger.info(f"Dropped rows with empty critical fields. Rows remaining after cleanup: {len(df)}")
 
                 if df.empty:
-                    return json_response("Equity Weekly Volume dataframe is empty.", "error", response.status_code)
+                    logger.warning("Equity Weekly Volume dataframe is empty after processing.")
+                    return json_response("Equity Weekly Volume dataframe is empty.", "error", status.HTTP_204_NO_CONTENT)
 
-                # Prepare objects for bulk insertion
+                # Prepare data for database insertion
                 objs = [
                     WeeklyVolume(
                         ticker=row["ticker"],
@@ -884,19 +895,19 @@ class WeeklyVolumesUploadView(APIView):
                     for _, row in df.iterrows()
                 ]
 
-                # Clear old records and insert new ones
+                # Clear existing records and insert new data
                 WeeklyVolume.objects.all().delete()
                 WeeklyVolume.objects.bulk_create(objs)
-
                 clean_url_tail = url_tail.replace("%20", " ").replace(".xlsx", "")
-                logger.info(f"File for {clean_url_tail} uploaded successfully. Removed {initial_count - len(df)} duplicates.")
+                logger.info(f"File for {clean_url_tail} uploaded successfully with {len(df)} records.")
+
                 return Response({'message': f"File for {clean_url_tail} uploaded successfully."}, status=status.HTTP_200_OK)
 
             except Exception as e:
-                logger.error(f"Error processing Excel file: {e}")
-                return json_response(f"Error reading workbook: {e}", "error", response.status_code)
+                logger.error(f"Error processing Excel file: {str(e)}", exc_info=True)
+                return json_response(f"Error reading workbook: {e}", "error", status.HTTP_500_INTERNAL_SERVER_ERROR)
         else:
-            logger.error(f"Failed to fetch data: {response.status_code}")
+            logger.error(f"Failed to fetch data. URL: {constants.WEEKLY_BASE_URL}{url_tail} - Status Code: {response.status_code}")
             return Response({'message': f"URL request failed. Error Code: {response.status_code}"}, status=response.status_code)
 
 

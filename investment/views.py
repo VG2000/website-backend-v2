@@ -55,7 +55,8 @@ from botocore.config import Config
 from botocore.exceptions import NoCredentialsError, PartialCredentialsError
 from django.http import HttpResponse, HttpResponseNotFound
 from investment.utils.response_utils import json_response
-import logging
+from requests.exceptions import Timeout, RequestException
+import time
 # Get an instance of a logger
 logger = logging.getLogger(__name__)
 # Get an instance of environ and fetch AWS credentials
@@ -65,6 +66,22 @@ AWS_ACCESS_KEY_ID = env("AWS_ACCESS_KEY_ID")
 AWS_SECRET_ACCESS_KEY = env("AWS_SECRET_ACCESS_KEY")
 AWS_DEFAULT_REGION = env("AWS_DEFAULT_REGION")
 AWS_STORAGE_BUCKET_NAME = env("AWS_STORAGE_BUCKET_NAME")
+
+
+
+def fetch_with_retry(url, retries=3, timeout=10):
+    for attempt in range(retries):
+        try:
+            response = requests.get(url, timeout=timeout)
+            response.raise_for_status()  # Raise HTTPError for bad responses
+            return response
+        except Timeout:
+            print(f"Attempt {attempt + 1} timed out. Retrying...")
+            time.sleep(2 ** attempt)
+        except RequestException as e:
+            print(f"Request failed: {e}")
+            break
+    return None
 
 
 def test_s3_connection(bucket_name):
@@ -833,8 +850,8 @@ class WeeklyVolumesUploadView(APIView):
     def fetch_weekly_volume(self, weeks_ago=0):
         url_tail = self.construct_weekly_url_tail(datetime.now(), weeks_ago)
         url = f"{constants.WEEKLY_BASE_URL}{url_tail}"
-        response = requests.get(url)
         logger.info(f"Fetching URL: {url}")
+        response = fetch_with_retry(url)
         logger.debug(f"Response status for URL '{url}': {response.status_code}")
         return response, url_tail
 

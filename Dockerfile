@@ -52,6 +52,3 @@ RUN chmod +x /usr/src/app/start-server.sh
 
 # Run the startup script
 CMD ["/usr/src/app/start-server.sh"]
-
-
-

@@ -5,6 +5,7 @@ app_name = "investment"
 
 urlpatterns = [
      path('fetch-tradingview/', views.TradingViewDownloadView.as_view(), name='fetch-tradingview'),
+     path('bulk-upload-watchlist/', views.WatchlistBulkUploadView.as_view(), name='bulk-upload-watchlist'),
      path('update-tradingview/', views.TradingViewCSVUploadAPIView.as_view(), name='update-tradingview'),
      path("update-instruments/", views.InstrumentUploadView.as_view(), name="update-instruments"),
      path('update-monthly/', views.MonthlyVolumesUploadView.as_view(), name="update-monthly"),

@@ -51,11 +51,12 @@ import logging
 import requests
 import warnings
 import boto3
+import os
 from botocore.config import Config
 from botocore.exceptions import NoCredentialsError, PartialCredentialsError
 from django.http import HttpResponse, HttpResponseNotFound
 from investment.utils.response_utils import json_response
-from requests.exceptions import Timeout, RequestException
+from requests.exceptions import Timeout, RequestException, HTTPError
 import time
 # Get an instance of a logger
 logger = logging.getLogger(__name__)
@@ -73,15 +74,25 @@ def fetch_with_retry(url, retries=3, timeout=10):
     for attempt in range(retries):
         try:
             response = requests.get(url, timeout=timeout)
-            response.raise_for_status()  # Raise HTTPError for bad responses
+            response.raise_for_status()  # Raise HTTPError for bad responses (e.g., 4xx and 5xx)
             return response
+        except HTTPError as e:
+            if response.status_code == 404:
+                # Return the response so that the calling function knows it's a 404
+                print(f"404 Not Found: {url}")
+                return response
+            else:
+                print(f"HTTPError encountered: {e} (Status Code: {response.status_code})")
+                break  # Stop retrying for other HTTP errors
         except Timeout:
             print(f"Attempt {attempt + 1} timed out. Retrying...")
-            time.sleep(2 ** attempt)
+            time.sleep(2 ** attempt)  # Exponential backoff
         except RequestException as e:
             print(f"Request failed: {e}")
-            break
-    return None
+            break  # Stop retrying for other request exceptions
+
+    print("All retry attempts failed.")
+    return None  # Explicitly return None if no successful response
 
 
 def test_s3_connection(bucket_name):
@@ -857,10 +868,10 @@ class WeeklyVolumesUploadView(APIView):
 
     def get(self, request):
         logger.info("WeeklyVolumesUploadView GET request received.")
-        
+
         # Initial fetch attempt
         response, url_tail = self.fetch_weekly_volume()
-        
+
         # Retry logic if not found (404)
         if response.status_code == 404:
             logger.warning("Received 404. Trying to fetch previous week's data.")
@@ -889,7 +900,7 @@ class WeeklyVolumesUploadView(APIView):
                 # Drop duplicates and handle missing values in critical columns
                 df = df.drop_duplicates(subset=["ticker"])
                 logger.info(f"Dropped {initial_count - len(df)} duplicate rows. Rows remaining: {len(df)}")
-                
+
                 columns_to_check = ["avg_trade_size", "gbp_turnover", "number_of_trades", "avg_spread"]
                 df[columns_to_check] = df[columns_to_check].replace("", pd.NA)
                 df = df.dropna(subset=columns_to_check)
@@ -1084,6 +1095,58 @@ class UploadNoMetadataCSVView(APIView):
             return json_response(log_str, status_txt, status)
 
 
+class WatchlistBulkUploadView(APIView):
+    """
+    API view to bulk upload tickers from watchlist.txt to the Watchlist model.
+    """
+
+    def post(self, request):
+        watchlist_path = os.path.join('investment/data', 'watchlist.txt')
+
+
+        if not os.path.exists(watchlist_path):
+            logger.error("watchlist.txt file not found.")
+            log_str = "watchlist.txt file not found."
+            status_txt = "error"
+            status = 404
+            return json_response(log_str, status_txt, status)
+
+        try:
+            # Read tickers from watchlist.txt
+            with open(watchlist_path, 'r') as file:
+                tickers = [line.strip() for line in file if line.strip()]
+
+            logger.info(f"Read {len(tickers)} tickers from watchlist.txt")
+
+            # Filter out existing tickers and ensure tickers exist in TradingView model
+            new_tickers = [ticker for ticker in tickers if not Watchlist.objects.filter(id=ticker).exists()]
+            valid_tickers = [ticker for ticker in new_tickers if TradingView.objects.filter(ticker=ticker).exists()]
+
+            # Create Watchlist objects for bulk creation
+            watchlist_objects = [Watchlist(id=ticker) for ticker in valid_tickers]
+
+            if watchlist_objects:
+                Watchlist.objects.bulk_create(watchlist_objects)
+                logger.info(f"Successfully uploaded {len(watchlist_objects)} new tickers to the Watchlist.")
+                log_str = f"Successfully uploaded {len(watchlist_objects)} tickers to the Watchlist."
+                status_txt = "success"
+                status = 200
+                return json_response(log_str, status_txt, status)
+            else:
+                logger.warning("No new or valid tickers to upload.")
+                log_str = "No new or valid tickers to upload."
+                status_txt = "success"
+                status = 200
+                return json_response(log_str, status_txt, status)
+
+        except IOError as e:
+            logger.error(f"Failed to read watchlist.txt: {e}")
+            log_str = "Failed to read watchlist.txt."
+            status_txt = "error"
+            status = 500
+            return json_response(log_str, status_txt, status)
+
+
 class WatchlistCreateView(generics.CreateAPIView):
     # permission_classes = [IsAuthenticated]
     queryset = Watchlist.objects.all()
@@ -1105,12 +1168,46 @@ class WatchlistCreateView(generics.CreateAPIView):
         serializer.save()
         logger.debug("Watchlist entry created successfully")
 
+        # Append the ticker to watchlist.txt
+        watchlist_path = os.path.join('data', 'watchlist.txt')
+        try:
+            with open(watchlist_path, 'a') as file:
+                file.write(f"{ticker_id}\n")
+            logger.info(f"Ticker {ticker_id} added to watchlist.txt")
+        except IOError as e:
+            logger.error(f"Failed to write to watchlist.txt: {e}")
+
 
 class WatchlistDeleteView(generics.DestroyAPIView):
     # permission_classes = [IsAuthenticated]
     queryset = Watchlist.objects.all()
     serializer_class = WatchlistSerializer
     lookup_field = "id"
+
+    def destroy(self, request, *args, **kwargs):
+        instance = self.get_object()
+        ticker_id = instance.id  # Assuming 'id' field holds the ticker ID
+
+        # Remove the ticker from watchlist.txt
+        watchlist_path = os.path.join('data', 'watchlist.txt')
+        try:
+            if os.path.exists(watchlist_path):
+                with open(watchlist_path, 'r') as file:
+                    lines = file.readlines()
+                with open(watchlist_path, 'w') as file:
+                    for line in lines:
+                        if line.strip() != ticker_id:
+                            file.write(line)
+                logger.info(f"Ticker {ticker_id} removed from watchlist.txt")
+            else:
+                logger.warning(f"watchlist.txt does not exist. Nothing to remove.")
+        except IOError as e:
+            logger.error(f"Failed to update watchlist.txt: {e}")
+
+        # Proceed with the normal deletion process
+        response = super().destroy(request, *args, **kwargs)
+        return response
+
 
 
 class GetTemporaryCredentialsView(APIView):

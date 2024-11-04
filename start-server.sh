@@ -1,10 +1,8 @@
 #!/bin/sh
-set -e  # Exit immediately if a command exits with a non-zero status
+
 
 echo "Running start-server.sh"
 
-nslookup website-db-v2.cruuok6w6x96.eu-west-2.rds.amazonaws.com
-telnet website-db-v2.cruuok6w6x96.eu-west-2.rds.amazonaws.com 5432
 
 # Run database migrations
 python manage.py makemigrations
@@ -25,4 +23,4 @@ if [ ! -f /usr/src/app/.superuser_created ]; then
 fi
 
 # Start the application server
-exec gunicorn --workers 3 --bind 0.0.0.0:8080 backend_v2.wsgi:application --timeout 120
+gunicorn --workers 3 --bind 0.0.0.0:8080 backend_v2.wsgi:application

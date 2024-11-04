@@ -7,7 +7,7 @@ ENV PYTHONUNBUFFERED=1
 
 # Install system dependencies
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends gcc libpq-dev python3-dev dnsutils telnet \
+    && apt-get install -y --no-install-recommends gcc libpq-dev python3-dev \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
@@ -32,7 +32,7 @@ FROM python:3.12.3-slim-bookworm AS final
 
 # Install necessary tools for DNS and connectivity checks in the final stage
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends dnsutils telnet \
+    && apt-get install -y --no-install-recommends \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
